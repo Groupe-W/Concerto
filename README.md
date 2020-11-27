@@ -1,5 +1,5 @@
 # Concerto
-Un concert miniature donc l'utilisateur à le controle grâce à une interface web. Il pourra controller la vitesse et modifier l'audio de plusieurs manière, ce qui modifiera l'éclairage d'une mini scène qui sera filmer sur 4 angle différent.
+Un concert miniature dont l'utilisateur a le contrôle grâce à une interface web. Il pourra contrôler la vitesse et modifier l'audio de plusieurs manières, ce qui modifiera l'éclairage d'une mini scène qui sera filmée sur 4 angles différents.
 
 ## Roadmap
 

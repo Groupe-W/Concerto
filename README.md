@@ -14,16 +14,19 @@ Voici le roadmap pour réaliser le prototype 3
 
 
 ## Projection (Marc-André)
+1. Finir la maquette
+2. Mapper la zone de projection
 
-1. Intégrer le projecteur dans Max
-2. Faire sortir la vidéo de Max => projecteur
-3. Mapper la zone de projection
 
 ## Éclairage (Vincent)
 1. Plugger les lumières + test
 
-## Hub Web (L’équipe)
 
+## Filtre-Vidéo (Ghislain)
+1. Faire des filtre d'image pour modifié la vidéo
+
+
+## Hub Web (L’équipe)
 1. Réception des feed vidéo depuis OBS
 2. Réception du son depuis Max
 3. Contrôle midi OpenStageStudio

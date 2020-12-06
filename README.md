@@ -23,7 +23,7 @@ Voici le roadmap pour réaliser le prototype 3
 
 
 ## Filtre-Vidéo (Ghislain)
-1. Faire des filtre d'image pour modifié la vidéo
+1. Faire différents filtres vidéo pour modifier la vidéo
 
 
 ## Hub Web (L’équipe)

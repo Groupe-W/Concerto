@@ -1,0 +1,22 @@
+FICHES D’ANOMALIES #2
+
+Cas de test: Les caméras A6500 ne peuvent pas assurer un streaming en continue sur OBS
+
+Contexte: Les caméras ne font que projeter sur OBS une capture vidéo de leur écran, 
+au lieu d'envoyer ce qu'elles filment
+
+Actions pour le reproduire:
+
+1. Brancher deux caméras A6500 sur un même ordinateur avec un cable micro HDMI
+2. Ouvrir le logiciel OBS
+3. Mettre les sources vidéo des deux caméra dans deux scènes différentes
+4. Regarder le streaming des caméra
+
+Ce qui est prévu d’arriver: Capter sur OBS ce que les caméras filment à travers leur capteur
+
+Ce qui arrive plutôt: Capter une capture vidéo de leur écran
+
+Messages d'erreurs / pistes: Il doit y avoir un paramètre dans les caméras permettant de diffuser ce qu'elles 
+filment au lieu de diffuser leur écran.
+
+

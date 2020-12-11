@@ -1,14 +1,9 @@
 ## Numéro de l’étudiante ou de l’étudiant : 201828951 , 201828556, 201312874, 201825135, 201828650 
-
 ## Travail remis à : Guillaume Arseneault  
-
 ## Nom de famille, prénom: Désilets, Émile; Levesque, Jeremy; Bouchard, Marc-André; Lacombe, Ghislain; Lalancette, Vincent 
-
 ### Nom du cours : Conception de projet multimédia  
-
 ### Groupe : 582 513 MO       Date : 16 novembre 2020 
-
-Titre du travail : Bilan d’un projet multimédia 
+### Titre du travail : Bilan d’un projet multimédia 
 * Au début du projet, le dimensionnement et la position des médias était assez primaire et « secondaire ». Nous étions plus occupés à créer les médias. C’est en faisant des tests dans le grand studio que la tâche s’avéra plus tangible et réelle.
 * Au début du projet, il nous était très difficile de développer une vision claire et unique pour tous les membres de l’équipe : chacun avait créé dans sa tête une version du projet différente de celle des autres. Il fût très ardu de mettre sur papier la version définitive du travail la première fois.
 * Au départ, nous étions très ouverts aux idées des autres membres de l’équipe, mais à cause de problèmes de communication, chaque personne avait une vision différente du projet. Cela a entraîné des conflits au sein du groupe et de la difficulté à se coordonner efficacement.

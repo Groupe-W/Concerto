@@ -54,3 +54,5 @@
 * Nous allons monter notre projet en commençant par l’installation des piliers auquel les spots lumineux seront accrochés. Par la suite nous installeront l’ordinateur qui permettra au visiteur de contrôler ce qui se passe lors du concerto. Pour finir, nous installerons la maquette dans l’espace du cyclo.
 
 * Nous avons réussi à faire ce que l'on voulait avec les différents éléments assez rapidement, mais les connecter tous ensemble nous a pris deux fois plus de temps.
+
+

@@ -19,6 +19,7 @@
 
 * Nos médias sont constitués de clips vidéo de concert de différents artistes. La musique émise des vidéos fait varier la couleur, la saturation et l’intensité des spots lumineux grâce à l’analyse des hautes et basses fréquences de la musique. Ces mêmes spots projettent leur lumière sur le mur du cyclo, où la vidéo des clips sera projetée grâce à un projecteur au plafond. Un modèle réduit d’une scène d’un concert trônera au milieu du cyclo, et aura une webcam fixée dessus filmant à la mode « première personne ». Une autre webcam filmera la maquette à la manière d’un spectateur et deux caméra A6000 filmeront le tout de manière globale.  
 
+
 * 5 vidéos, 255^3 séquence lumineuse
 
 * Nous voulions garder l’utilisateur le plus loin possible du moteur du projet (Patcher Max, scènes QLC+). L’utilisation d’un contrôleur midi et d’un clavier nous vint directement en tête, mais dût aux mesures sanitaires, nous devions nous tourner vers une méthode alternative. C’est pourquoi nous avons utilisé Open Stage Control.
@@ -55,4 +56,27 @@
 
 * Nous avons réussi à faire ce que l'on voulait avec les différents éléments assez rapidement, mais les connecter tous ensemble nous a pris deux fois plus de temps.
 
+ÉCHÉANCIER
+![alt text](https://i.imgur.com/xOJjvYX.jpg)
+
+SCHÉMA FINAL
 ![alt text](https://i.imgur.com/axwEJUp.png?2)
+
+MATÉRIEL
+* Camera a6500 x2
+* Trépied x2
+* Webcam x2
+* Batterie filaire pour cam x2
+* HDMI extender (boîte) x2
+* Gros poteaux 
+* Spot x7
+* Câble HDMI x5 (pour l’instant)
+* Câble HDMI vers HDMI-Micro x2(pour caméra)
+* Câble ethernet x6 (pour l’instant)
+* Adapteur HDMI vers USB (sac de 3)
+* Ultra DMX 2 
+* Câble XLR x7
+* Câble alimentation spot x6
+* Câble USB A a USB B
+* HDMI extender sender (projecteur(avec câble d’alimentation))
+

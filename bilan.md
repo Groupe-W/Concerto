@@ -55,4 +55,4 @@
 
 * Nous avons réussi à faire ce que l'on voulait avec les différents éléments assez rapidement, mais les connecter tous ensemble nous a pris deux fois plus de temps.
 
-
+![alt text](https://i.imgur.com/axwEJUp.png?2)

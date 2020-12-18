@@ -56,10 +56,10 @@
 
 * Nous avons réussi à faire ce que l'on voulait avec les différents éléments assez rapidement, mais les connecter tous ensemble nous a pris deux fois plus de temps.
 
-###SCHÉMA FINAL
+### SCHÉMA FINAL
 ![alt text](https://i.imgur.com/axwEJUp.png?2)
 
-###MATÉRIEL
+### MATÉRIEL
 * Camera a6500 x2
 * Trépied x2
 * Webcam x2
@@ -77,6 +77,6 @@
 * Câble USB A a USB B
 * HDMI extender sender (projecteur(avec câble d’alimentation))
 
-###ÉCHÉANCIER
+### ÉCHÉANCIER
 ![alt text](https://i.imgur.com/xOJjvYX.jpg)
 

@@ -19,6 +19,10 @@ Guillaume Arseneault 
 ##### 16 novembre 2020 
 
 
+
+* 5 vidéos, 255^3 séquence lumineuse
+
+
 ## Dimensions et positionnement des médias
 Au début du projet, le dimensionnement et la position des médias étaient assez primaires et « secondaire ». Nous étions plus occupés à créer les médias. C’est en faisant des tests dans le grand studio que la tâche s’avéra plus tangible et réelle.
 
@@ -66,6 +70,7 @@ Le projet va fonctionner sur un seul ordinateur fourni par le collège.  De plus
 ## Détermination des ressources humaines
 Nos besoins en ressource humaine consistent en des gens qui pourrons installer les différentes composantes qui constitue notre projet tels les piliers, les spots lumineux, les caméras, bien positionner le projecteur et lier l’ordinateur au projecteur.
 
+
 ## Choix des logiciels, de l’équipement et des techniques
 Nous voulions travailler le plus possible avec des logiciels que nous avions déjà utilisés. Ayant vu la polyvalence de Max la session dernière, celui-ci devint le cœur du projet, le logiciel faisant le lien avec tous les autres. Au fil des cours de conception de projet multimédia, d’autres logiciels plus spécialisés nous ont été présentés et recommandés pour accomplir nos idées. Tel est le cas de QLC+, OBS et Open Stage Control.
 
@@ -95,3 +100,31 @@ Nous allons monter notre projet en commençant par l’installation des piliers 
 
 ## Justification de l’échéancier de production
 Nous avons réussi à faire ce que l'on voulait avec les différents éléments assez rapidement, mais les connecter tous ensemble nous a pris deux fois plus de temps.
+
+* Nous avons réussi à faire ce que l'on voulait avec les différents éléments assez rapidement, mais les connecter tous ensemble nous a pris deux fois plus de temps.
+
+### SCHÉMA FINAL
+![alt text](https://i.imgur.com/axwEJUp.png?2)
+
+### MATÉRIEL
+* Camera a6500 x2
+* Trépied x2
+* Webcam x2
+* Batterie filaire pour cam x2
+* HDMI extender (boîte) x2
+* Gros poteaux 
+* Spot x7
+* Câble HDMI x5 (pour l’instant)
+* Câble HDMI vers HDMI-Micro x2(pour caméra)
+* Câble ethernet x6 (pour l’instant)
+* Adapteur HDMI vers USB (sac de 3)
+* Ultra DMX 2 
+* Câble XLR x7
+* Câble alimentation spot x6
+* Câble USB A a USB B
+* HDMI extender sender (projecteur(avec câble d’alimentation))
+
+### ÉCHÉANCIER
+![alt text](https://i.imgur.com/xOJjvYX.jpg)
+
+

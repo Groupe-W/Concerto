@@ -34,7 +34,7 @@ le journal est fait
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [x] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait

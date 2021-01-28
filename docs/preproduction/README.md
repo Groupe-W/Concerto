@@ -121,24 +121,17 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 ## Ressources humaines requises
 > Moments et fonctions où une intervention humaine externe à l'équipe est nécessaire et pourquoi. Formaté en liste ou en lien vers un tableur Excel.
 
-* 32 janvier, TTP, location de matériel 
-* 35 janvier, TTP, retour du matériel
+* 1-19 mars (Dans cette zone-là), TTP, location de matériel 
+* 19 mars, TTP, retour du matériel
 
 ## Ressources spatiales requises (rangement et locaux)
 > Moments et spécifications des espaces utilisés formaté en liste ou lien vers un tableur Excel.
 
 * Grand studio
-    * 32 janvier au 35 janvier
+    * 1-25 mars (1-3 jours das cette période)
         * Projection vidéo dans le cyclo
-        * 6 heures
-    * 37 janvier au 39 janvier 
-        * Capatation vidéo
-        * 4 heures
-
-* Petit studio
-    * 42 janvier au 56 janvier 
-        * Enregsitrement audio
-        * 8 heures
+        * Éclairages
+        * Liaison contrôle en ligne
     
 # Planification de la production (budget et étapes de réalisation)
 ## Budget prévisionnel
@@ -151,17 +144,19 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 Étapes importantes du projet visualisé dans GitHub (*milestones*):  
 https://github.com/tim-montmorency/66B-modele_de_projet/milestones
 
-*Dates importantes de diffusion :*
+- Préapprobation de la préproduction: 2 février 2021
+- Présentation de la préproduction: 9 février 2021
+- Présentation itération prototype: 23 février 2021
 - Pratique générale : 19 mars (toute la journée)
 - Début de la diffusion : lundi 22 mars
 - Présentation des projets devant public : jeudi 25 mars (soir)
 
 ## Liste des tâches à réaliser
 Visualisation des tâches à réaliser dans GitHub selon la méthode Kanban:  
-https://github.com/tim-montmorency/66B-modele_de_projet/projects/2?add_cards_query=is%3Aopen
+https://github.com/Mrm0u/Concerto/projects/2
 
 Inventaire des tâches à réaliser dans GitHub selon le répertoire d'*issues*:  
-https://github.com/tim-montmorency/66B-modele_de_projet/issues
+https://github.com/Mrm0u/Concerto/issues
 
 ## Rôles et responsabilités des membres de l'équipe
 > Il vous est proposé ici de nommer une personne à la coordination générale du projet, à la coordination technique, à la coordination de la diffusion et à la coordination artistique. Les grandes décisions sur les grandes orientations du projet devraient se prendre en groupe lors des rencontres d'équipe quotidiennes et hebdomadaires. Cependant, les décisions entre vos rencontres de groupe devraient appartenir à ces personnes.

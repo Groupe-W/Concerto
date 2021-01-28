@@ -28,10 +28,10 @@
 
 # Intention ou concept
 ## Synopsis
-Allo le synopsis
+Notre projet se résume à un concert interactif mêlant le réel avec le virtuel. Un stream en direct présentera aux spectateurs un décor composé d’une maquette réduite et d’un jeu de lumière. À partir d’un site web, l’utilisateur créera de la musique grâce à plusieurs outils mis à sa disposition à l’aide d’un contrôleur midi virtuel. L’éclairage s'adapte aux hautes et basses fréquences de la musique, eux-mêmes modifiées selon les commandes entrées par l’utilisateur.
 
 ## Intention de départ
-Par ce projet, nous souhaitons exposer la grande fragilité des relations sociales et amoureuses qui traverse nos vies.
+Nous voulions rassembler des gens autour d'une expérience musicale interactive ressemblant à un concert, malgré les restrictions lié à la pandémie.
 
 ## Tableau d'ambiance (*moodboard*)
 > Ajoutez ici une liste d'images, de vidéos, de documents audios ou multimédias qui vous inspirent. Une palette de couleur ainsi qu'un choix de typographie devraient également s'y trouver selon la nature du projet.
@@ -46,17 +46,28 @@ Par ce projet, nous souhaitons exposer la grande fragilité des relations social
 # Contenu multimédia à intégrer
 ## Inventaire du contenu multimédia
 
-- 15 icônes de navigation (pour les utilisateur-trices)
-- 8 montages d'image
-- 3 paysages sonores
-- 5 vidéos d'animation 2D
-- 3 textes poétiques
-- 7 modules multimédias (ex. captation des données, interprétation des données, contrôle d'éclairage, effets audiovisuels, contrôle vidéo, contrôle de la navigation utilisateur & des différents sous-modules, diffusion et interaction en ligne...).
-- ...
-
-Pour plus de détails: [Inventaire du contenu à intégrer](https://cmontmorency365.sharepoint.com/sites/TIM-58266B-Expriencemultimdiainteractive-Enseignants/_layouts/15/Doc.aspx?OR=teams&action=edit&sourcedoc={8D242B82-E599-49CF-BE4C-EA9539D2D1C3})
+- Camera a6500 x2
+- Trépied x2
+- Webcam x2
+- Batterie filaire pour cam x2
+- HDMI extender (boîte) x2
+- Gros poteaux 
+- Spot x7
+- Câble HDMI x5 (pour l’instant)
+- Câble HDMI vers HDMI-Micro x2(pour caméra)
+- Câble ethernet x6 (pour l’instant)
+- Adapteur HDMI vers USB (sac de 3)
+- Ultra DMX 2 
+- Câble XLR x7
+- Câble alimentation spot x6
+- Câble USB A a USB B
+- HDMI extender sender (projecteur(avec câble d’alimentation))
+- Extension électrique x5
 
 ## Univers artistique des éléments
+
+?????
+
 Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégrer](https://cmontmorency365.sharepoint.com/sites/TIM-58266B-Expriencemultimdiainteractive-Enseignants/_layouts/15/Doc.aspx?OR=teams&action=edit&sourcedoc={8D242B82-E599-49CF-BE4C-EA9539D2D1C3}).
 
 # Planification technique (devis technique)
@@ -73,11 +84,9 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 
 ## Matériel de scénographie requis
 
-> Liste des matériaux de scénographie (matériaux de décor) requis ou lien vers un tableur Excel ou document Markdown à part si nécessaire (quantité, spécifications techniques, lien vers fiche technique si applicable, commentaires...)
-
-* Divan Louis XIV
-    * Couleur rouge
-    * 12' x 4' x 3'
+* Maquette réduite d'une scène
+* 2 hauts-parleurs
+* Drap rouge
 * Cyclorama
 
 ## Équipements requis

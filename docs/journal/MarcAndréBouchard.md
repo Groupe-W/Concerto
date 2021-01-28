@@ -13,14 +13,8 @@
 ## Semaine 0 (25 au 29 janvier)
 
 ### Résumé des réalisations effectuées
-faire mon journal
+faire mon journal et ma preprod
 ### Image d'une réalisation dont tu es la ou le plus fier
-![ici est une description de l'image](medias/motionCapture.jpg)
-ou
-![ici est une description de l'image](medias/console.jpg)
-ou
-![ici est une description de l'image](medias/photoshop.jpg)
-
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?	
 - [x] Complètement
 - [ ] Assez
@@ -28,7 +22,7 @@ ou
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
-le journal est fait
+le journal et la préprod sont faites
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
 

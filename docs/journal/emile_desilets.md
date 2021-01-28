@@ -14,39 +14,40 @@
 ### Résumé des réalisations effectuées
 - Liaison du repo avec VSCode
 - Aide à la réalisation du Kanban
-- 
+- Production du document de préproduction
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 ![Mon idée pour rediriger le projet](medias/image_semaine_0.JPG)
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?	
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
-- [x] Peu
+- [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
-Phasellus placerat malesuada dictum. Sed dapibus sem vulputate, blandit ligula non, hendrerit dolor. Vivamus congue sit amet nulla nec tristique. Fusce eget nisi justo. 
+En plus d'avoir presque fini le document de préproduction, j'ai bien avancé sur Max le changement de cap du projet en créant les capsules des beats et les modificateurs sonores.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-Nunc cursus dapibus congue. Nunc tristique commodo neque, vel iaculis turpis congue quis. Integer nec lobortis nisl, sit amet lacinia justo. Sed porta magna at nunc semper, quis vestibulum elit fermentum.
+NA
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
-- [x] Assez
+- [x] Complètement
+- [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-Mauris nec ante egestas, vulputate dolor a, suscipit nulla. Phasellus vitae nisl pharetra, dapibus purus quis, porttitor velit. Vestibulum nec mauris est.
+NA
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec porttitor at metus id viverra.
+NA
 
 ### Défis pour la prochaine semaine
-Cras imperdiet felis nec suscipit gravida. Donec molestie ullamcorper metus, id viverra odio efficitur sit amet. Nullam sed elit orci. Maecenas fringilla libero nec augue vehicula blandit. Vestibulum laoreet finibus sagittis. Maecenas volutpat dui id mi tincidunt rhoncus. Phasellus placerat malesuada dictum.
+Continuer et corriger le document de préproduction
+Continuer le travail sur Max
 
 ---
 ## Semaine 1 (30 janvier au 5 février)

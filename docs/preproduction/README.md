@@ -46,23 +46,8 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 # Contenu multimédia à intégrer
 ## Inventaire du contenu multimédia
 
-- Camera a6500 x2
-- Trépied x2
-- Webcam x2
-- Batterie filaire pour cam x2
-- HDMI extender (boîte) x2
-- Gros poteaux 
-- Spot x7
-- Câble HDMI x5 (pour l’instant)
-- Câble HDMI vers HDMI-Micro x2(pour caméra)
-- Câble ethernet x6 (pour l’instant)
-- Adapteur HDMI vers USB (sac de 3)
-- Ultra DMX 2 
-- Câble XLR x7
-- Câble alimentation spot x6
-- Câble USB A a USB B
-- HDMI extender sender (projecteur(avec câble d’alimentation))
-- Extension électrique x5
+- 12 beats de 2 secondes en 4/4 120 (4 basses/4 moyennes/4 hautes)
+- Sound Visualizer
 
 ## Univers artistique des éléments
 
@@ -92,36 +77,34 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 ## Équipements requis
 > Liste des équipements requis par département ou lien vers un tableur Excel ou document Markdown à part si nécessaire (quantité, spécifications techniques, lien vers fiche technique si applicable, commentaires...)
 
-* Audio
-    * 8 haut-parleurs actifs de 4"
-    * 8 fils XLR 3 conducteurs de 15' (M->F)
-    * Interface audio USB disposant 8 sorties 
-
 * Vidéo
-    * 2 projecteurs vidéo lentille standard
-    * 2 système d'acrochage
-    * 3 webcam logitech c920
+    * 2 caméra sony A6500
+    * 2 Câble USB A a USB B
+    * 2 trépied
+    * 2 batterie filaire pour cam
+    * 2 HDMI extender 
+    * 5 câbles HDMI
+    * 2 câbles HDMI vers HDMI-Micro
+    * 2 webcam logitech c920
+    * 3 Adapteur HDMI vers USB
 
 * Lumière
-    * 4 lumière LED RGBAW DMX
-    * 4 fils XLR 3 conducteurs de 20'
-    * Console DMX
-    * Interface DMX USB
-
+    * 6 spots 
+    * HDMI extender sender
+    * 6 Câble alimentation spot
+    * 6 Câble XLR
+    * 2 "poteaux" trépieds fixées au plafond
+    * 2 Ultra DMX
+    
 * Électricité
-    * 8 cordon IEC (pour l'alimentation des haut-parleurs)
-    * 2 extentions 3 fiches et 3 conducteurs 
-    * 2 multiprise
+    * 5 multiprises
 
 * Réseau
-    * 4 fils cat6a de 15"
-    * Switch poe 5 ports
+    * 6 Câble ethernet 
 
 * Ordinateur
-    * 1 ordinateur portable 
-    
-* Autre
-    * Tout autre élément pertinant
+    * 1 ordinateur studio
+
 
 ## Logiciels requis
 > Liste des logiciels requis, version ainsi que leurs dépendences
@@ -129,8 +112,11 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 * [nodeJS 14.15.4 LTS](https://nodejs.org/en/) 
     * [node-osc](https://github.com/MylesBorins/node-osc)
 * [Max 8](https://cycling74.com/products/max)   
-* [Unity 2019 lts](https://unity.com/)
 * [Open stage control](https://openstagecontrol.ammd.net/)
+* [Open Broadcaster Software](https://obsproject.com/fr/)
+* [QLC+](https://qlcplus.org/)
+* [ffmpeg](https://ffmpeg.org/)
+* [VB-Cable](https://vb-audio.com/Cable/index.htm)
 
 ## Ressources humaines requises
 > Moments et fonctions où une intervention humaine externe à l'équipe est nécessaire et pourquoi. Formaté en liste ou en lien vers un tableur Excel.

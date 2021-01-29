@@ -17,8 +17,7 @@
 - Production du document de préproduction
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-![Mon idée pour rediriger le projet](medias/image_semaine_0.JPG)
-
+![Mon idée pour rediriger le projet](https://github.com/Mrm0u/Concerto/blob/main/docs/journal/medias/semaine0.JPG)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?	
 - [x] Complètement

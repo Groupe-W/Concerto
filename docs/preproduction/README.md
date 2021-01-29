@@ -171,7 +171,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Aemi
 - S'assure de garder une cohérence visuelle et logique dans les fichiers de travail (faire le ménage!);
 
 Liste des tâches dans Git Hub:  
-https://github.com/tim-montmorency/66B-modele_de_projet/issues/assigned/gllmAR
+https://github.com/Groupe-W/Concerto/issues/assigned/Cephalobyte
 https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Acephalobyte
 
 **Jeremy Levesque**

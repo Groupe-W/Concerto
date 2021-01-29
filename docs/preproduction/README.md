@@ -38,7 +38,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 > Insérez directement des captures d'écran et liens vers des médias ici.
 
-![Moodboard](https://github.com/Mrm0u/Concerto/blob/main/docs/preproduction/medias/Concerto.png)
+![Moodboard](preproduction/medias/Concerto.png)
 
 # Contenu multimédia à intégrer
 ## Inventaire du contenu multimédia
@@ -62,7 +62,7 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 
 ### Plantation 
 
-![exemple de plantation](https://github.com/Mrm0u/Concerto/blob/main/docs/preproduction/medias/plan.JPG)
+![exemple de plantation](docs/preproduction/medias/plan.JPG)
 
 ## Matériel de scénographie requis
 
@@ -132,10 +132,7 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
     
 # Planification de la production (budget et étapes de réalisation)
 ## Budget prévisionnel
-![Budget prévisionnel](https://github.com/Mrm0u/Concerto/blob/main/docs/preproduction/medias/budget.JPG)
-
-[Lien vers document](https://cmontmorency365.sharepoint.com/:x:/s/TIM-58266B-Expriencemultimdiainteractive-Enseignants/ERS3zx4iKAlLn03N_0h3cyQBOV_nxNuKvrKnqmrXGcgDYg?e=Rjq9Uc)
-
+![Budget prévisionnel](docs/preproduction/medias/budget.JPG)
 
 ## Échéancier global
 Étapes importantes du projet visualisé dans GitHub (*milestones*):  

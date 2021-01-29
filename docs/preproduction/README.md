@@ -38,7 +38,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 > Insérez directement des captures d'écran et liens vers des médias ici.
 
-![Moodboard](preproduction/medias/Concerto.png)
+![Moodboard](medias/Concerto.png)
 
 # Contenu multimédia à intégrer
 ## Inventaire du contenu multimédia
@@ -58,11 +58,11 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 
 ### Schéma de branchement 
 
-![exemple de schema]()
+
 
 ### Plantation 
 
-![exemple de plantation](docs/preproduction/medias/plan.JPG)
+![exemple de plantation](medias/plan.JPG)
 
 ## Matériel de scénographie requis
 
@@ -132,7 +132,7 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
     
 # Planification de la production (budget et étapes de réalisation)
 ## Budget prévisionnel
-![Budget prévisionnel](docs/preproduction/medias/budget.JPG)
+![Budget prévisionnel](medias/budget.JPG)
 
 ## Échéancier global
 Étapes importantes du projet visualisé dans GitHub (*milestones*):  

@@ -163,8 +163,8 @@ https://github.com/Mrm0u/Concerto/issues
 - Rédaction du journal hebdomadaire sur le site web;
 
 Liste des tâches dans Git Hub:  
-https://github.com/tim-montmorency/66B-modele_de_projet/issues/assigned/DarylMomo  
-https://github.com/tim-montmorency/66B-modele_de_projet/projects/2?card_filter_query=assignee%3Adarylmomo
+https://github.com/Groupe-W/Concerto/issues/assigned/Emile76
+https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Aemile76
 
 **Vincent Lancette**
 - Comité Technique et coordination technique (suivi du devis technique);
@@ -172,7 +172,7 @@ https://github.com/tim-montmorency/66B-modele_de_projet/projects/2?card_filter_q
 
 Liste des tâches dans Git Hub:  
 https://github.com/tim-montmorency/66B-modele_de_projet/issues/assigned/gllmAR
-https://github.com/tim-montmorency/66B-modele_de_projet/projects/2?card_filter_query=assignee%3Agllmar
+https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Acephalobyte
 
 **Jeremy Levesque**
 - Comité Diffusion et coordination de la diffusion (mise en ligne du Site Web, organisation de la plateforme et de l'événement de diffusion);
@@ -180,7 +180,7 @@ https://github.com/tim-montmorency/66B-modele_de_projet/projects/2?card_filter_q
 
 Liste des tâches dans Git Hub:  
 https://github.com/tim-montmorency/66B-modele_de_projet/issues/assigned/DarylMomo  
-https://github.com/tim-montmorency/66B-modele_de_projet/projects/2?card_filter_query=assignee%3Adarylmomo
+https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amrm0u
 
 **Marc-André Bouchard**
 - Coordination artistique (attention plus particulière pour s'assurer que l'intention/concept artistique du projet initial reste, sinon consulter les membres de l'équipe);
@@ -188,7 +188,7 @@ https://github.com/tim-montmorency/66B-modele_de_projet/projects/2?card_filter_q
 
 Liste des tâches dans Git Hub:  
 https://github.com/tim-montmorency/66B-modele_de_projet/issues/assigned/gllmAR
-https://github.com/tim-montmorency/66B-modele_de_projet/projects/2?card_filter_query=assignee%3Agllmar
+https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amab1209
 
 
 **Tâches pas encore attribuées**  

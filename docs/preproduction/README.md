@@ -179,7 +179,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Acep
 - Suivis personnel avec les membres de l'équipe lors des réunions et hors classe;
 
 Liste des tâches dans Git Hub:  
-https://github.com/tim-montmorency/66B-modele_de_projet/issues/assigned/DarylMomo  
+https://github.com/Groupe-W/Concerto/issues/assigned/Mrm0u 
 https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amrm0u
 
 **Marc-André Bouchard**

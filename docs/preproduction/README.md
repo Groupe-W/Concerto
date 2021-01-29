@@ -161,6 +161,7 @@ https://github.com/Mrm0u/Concerto/issues
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Emile76
+</br>
 https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Aemile76
 
 **Vincent Lancette**
@@ -177,6 +178,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Acep
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Mrm0u 
+</br>
 https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amrm0u
 
 **Marc-André Bouchard**
@@ -185,6 +187,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amrm
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Mab1209
+</br>
 https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amab1209
 
 

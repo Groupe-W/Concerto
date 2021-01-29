@@ -170,6 +170,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Aemi
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Cephalobyte
+</br>
 https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Acephalobyte
 
 **Jeremy Levesque**
@@ -192,7 +193,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amab
 
 
 **Tâches pas encore attribuées**  
-https://github.com/tim-montmorency/66B-modele_de_projet/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee
+https://github.com/Groupe-W/Concerto/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee
 
 ## Moments des rencontres d'équipe
 Quotidien

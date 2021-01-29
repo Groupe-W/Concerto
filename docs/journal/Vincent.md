@@ -16,7 +16,7 @@
 - J'ai inscrit le nom de l'étudiant #4 au mien
 
 ### Exemples d'image
-![ici est une description de l'image](medias/journal_Vincent_S0#2a.png)
+![ici est une description de l'image](medias/journal_vincent_S0a.png)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?	
 - [ ] Complètement

@@ -187,7 +187,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amrm
 - Assure le suivis avec les personnes ressources (Guillaume Arsenault et Daryl Hubert) lors des réunions;
 
 Liste des tâches dans Git Hub:  
-https://github.com/tim-montmorency/66B-modele_de_projet/issues/assigned/gllmAR
+https://github.com/Groupe-W/Concerto/issues/assigned/Mab1209
 https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amab1209
 
 

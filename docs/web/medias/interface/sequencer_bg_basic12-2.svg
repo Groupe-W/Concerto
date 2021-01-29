@@ -17,14 +17,12 @@
 		<rect y="184" width="100%" height="8"/>
 	</g>
 	<g fill="#444" opacity=".125">>
-		<rect x="0" width="12" height="100%"/>
-		<rect x="24" width="12" height="100%"/>
-		<rect x="48" width="12" height="100%"/>
-		<rect x="72" width="12" height="100%"/>
-		<rect x="96" width="12" height="100%"/>
-		<rect x="120" width="12" height="100%"/>
-		<rect x="144" width="12" height="100%"/>
-		<rect x="168" width="12" height="100%"/>
+		<rect x="0" width="16" height="100%"/>
+		<rect x="32" width="16" height="100%"/>
+		<rect x="64" width="16" height="100%"/>
+		<rect x="96" width="16" height="100%"/>
+		<rect x="128" width="16" height="100%"/>
+		<rect x="160" width="16" height="100%"/>
 	</g>
 	<g stroke="#444" stroke-width="1">
 		<line y1="8" x2="100%" y2="8"/>

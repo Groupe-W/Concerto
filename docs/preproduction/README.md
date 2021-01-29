@@ -160,7 +160,7 @@ https://github.com/Mrm0u/Concerto/issues
 
 **Émile Désilets**
 - Coordination générale du projet (coordination de l'échéancier, du budget, suivi de la liste des tâches à réaliser, s'assurer de la répartition du rôle et des responsabilités des membres de l'équipe);
-
+- Rédaction du journal hebdomadaire sur le site web;
 
 Liste des tâches dans Git Hub:  
 https://github.com/tim-montmorency/66B-modele_de_projet/issues/assigned/DarylMomo  
@@ -168,6 +168,7 @@ https://github.com/tim-montmorency/66B-modele_de_projet/projects/2?card_filter_q
 
 **Vincent Lancette**
 - Comité Technique et coordination technique (suivi du devis technique);
+- S'assure de garder une cohérence visuelle et logique dans les fichiers de travail (faire le ménage!);
 
 Liste des tâches dans Git Hub:  
 https://github.com/tim-montmorency/66B-modele_de_projet/issues/assigned/gllmAR
@@ -175,6 +176,7 @@ https://github.com/tim-montmorency/66B-modele_de_projet/projects/2?card_filter_q
 
 **Jeremy Levesque**
 - Comité Diffusion et coordination de la diffusion (mise en ligne du Site Web, organisation de la plateforme et de l'événement de diffusion);
+- Suivis personnel avec les membres de l'équipe lors des réunions et hors classe;
 
 Liste des tâches dans Git Hub:  
 https://github.com/tim-montmorency/66B-modele_de_projet/issues/assigned/DarylMomo  
@@ -182,6 +184,7 @@ https://github.com/tim-montmorency/66B-modele_de_projet/projects/2?card_filter_q
 
 **Marc-André Bouchard**
 - Coordination artistique (attention plus particulière pour s'assurer que l'intention/concept artistique du projet initial reste, sinon consulter les membres de l'équipe);
+- Assure le suivis avec les personnes ressources (Guillaume Arsenault et Daryl Hubert) lors des réunions;
 
 Liste des tâches dans Git Hub:  
 https://github.com/tim-montmorency/66B-modele_de_projet/issues/assigned/gllmAR

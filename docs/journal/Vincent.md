@@ -15,7 +15,7 @@
 ### Résumé des réalisations effectuées
 - J'ai inscrit le nom de l'étudiant #4 au mien
 
-### Image d'une réalisation dont tu es la ou le plus fier
+### Exemples d'image
 ![ici est une description de l'image](medias/motionCapture.jpg)
 ou
 ![ici est une description de l'image](medias/console.jpg)
@@ -29,10 +29,10 @@ ou
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
-Phasellus placerat malesuada dictum. Sed dapibus sem vulputate, blandit ligula non, hendrerit dolor. Vivamus congue sit amet nulla nec tristique. Fusce eget nisi justo. 
+Pour le peu à faire, j'ai dû m'absenter et donc j'ai manqué une partie du travail à compléter en équipe, j'ai donc peu accompli sur peu.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-Nunc cursus dapibus congue. Nunc tristique commodo neque, vel iaculis turpis congue quis. Integer nec lobortis nisl, sit amet lacinia justo. Sed porta magna at nunc semper, quis vestibulum elit fermentum.
+Nous avons reporté notre rencontre en équipe.
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
@@ -42,13 +42,13 @@ Nunc cursus dapibus congue. Nunc tristique commodo neque, vel iaculis turpis con
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts/délais, décrivez-les.
-Mauris nec ante egestas, vulputate dolor a, suscipit nulla. Phasellus vitae nisl pharetra, dapibus purus quis, porttitor velit. Vestibulum nec mauris est.
+Nous avons reporté notre rencontre d'équipe au lendemain.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec porttitor at metus id viverra.
+Nous allons nous présenter en équipe un jour plus tard.
 
 ### Défis pour la prochaine semaine
-Cras imperdiet felis nec suscipit gravida. Donec molestie ullamcorper metus, id viverra odio efficitur sit amet. Nullam sed elit orci. Maecenas fringilla libero nec augue vehicula blandit. Vestibulum laoreet finibus sagittis. Maecenas volutpat dui id mi tincidunt rhoncus. Phasellus placerat malesuada dictum.
+Il faudra savoir quelles nouvelles fonctionnalités il y aurait à intégrer idéalement, si elles sont réalisables, et comment nous allons les intégrer.
 
 ---
 ## Semaine 1 (30 janvier au 5 février)

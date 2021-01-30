@@ -14,9 +14,10 @@
 
 ### Résumé des réalisations effectuées
 - création des milestones 
+- création du moodboard
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-![milestone](medias/milestone.png)
+![moodboard](medias/moodboard.png)
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?	
@@ -45,7 +46,7 @@ On ne s'est pas encore donner d'objectif pour cette semaine.
 
 
 ### Défis pour la prochaine semaine
-Organiser le projet.
+Commencer la création d'un audio visualizer et commencer a faire le suivi quotidien avec les autres membres de l'équipe.
 
 ---
 ## Semaine 1 (30 janvier au 5 février)

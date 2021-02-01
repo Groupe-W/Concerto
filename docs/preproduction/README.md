@@ -43,8 +43,15 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 # Contenu multimédia à intégrer
 ## Inventaire du contenu multimédia
 
-- 12 beats de 2 secondes en 4/4 120 (4 basses/4 moyennes/4 hautes)
-- Sound Visualizer
+- 12 beats de 2 secondes en 4/4 120 (4 basses/4 moyennes/4 hautes) | Ableton Live
+- 1 keyboard funky (Harpsichord Overdrive) | Max
+- 1 Drum funky (Drum-adaire) | Max
+- Son pour le Drum-adaire (cymbale/pédale/snare) | GarageBand
+- 1 Piano Roll interactif funky (Piano automatique de «Saloon») | Max
+- Capsules de modificateur de beat (1 capsule/beat)| Max
+- Sound Visualizer | Max
+- Interface Midi virtuelle | OSC
+- Interface de visionnement live virtuelle | OBS
 
 ## Univers artistique des éléments
 
@@ -58,7 +65,7 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 
 ### Schéma de branchement 
 
-
+![exemple de branchement](medias/branchement.JPG)
 
 ### Plantation 
 
@@ -101,7 +108,6 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 
 * Ordinateur
     * 1 ordinateur studio
-
 
 ## Logiciels requis
 > Liste des logiciels requis, version ainsi que leurs dépendences

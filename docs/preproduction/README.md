@@ -46,7 +46,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 - 12 beats de 2 secondes en 4/4 120 (4 basses/4 moyennes/4 hautes) | Ableton Live
 - 1 keyboard funky (Harpsichord Overdrive) | Max
 - 1 Drum funky (Drum-adaire) | Max
-- Son pour le Drum-adaire (cymbale/pédale/snare) | GarageBand
+- Son pour le Drum-adaire (cymbale/pédale/snare) | powerdrumkit
 - 1 Piano Roll interactif funky (Piano automatique de «Saloon») | Max
 - Capsules de modificateur de beat (1 capsule/beat)| Max
 - Sound Visualizer | Max
@@ -65,7 +65,7 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 
 ### Schéma de branchement 
 
-![exemple de branchement](medias/branchement.JPG)
+![exemple de branchement](medias/schema_branchement.png)
 
 ### Plantation 
 
@@ -94,7 +94,6 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 
 * Lumière
     * 6 spots 
-    * HDMI extender sender
     * 6 Câble alimentation spot
     * 6 Câble XLR
     * 2 "poteaux" trépieds fixées au plafond
@@ -109,6 +108,17 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 * Ordinateur
     * 1 ordinateur studio
 
+* Audio
+    * 2 speakers
+    * 1 carte de son externe (USB)
+    * 2 câble XLR
+ 
+ * Projection
+    * 1 projecteur
+    * 1 câble HDMI
+    * 1 extender
+    * 1 câble ethernet
+
 ## Logiciels requis
 > Liste des logiciels requis, version ainsi que leurs dépendences
 
@@ -120,6 +130,8 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 * [QLC+](https://qlcplus.org/)
 * [ffmpeg](https://ffmpeg.org/)
 * [VB-Cable](https://vb-audio.com/Cable/index.htm)
+* [powerdrumkit](https://www.powerdrumkit.com/download76187.php)
+* [AbletonLive](https://www.ableton.com/)
 
 ## Ressources humaines requises
 > Moments et fonctions où une intervention humaine externe à l'équipe est nécessaire et pourquoi. Formaté en liste ou en lien vers un tableur Excel.

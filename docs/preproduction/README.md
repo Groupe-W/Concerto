@@ -44,10 +44,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 ## Inventaire du contenu multimédia
 
 - 12 beats de 2 secondes en 4/4 120 (4 basses/4 moyennes/4 hautes) | Ableton Live
-- 1 keyboard funky (Harpsichord Overdrive) | Max
-- 1 Drum funky (Drum-adaire) | Max
-- Son pour le Drum-adaire (cymbale/pédale/snare) | powerdrumkit
-- 1 Piano Roll interactif funky (Piano automatique de «Saloon») | Max
+- 3 instruments virtuel | Max
 - Capsules de modificateur de beat (1 capsule/beat)| Max
 - Sound Visualizer | Max
 - Interface Midi virtuelle | OSC
@@ -55,9 +52,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 ## Univers artistique des éléments
 
-?????
-
-Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégrer](https://cmontmorency365.sharepoint.com/sites/TIM-58266B-Expriencemultimdiainteractive-Enseignants/_layouts/15/Doc.aspx?OR=teams&action=edit&sourcedoc={8D242B82-E599-49CF-BE4C-EA9539D2D1C3}).
+[Univers artistique des éléments](https://cmontmorency365.sharepoint.com/:x:/r/sites/TIM-58266B-Expriencemultimdiainteractive-Enseignants/_layouts/15/Doc.aspx?sourcedoc=%7Ba60a0457-0ac7-404b-a1e2-49c0a585fe95%7D&action=edit&wdPreviousSession=d708d322-d2e4-43b8-84f7-c01486ef8c21)
 
 # Planification technique (devis technique)
 ## Schémas ou plans techniques
@@ -176,6 +171,8 @@ https://github.com/Mrm0u/Concerto/issues
 **Émile Désilets**
 - Coordination générale du projet (coordination de l'échéancier, du budget, suivi de la liste des tâches à réaliser, s'assurer de la répartition du rôle et des responsabilités des membres de l'équipe);
 - Rédaction du journal hebdomadaire sur le site web;
+- Organiser le contenu sonore dans le patcher Max;
+- Gérer la liaison entre OSC et Max;
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Emile76
@@ -185,6 +182,9 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Aemi
 **Vincent Lancette**
 - Comité Technique et coordination technique (suivi du devis technique);
 - S'assure de garder une cohérence visuelle et logique dans les fichiers de travail (faire le ménage!);
+- Gère la création de presets;
+- Création d'instruments sur Max;
+- Gère les contenus lumineux (Max, QLC+...);
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Cephalobyte
@@ -194,6 +194,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Acep
 **Jeremy Levesque**
 - Comité Diffusion et coordination de la diffusion (mise en ligne du Site Web, organisation de la plateforme et de l'événement de diffusion);
 - Suivis personnel avec les membres de l'équipe lors des réunions et hors classe;
+- Création du contenu de projection visuel;
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Mrm0u 
@@ -203,6 +204,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amrm
 **Marc-André Bouchard**
 - Coordination artistique (attention plus particulière pour s'assurer que l'intention/concept artistique du projet initial reste, sinon consulter les membres de l'équipe);
 - Assure le suivis avec les personnes ressources (Guillaume Arsenault et Daryl Hubert) lors des réunions;
+- Création d'échantillons sonores;
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Mab1209

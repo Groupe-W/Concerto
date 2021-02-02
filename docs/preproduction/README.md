@@ -30,6 +30,8 @@
 ## Synopsis
 Notre projet se résume à un concert interactif mêlant le réel avec le virtuel. Un stream en direct présentera aux spectateurs un décor composé d’une maquette réduite et d’un jeu de lumière. À partir d’un site web, l’utilisateur créera de la musique grâce à plusieurs outils mis à sa disposition à l’aide d’un contrôleur midi virtuel. L’éclairage s'adapte aux hautes et basses fréquences de la musique, eux-mêmes modifiées selon les commandes entrées par l’utilisateur.
 
+Le concept de notre projet repose sur l'idée que les figurines de robots sur la scène réduite font partie d'un groupe de musique créer par une bande de scientifiques. Ceux-ci invitent les utilisateurs à contrôler les androïdes musiciens, dans le but de leur enseigner l'art de la musique. Le groupe se nomme Hello Machines, et le concert Another Electro Sunday.
+
 ## Intention de départ
 Nous voulions rassembler des gens autour d'une expérience musicale interactive ressemblant à un concert, malgré les restrictions lié à la pandémie.
 
@@ -38,7 +40,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 > Insérez directement des captures d'écran et liens vers des médias ici.
 
-![Moodboard](medias/Concerto.png)
+![Moodboard](medias/moodboard.png)
 
 # Contenu multimédia à intégrer
 ## Inventaire du contenu multimédia
@@ -65,6 +67,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 ### Plantation 
 
 ![exemple de plantation](medias/plan.JPG)
+![exemple de plantation](medias/scene_de_coté.JPG)
 
 ## Matériel de scénographie requis
 
@@ -138,7 +141,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 > Moments et spécifications des espaces utilisés formaté en liste ou lien vers un tableur Excel.
 
 * Grand studio
-    * 1-25 mars (1-3 jours das cette période)
+    * 23 février au 25 mars (4-5 jours dans cette période)
         * Projection vidéo dans le cyclo
         * Éclairages
         * Liaison contrôle en ligne

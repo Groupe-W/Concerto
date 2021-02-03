@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+	<defs>
+		<linearGradient id="grad" x1="0" x2="0" y1="0" y2="100%">
+			<stop offset="0" stop-color="#111"/>
+			<stop offset="1" stop-color="#111" stop-opacity="0"/>
+		</linearGradient>
+	</defs>
+	<rect width="100%" height="100%" fill="#111"/>
+	<g id="bars">
+		<rect x="12" y="24" width="32" height="200" fill="#ff7030"/>
+		<rect x="50" y="24" width="32" height="200" fill="#ff4040"/>
+		<rect x="88" y="24" width="32" height="200" fill="#ff3070"/>
+		<rect x="136" y="24" width="32" height="200" fill="#4040ff"/>
+		<rect x="174" y="24" width="32" height="200" fill="#20d0ff"/>
+		<rect x="212" y="24" width="32" height="200" fill="#40ff80"/>
+	</g>
+	
+	<g fill="url(#grad)">
+		<polygon points="0,0 0,6.6 128,192 256,6.6 256,0" />
+		<polygon points="16,0 128,168 240,0" />
+		<polygon points="37,0 128,144 219,0" />
+		<polygon points="58,0 128,120 198,0" />
+	</g>
+	<g font-family="Optical Fiber" font-size="10" fill="#fff" text-align="center" textLength="20">
+		<text x="72" y="16" textLength="112" >hello_machines</text>
+		<text x="48" y="244" textLength="160" font-size="14">Another Electro Sunday</text>
+	</g>
+	<use />
+</svg>

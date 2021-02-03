@@ -30,6 +30,8 @@
 ## Synopsis
 Notre projet se résume à un concert interactif mêlant le réel avec le virtuel. Un stream en direct présentera aux spectateurs un décor composé d’une maquette réduite et d’un jeu de lumière. À partir d’un site web, l’utilisateur créera de la musique grâce à plusieurs outils mis à sa disposition à l’aide d’un contrôleur midi virtuel. L’éclairage s'adapte aux hautes et basses fréquences de la musique, eux-mêmes modifiées selon les commandes entrées par l’utilisateur.
 
+Le concept de notre projet repose sur l'idée que les figurines de robots sur la scène réduite font partie d'un groupe de musique créer par une bande de scientifiques. Ceux-ci invitent les utilisateurs à contrôler les androïdes musiciens, dans le but de leur enseigner l'art de la musique. Le groupe se nomme Hello Machines, et le concert Another Electro Sunday.
+
 ## Intention de départ
 Nous voulions rassembler des gens autour d'une expérience musicale interactive ressemblant à un concert, malgré les restrictions lié à la pandémie.
 
@@ -38,19 +40,21 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 > Insérez directement des captures d'écran et liens vers des médias ici.
 
-![Moodboard](medias/Concerto.png)
+![Moodboard](medias/moodboard.png)
 
 # Contenu multimédia à intégrer
 ## Inventaire du contenu multimédia
 
-- 12 beats de 2 secondes en 4/4 120 (4 basses/4 moyennes/4 hautes)
-- Sound Visualizer
+- 12 beats de 2 secondes en 4/4 120 (4 basses/4 moyennes/4 hautes) | Ableton Live
+- 3 instruments virtuel | Max
+- Capsules de modificateur de beat (1 capsule/beat)| Max
+- Sound Visualizer | Max
+- Interface Midi virtuelle | OSC
+- Interface de visionnement live virtuelle | OBS
 
 ## Univers artistique des éléments
 
-?????
-
-Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégrer](https://cmontmorency365.sharepoint.com/sites/TIM-58266B-Expriencemultimdiainteractive-Enseignants/_layouts/15/Doc.aspx?OR=teams&action=edit&sourcedoc={8D242B82-E599-49CF-BE4C-EA9539D2D1C3}).
+[Univers artistique des éléments](https://cmontmorency365.sharepoint.com/:x:/r/sites/TIM-58266B-Expriencemultimdiainteractive-Enseignants/_layouts/15/Doc.aspx?sourcedoc=%7Ba60a0457-0ac7-404b-a1e2-49c0a585fe95%7D&action=edit&wdPreviousSession=d708d322-d2e4-43b8-84f7-c01486ef8c21)
 
 # Planification technique (devis technique)
 ## Schémas ou plans techniques
@@ -58,11 +62,12 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 
 ### Schéma de branchement 
 
-
+![exemple de branchement](medias/schema_branchement.png)
 
 ### Plantation 
 
 ![exemple de plantation](medias/plan.JPG)
+![exemple de plantation](medias/scene_de_coté.JPG)
 
 ## Matériel de scénographie requis
 
@@ -87,7 +92,6 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 
 * Lumière
     * 6 spots 
-    * HDMI extender sender
     * 6 Câble alimentation spot
     * 6 Câble XLR
     * 2 "poteaux" trépieds fixées au plafond
@@ -102,6 +106,16 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 * Ordinateur
     * 1 ordinateur studio
 
+* Audio
+    * 2 speakers
+    * 1 carte de son externe (USB)
+    * 2 câble XLR
+ 
+ * Projection
+    * 1 projecteur
+    * 1 câble HDMI
+    * 1 extender
+    * 1 câble ethernet
 
 ## Logiciels requis
 > Liste des logiciels requis, version ainsi que leurs dépendences
@@ -114,6 +128,8 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 * [QLC+](https://qlcplus.org/)
 * [ffmpeg](https://ffmpeg.org/)
 * [VB-Cable](https://vb-audio.com/Cable/index.htm)
+* [powerdrumkit](https://www.powerdrumkit.com/download76187.php)
+* [AbletonLive](https://www.ableton.com/)
 
 ## Ressources humaines requises
 > Moments et fonctions où une intervention humaine externe à l'équipe est nécessaire et pourquoi. Formaté en liste ou en lien vers un tableur Excel.
@@ -125,7 +141,7 @@ Voir colonne *Exemples de réalisation* dans l'[Inventaire du contenu à intégr
 > Moments et spécifications des espaces utilisés formaté en liste ou lien vers un tableur Excel.
 
 * Grand studio
-    * 1-25 mars (1-3 jours das cette période)
+    * 23 février au 25 mars (4-5 jours dans cette période)
         * Projection vidéo dans le cyclo
         * Éclairages
         * Liaison contrôle en ligne
@@ -158,6 +174,8 @@ https://github.com/Mrm0u/Concerto/issues
 **Émile Désilets**
 - Coordination générale du projet (coordination de l'échéancier, du budget, suivi de la liste des tâches à réaliser, s'assurer de la répartition du rôle et des responsabilités des membres de l'équipe);
 - Rédaction du journal hebdomadaire sur le site web;
+- Organiser le contenu sonore dans le patcher Max;
+- Gérer la liaison entre OSC et Max;
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Emile76
@@ -167,6 +185,9 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Aemi
 **Vincent Lancette**
 - Comité Technique et coordination technique (suivi du devis technique);
 - S'assure de garder une cohérence visuelle et logique dans les fichiers de travail (faire le ménage!);
+- Gère la création de presets;
+- Création d'instruments sur Max;
+- Gère les contenus lumineux (Max, QLC+...);
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Cephalobyte
@@ -176,6 +197,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Acep
 **Jeremy Levesque**
 - Comité Diffusion et coordination de la diffusion (mise en ligne du Site Web, organisation de la plateforme et de l'événement de diffusion);
 - Suivis personnel avec les membres de l'équipe lors des réunions et hors classe;
+- Création du contenu de projection visuel;
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Mrm0u 
@@ -185,6 +207,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amrm
 **Marc-André Bouchard**
 - Coordination artistique (attention plus particulière pour s'assurer que l'intention/concept artistique du projet initial reste, sinon consulter les membres de l'équipe);
 - Assure le suivis avec les personnes ressources (Guillaume Arsenault et Daryl Hubert) lors des réunions;
+- Création d'échantillons sonores;
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Mab1209

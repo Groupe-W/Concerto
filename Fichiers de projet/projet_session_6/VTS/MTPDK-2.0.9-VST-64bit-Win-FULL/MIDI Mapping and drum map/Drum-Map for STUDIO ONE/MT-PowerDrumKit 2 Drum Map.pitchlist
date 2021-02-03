@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Music.PitchNameList>
+	<Music.PitchName pitch="65" name="Hi-Hat Pedal"/>
+	<Music.PitchName pitch="63" name="(Hi-Hat Closed)"/>
+	<Music.PitchName pitch="62" name="HI-HAT CLOSED"/>
+	<Music.PitchName pitch="61" name="HI-HAT HALF OPEN"/>
+	<Music.PitchName pitch="60" name="HI-HAT OPEN"/>
+	<Music.PitchName pitch="58" name="CRASH R STOPPED"/>
+	<Music.PitchName pitch="57" name="CRASH R (main Crash)"/>
+	<Music.PitchName pitch="55" name="SPLASH"/>
+	<Music.PitchName pitch="53" name="RIDE BELL"/>
+	<Music.PitchName pitch="52" name="CHINA"/>
+	<Music.PitchName pitch="51" name="RIDE"/>
+	<Music.PitchName pitch="50" name="(Tom Hi)"/>
+	<Music.PitchName pitch="49" name="CRASH L"/>
+	<Music.PitchName pitch="48" name="TOM HI"/>
+	<Music.PitchName pitch="47" name="(Tom Mid)"/>
+	<Music.PitchName pitch="46" name="HI-HAT OPEN"/>
+	<Music.PitchName pitch="45" name="TOM MID"/>
+	<Music.PitchName pitch="44" name="HI-HAT HALF OPEN"/>
+	<Music.PitchName pitch="43" name="(Tom Low)"/>
+	<Music.PitchName pitch="42" name="HI-HAT CLOSED"/>
+	<Music.PitchName pitch="41" name="TOM LOW"/>
+	<Music.PitchName pitch="40" name="(Snare)"/>
+	<Music.PitchName pitch="39" name="(Snare)"/>
+	<Music.PitchName pitch="38" name="SNARE"/>
+	<Music.PitchName pitch="37" name="SIDE-STICK"/>
+	<Music.PitchName pitch="36" name="KICK"/>
+	<Music.PitchName pitch="35" name="(Kick)"/>
+</Music.PitchNameList>

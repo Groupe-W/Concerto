@@ -51,40 +51,41 @@ Continuer le travail sur Max
 ---
 ## Semaine 1 (30 janvier au 5 février)
 ### Résumé des réalisations effectuées
-
+J'ai finaliser les capsules de beats sur le patcher Max, liés tout les éléments des capsules de Max sur l'OSC, fait le ménage dans le patcher, fini avec le reste de l'équipe le document de préproduction et créer la pochette d'album Another Electro Sunday.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
+![La pochette d'album](medias/Another_Electro_Sunday.png)
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ J'ai accompli toutes les tâches que je voulais faire, en plus de designer une pochette d'album qui n'était pas du tout prévu!
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+NA
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+NA
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+NA
 
 ### Défis pour la prochaine semaine
-
+Incorporer tout les beats dans Max/OSC
 
 ---
 ## Semaine 2 (6 au 12 février)

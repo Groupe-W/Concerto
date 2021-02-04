@@ -1,2 +1,4 @@
 # Concerto
-Un concert miniature dont l'utilisateur a le contrôle grâce à une interface web. Il pourra contrôler la vitesse et modifier l'audio de plusieurs manières, ce qui modifiera l'éclairage d'une mini scène qui sera filmée sur 4 angles différents.
+Notre projet se résume à un concert interactif mêlant le réel avec le virtuel. Un stream en direct présentera aux spectateurs un décor composé d’une maquette réduite et d’un jeu de lumière. À partir d’un site web, l’utilisateur créera de la musique grâce à plusieurs outils mis à sa disposition à l’aide d’un contrôleur midi virtuel. L’éclairage s'adapte aux hautes et basses fréquences de la musique, eux-mêmes modifiées selon les commandes entrées par l’utilisateur.
+
+Le concept de notre projet repose sur l'idée que les figurines de robots sur la scène réduite font partie d'un groupe de musique créer par une bande de scientifiques. Ceux-ci invitent les utilisateurs à contrôler les androïdes musiciens, dans le but de leur enseigner l'art de la musique. Le groupe se nomme Hello Machines, et le concert Another Electro Sunday.

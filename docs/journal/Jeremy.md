@@ -59,13 +59,13 @@ J'ai fait un sound visualizer sur max (une forme qui s'aggrandit et qui change d
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [X] Complètement
-- [ ] Assez
+- [ ] Complètement
+- [X] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- J'ai complèter le sound visualizer et aider à son intégration
+ J'ai complèté le sound visualizer et aidé à son intégration, mais je n'ai pas fait le suivi comme j'avais prévu
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 N/A
@@ -84,7 +84,7 @@ N/A
 N/A
 
 ### Défis pour la prochaine semaine
-
+Faire le fameux suivi et commencer l'interface web de notre projet
 
 ---
 ## Semaine 2 (6 au 12 février)

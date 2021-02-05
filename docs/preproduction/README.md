@@ -40,7 +40,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 > Insérez directement des captures d'écran et liens vers des médias ici.
 
-![Moodboard](medias/moodboard.png)
+![Moodboard](medias/moodboard2.png)
 
 # Contenu multimédia à intégrer
 ## Inventaire du contenu multimédia

@@ -52,7 +52,7 @@ Il faudra savoir quelles nouvelles fonctionnalités il y aurait à intégrer id�
 Je suis désormais capable d'enregistrer, charger, et jouer une séquence de notes selon leur valeur midi, la vélocité, la duration et le "pan", suivant le rythme selon le bpm, la signature temporelle et la longeur du loop.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-![Max joue des notes selon une séquence](medias/journal_vincent_S1a.png)
+![Max joue des notes selon une séquence](medias/journal_Vincent_S1a.png)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 

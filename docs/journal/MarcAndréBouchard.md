@@ -45,40 +45,40 @@ le journal et la préprod sont faites
 ---
 ## Semaine 1 (30 janvier au 5 février)
 ### Résumé des réalisations effectuées
-
+j'ai commencé a concevoir les diferent beat pour le projet
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-
+![journal2](medias/journal2.JPG)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ j'ai concu mes 12 prmier beat
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+Oui, j'ai du mal a exporté mes fichié une fois concue
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+cherché des invormation au pres d'un proffesseur
 
 ### Défis pour la prochaine semaine
-
+concevoir plus de beat
 
 ---
 ## Semaine 2 (6 au 12 février)

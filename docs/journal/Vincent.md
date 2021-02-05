@@ -16,7 +16,7 @@
 - J'ai inscrit le nom de l'étudiant #4 au mien
 
 ### Exemples d'image
-![ici est une description de l'image](medias/journal_vincent_S0a.png)
+![OSC communique avec Max](medias/journal_vincent_S0a.png)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?	
 - [ ] Complètement
@@ -49,29 +49,29 @@ Il faudra savoir quelles nouvelles fonctionnalités il y aurait à intégrer id�
 ---
 ## Semaine 1 (30 janvier au 5 février)
 ### Résumé des réalisations effectuées
-
+Je suis désormais capable d'enregistrer, charger, et jouer une séquence de notes selon leur valeur midi, la vélocité, la duration et le "pan", suivant le rythme selon le bpm, la signature temporelle et la longeur du loop.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
-
+![Max joue des notes selon une séquence](medias/journal_vincent_S1a.png)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+J'ai complété le fonctionnement interne, mais un utilisateur ne pourrait toujours pas enregistrer ses propres séquences sans aller modifier plus profondément le patcher. 
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+Les données sur la séquence sont enregistrées sous une "liste de liste", comme un tableau.
+Il faudra que j'échange les axes du tableau pour plus de petites liste au lieu de moins de grandes listes, ce qui rendrait la modification interne plus difficile et longue, mais la modification par l'utilisateur plus facile et rapide.
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
@@ -79,10 +79,11 @@ Il faudra savoir quelles nouvelles fonctionnalités il y aurait à intégrer id�
 
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+Il me manque peu à faire, mais je dois probablement revenir en arrière pour modifier certaines choses, ce qui me demandra plus de temps mais au moins j'aurai 
 
 ### Défis pour la prochaine semaine
-
+Régler le problème concernant l'enregistrement des notes,
+Combiner les patchers de sound vizualiser avec Jérémie
 
 ---
 ## Semaine 2 (6 au 12 février)

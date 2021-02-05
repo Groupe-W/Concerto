@@ -75,10 +75,10 @@ j'ai commencé a concevoir les diferent beat pour le projet
 Oui, j'ai du mal a exporté mes fichié une fois concue
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-cherché des invormation au pres d'un proffesseur
+Cherché des invormation au pres d'un proffesseur
 
 ### Défis pour la prochaine semaine
-concevoir plus de beat
+Concevoir plus de beat
 
 ---
 ## Semaine 2 (6 au 12 février)

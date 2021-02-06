@@ -40,7 +40,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 > Insérez directement des captures d'écran et liens vers des médias ici.
 
-![Moodboard](medias/moodboard.png)
+![Moodboard](medias/moodboard2.png)
 
 # Contenu multimédia à intégrer
 ## Inventaire du contenu multimédia
@@ -152,7 +152,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 ## Échéancier global
 Étapes importantes du projet visualisé dans GitHub (*milestones*):  
-https://github.com/tim-montmorency/66B-modele_de_projet/milestones
+https://github.com/Groupe-W/Concerto/milestones
 
 - Préapprobation de la préproduction: 2 février 2021
 - Présentation de la préproduction: 9 février 2021
@@ -163,10 +163,10 @@ https://github.com/tim-montmorency/66B-modele_de_projet/milestones
 
 ## Liste des tâches à réaliser
 Visualisation des tâches à réaliser dans GitHub selon la méthode Kanban:  
-https://github.com/Mrm0u/Concerto/projects/2
+https://github.com/Groupe-W/Concerto/projects/1
 
 Inventaire des tâches à réaliser dans GitHub selon le répertoire d'*issues*:  
-https://github.com/Mrm0u/Concerto/issues
+https://github.com/Groupe-W/Concerto/issues
 
 ## Rôles et responsabilités des membres de l'équipe
 > Il vous est proposé ici de nommer une personne à la coordination générale du projet, à la coordination technique, à la coordination de la diffusion et à la coordination artistique. Les grandes décisions sur les grandes orientations du projet devraient se prendre en groupe lors des rencontres d'équipe quotidiennes et hebdomadaires. Cependant, les décisions entre vos rencontres de groupe devraient appartenir à ces personnes.
@@ -176,6 +176,7 @@ https://github.com/Mrm0u/Concerto/issues
 - Rédaction du journal hebdomadaire sur le site web;
 - Organiser le contenu sonore dans le patcher Max;
 - Gérer la liaison entre OSC et Max;
+- Création d'un robot musicien (Joueur de bongo)
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Emile76
@@ -188,6 +189,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Aemi
 - Gère la création de presets;
 - Création d'instruments sur Max;
 - Gère les contenus lumineux (Max, QLC+...);
+- Création d'un robot musicien (Joueur de *** )
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Cephalobyte
@@ -198,6 +200,7 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Acep
 - Comité Diffusion et coordination de la diffusion (mise en ligne du Site Web, organisation de la plateforme et de l'événement de diffusion);
 - Suivis personnel avec les membres de l'équipe lors des réunions et hors classe;
 - Création du contenu de projection visuel;
+- Création d'un robot musicien (Joueur de *** )
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Mrm0u 
@@ -208,6 +211,8 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Amrm
 - Coordination artistique (attention plus particulière pour s'assurer que l'intention/concept artistique du projet initial reste, sinon consulter les membres de l'équipe);
 - Assure le suivis avec les personnes ressources (Guillaume Arsenault et Daryl Hubert) lors des réunions;
 - Création d'échantillons sonores;
+- Création d'un robot musicien (Joueur de *** )
+- Gère la maquette de la scène
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Mab1209

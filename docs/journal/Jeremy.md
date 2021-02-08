@@ -51,40 +51,40 @@ Commencer la création d'un audio visualizer et commencer a faire le suivi quoti
 ---
 ## Semaine 1 (30 janvier au 5 février)
 ### Résumé des réalisations effectuées
-
+J'ai fait un sound visualizer sur max (une forme qui s'aggrandit et qui change de couleur selon les fréquences de la musique), et j'ai aidé a son intégration dans le patcher principale.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-
+![SV](medias/SV.png)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
-- [ ] Assez
+- [X] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ J'ai complèté le sound visualizer et aidé à son intégration, mais je n'ai pas fait le suivi comme j'avais prévu
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+N/A
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+N/A
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+N/A
 
 ### Défis pour la prochaine semaine
-
+Faire le fameux suivi et commencer l'interface web de notre projet
 
 ---
 ## Semaine 2 (6 au 12 février)

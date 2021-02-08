@@ -81,14 +81,13 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 * Vidéo
     * 2 caméra sony A6500
-    * 2 Câble USB A a USB B
     * 2 trépied
     * 2 batterie filaire pour cam
-    * 2 HDMI extender 
-    * 5 câbles HDMI
+    * 2 HDMI extender
+    * 2 câbles HDMI
     * 2 câbles HDMI vers HDMI-Micro
     * 2 webcam logitech c920
-    * 3 Adapteur HDMI vers USB
+    * 2 Adapteur HDMI vers USB
 
 * Lumière
     * 6 spots 
@@ -109,7 +108,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 * Audio
     * 2 speakers
     * 1 carte de son externe (USB)
-    * 2 câble XLR
+    * 2 câbles XLR
  
  * Projection
     * 1 projecteur

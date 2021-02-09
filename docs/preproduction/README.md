@@ -172,7 +172,7 @@ https://github.com/Groupe-W/Concerto/milestones
 - Préapprobation de la préproduction: 2 février 2021
 - Présentation de la préproduction: 9 février 2021
 - Présentation itération prototype: 23 février 2021
-- Pratique générale : 19 mars (toute la journée)
+- Pratique générale : 18 mars (17h-22h)
 - Début de la diffusion : lundi 22 mars
 - Présentation des projets devant public : jeudi 25 mars (soir)
 
@@ -191,7 +191,7 @@ https://github.com/Groupe-W/Concerto/issues
 - Rédaction du journal hebdomadaire sur le site web;
 - Organiser le contenu sonore dans le patcher Max;
 - Gérer la liaison entre OSC et Max;
-- Création d'un robot musicien (Joueur de bongo)
+- Création d'un robot musicien (Joueur de trompette)
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Emile76
@@ -204,7 +204,6 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Aemi
 - Gère la création de presets;
 - Création d'instruments sur Max;
 - Gère les contenus lumineux (Max, QLC+...);
-- Création d'un robot musicien (Joueur de *** )
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Cephalobyte
@@ -215,7 +214,6 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Acep
 - Comité Diffusion et coordination de la diffusion (mise en ligne du Site Web, organisation de la plateforme et de l'événement de diffusion);
 - Suivis personnel avec les membres de l'équipe lors des réunions et hors classe;
 - Création du contenu de projection visuel;
-- Création d'un robot musicien (Joueur de *** )
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Mrm0u 

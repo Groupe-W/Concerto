@@ -42,6 +42,9 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 ![Moodboard](medias/moodboard2.png)
 
+## Scénario, scénarimage ou document audio/visuel
+
+
 # Contenu multimédia à intégrer
 ## Inventaire du contenu multimédia
 
@@ -66,8 +69,8 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 ### Plantation 
 
-![exemple de plantation](medias/plan.JPG)
-![exemple de plantation](medias/scene_de_coté.JPG)
+![exemple de plantation1](medias/plan_final.JPG)
+![exemple de plantation2](medias/plan_horizontal.JPG)
 
 ## Matériel de scénographie requis
 
@@ -75,6 +78,17 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 * 2 hauts-parleurs
 * Drap rouge
 * Cyclorama
+* 2 robots
+
+# ROBOT 1
+* 20cm/25cm
+* Peinture doré
+* Joueur de trompette(s)
+* Lunettes flamands rose
+
+# ROBOT 2
+* 
+*
 
 ## Équipements requis
 > Liste des équipements requis par département ou lien vers un tableur Excel ou document Markdown à part si nécessaire (quantité, spécifications techniques, lien vers fiche technique si applicable, commentaires...)
@@ -133,17 +147,19 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 ## Ressources humaines requises
 > Moments et fonctions où une intervention humaine externe à l'équipe est nécessaire et pourquoi. Formaté en liste ou en lien vers un tableur Excel.
 
-* 1-19 mars (Dans cette zone-là), TTP, location de matériel 
+* 15-16 février, TTP, location de matériel 
+* Tout les lundi du 15 février au 23 mars, période de test
 * 19 mars, TTP, retour du matériel
 
 ## Ressources spatiales requises (rangement et locaux)
 > Moments et spécifications des espaces utilisés formaté en liste ou lien vers un tableur Excel.
 
 * Grand studio
-    * 23 février au 25 mars (4-5 jours dans cette période)
+    * Tout les lundi du 15 février au 23 mars, période de test
         * Projection vidéo dans le cyclo
         * Éclairages
         * Liaison contrôle en ligne
+        * Test caméra/live
     
 # Planification de la production (budget et étapes de réalisation)
 ## Budget prévisionnel

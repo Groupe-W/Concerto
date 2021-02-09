@@ -42,6 +42,18 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 ![Moodboard](medias/moodboard2.png)
 
+![Expérience](medias/ambiance.jpg)
+C'est une expérience pour tous, pas besoin d'être un musicien pour intéragir avec notre projet
+
+![Ambiance](medias/ambiance_interactive.jpg)
+Une ambiance un peu mystérieuse, comme une expérience scientifique
+
+![Controle](medias/mudular_synth.jpg)
+Les utilisateurs auront le sentiment d'être des vrais musiciens de synthèse modulaire avec notre interface midi virtuelle!
+
+![Apparance](medias/lumiere_spot.jpeg)
+Une apparance d'un grand concert à petite échelle. Spots, projection et machine à fumée pour un look qui a de la gueule!
+
 ## Scénario, scénarimage ou document audio/visuel
 
 

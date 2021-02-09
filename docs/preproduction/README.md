@@ -69,8 +69,8 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 ### Plantation 
 
-![exemple de plantation1](medias/plan_final.JPG)
-![exemple de plantation2](medias/plan_horizontal.JPG)
+![exemple de plantation1](medias/plan final.jpg)
+![exemple de plantation2](medias/plan_orizontal.jpg)
 
 ## Matériel de scénographie requis
 

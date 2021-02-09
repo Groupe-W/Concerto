@@ -160,7 +160,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
     
 # Planification de la production (budget et étapes de réalisation)
 ## Budget prévisionnel
-<iframe width="402" height="346" frameborder="0" scrolling="no" src="https://cmontmorency365-my.sharepoint.com/personal/1828951_cmontmorency_qc_ca/_layouts/15/Doc.aspx?sourcedoc={2cc75d83-a79b-422e-abcd-e859e14fa709}&action=embedview&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+[Budget](https://cmontmorency365-my.sharepoint.com/personal/1828951_cmontmorency_qc_ca/_layouts/15/Doc.aspx?sourcedoc={2cc75d83-a79b-422e-abcd-e859e14fa709}&action=embedview&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True)
 
 ## Échéancier global
 Étapes importantes du projet visualisé dans GitHub (*milestones*):  

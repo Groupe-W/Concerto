@@ -133,15 +133,12 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 ## Logiciels requis
 > Liste des logiciels requis, version ainsi que leurs dépendences
 
-* [nodeJS 14.15.4 LTS](https://nodejs.org/en/) 
-    * [node-osc](https://github.com/MylesBorins/node-osc)
 * [Max 8](https://cycling74.com/products/max)   
 * [Open stage control](https://openstagecontrol.ammd.net/)
 * [Open Broadcaster Software](https://obsproject.com/fr/)
 * [QLC+](https://qlcplus.org/)
 * [ffmpeg](https://ffmpeg.org/)
 * [VB-Cable](https://vb-audio.com/Cable/index.htm)
-* [powerdrumkit](https://www.powerdrumkit.com/download76187.php)
 * [AbletonLive](https://www.ableton.com/)
 
 ## Ressources humaines requises
@@ -163,7 +160,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
     
 # Planification de la production (budget et étapes de réalisation)
 ## Budget prévisionnel
-![Budget prévisionnel](medias/budget.JPG)
+![Budget prévisionnel](https://cmontmorency365-my.sharepoint.com/:x:/r/personal/1828951_cmontmorency_qc_ca/_layouts/15/Doc.aspx?sourcedoc=%7B2CC75D83-A79B-422E-ABCD-E859E14FA709%7D&file=budget_robot.xlsx&action=default&mobileredirect=true)
 
 ## Échéancier global
 Étapes importantes du projet visualisé dans GitHub (*milestones*):  

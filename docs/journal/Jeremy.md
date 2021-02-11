@@ -89,28 +89,28 @@ Faire le fameux suivi avec les membres de l'équipe
 ---
 ## Semaine 2 (6 au 12 février)
 ### Résumé des réalisations effectuées
-
+J'ai fini par faire le points avec mon équipe, et j'ai confectionné deux beats
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-
+![3beats](medias/3beats.png)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ J'aurais aimé faire plus
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+Je vais essayer de faire des tâches qui me tente moins, question de faire plus.
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
@@ -122,7 +122,7 @@ Faire le fameux suivi avec les membres de l'équipe
 
 
 ### Défis pour la prochaine semaine
-
+Attaquer la mise en page de notre page de projet
 ---
 ## Semaine 3 (13 au 19 février)
 ### Résumé des réalisations effectuées

@@ -84,7 +84,7 @@ N/A
 N/A
 
 ### Défis pour la prochaine semaine
-Faire le fameux suivi et commencer l'interface web de notre projet
+Faire le fameux suivi avec les membres de l'équipe
 
 ---
 ## Semaine 2 (6 au 12 février)

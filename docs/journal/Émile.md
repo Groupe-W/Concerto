@@ -90,40 +90,42 @@ Incorporer tout les beats dans Max/OSC
 ---
 ## Semaine 2 (6 au 12 février)
 ### Résumé des réalisations effectuées
-
+Ajout des beats dans MAX, finalisation/test OSC-MAX, échec de mettre en ligne L'OSC (VPS?)
+Croquis de mon robot, création d'une commande de matériels pour les robots/décorations scène
+Corrections du document de préprod et ajout de la semaine 3 sur le site web
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
+<img src="web/medias/osc.jpg" width="500px">
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+Je n'ai pas réussi à intégrer notre interface OSC sur le web, mais même Guillaume n'a pas pu y arriver, alors je ne m'en fais pas trop
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+Utiliser un VPS 
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+À part la mise en ligne du OSC, tout va bien ailleurs
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
 
 ### Défis pour la prochaine semaine
-
+Réinstaller notre équipement dans le grand studio
 ---
 ## Semaine 3 (13 au 19 février)
 ### Résumé des réalisations effectuées

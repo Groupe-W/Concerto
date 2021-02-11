@@ -42,6 +42,21 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 ![Moodboard](medias/moodboard2.png)
 
+![Expérience](medias/ambiance.jpg)
+>C'est une expérience pour tous, pas besoin d'être un musicien pour intéragir avec notre projet
+
+![Ambiance](medias/ambiance_interactive.jpg)
+>Une ambiance un peu mystérieuse, comme une expérience scientifique
+
+![Controle](medias/mudular_synth.jpg)
+>Les utilisateurs auront le sentiment d'être des vrais musiciens de synthèse modulaire avec notre interface midi virtuelle!
+
+![Apparence](medias/lumiere_spot.jpeg)
+>Une apparence d'un grand concert à petite échelle. Spots, projection et machine à fumée pour un look qui a de la gueule!
+
+## Scénario, scénarimage ou document audio/visuel
+
+
 # Contenu multimédia à intégrer
 ## Inventaire du contenu multimédia
 
@@ -66,8 +81,8 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 ### Plantation 
 
-![exemple de plantation](medias/plan.JPG)
-![exemple de plantation](medias/scene_de_coté.JPG)
+![exemple de plantation1](medias/plan_final.jpg)
+![exemple de plantation2](medias/plan_orizontal.jpg)
 
 ## Matériel de scénographie requis
 
@@ -75,6 +90,17 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 * 2 hauts-parleurs
 * Drap rouge
 * Cyclorama
+* 2 robots
+
+# ROBOT 1
+* 20cm/25cm
+* Peinture doré
+* Joueur de trompette(s)
+* Lunettes flamands rose
+
+# ROBOT 2
+* 
+*
 
 ## Équipements requis
 > Liste des équipements requis par département ou lien vers un tableur Excel ou document Markdown à part si nécessaire (quantité, spécifications techniques, lien vers fiche technique si applicable, commentaires...)
@@ -119,35 +145,34 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 ## Logiciels requis
 > Liste des logiciels requis, version ainsi que leurs dépendences
 
-* [nodeJS 14.15.4 LTS](https://nodejs.org/en/) 
-    * [node-osc](https://github.com/MylesBorins/node-osc)
 * [Max 8](https://cycling74.com/products/max)   
 * [Open stage control](https://openstagecontrol.ammd.net/)
 * [Open Broadcaster Software](https://obsproject.com/fr/)
 * [QLC+](https://qlcplus.org/)
 * [ffmpeg](https://ffmpeg.org/)
 * [VB-Cable](https://vb-audio.com/Cable/index.htm)
-* [powerdrumkit](https://www.powerdrumkit.com/download76187.php)
 * [AbletonLive](https://www.ableton.com/)
 
 ## Ressources humaines requises
 > Moments et fonctions où une intervention humaine externe à l'équipe est nécessaire et pourquoi. Formaté en liste ou en lien vers un tableur Excel.
 
-* 1-19 mars (Dans cette zone-là), TTP, location de matériel 
+* 15-16 février, TTP, location de matériel 
+* Tout les lundi du 15 février au 23 mars, période de test
 * 19 mars, TTP, retour du matériel
 
 ## Ressources spatiales requises (rangement et locaux)
 > Moments et spécifications des espaces utilisés formaté en liste ou lien vers un tableur Excel.
 
 * Grand studio
-    * 23 février au 25 mars (4-5 jours dans cette période)
+    * Tout les lundi du 15 février au 23 mars, période de test
         * Projection vidéo dans le cyclo
         * Éclairages
         * Liaison contrôle en ligne
+        * Test caméra/live
     
 # Planification de la production (budget et étapes de réalisation)
 ## Budget prévisionnel
-![Budget prévisionnel](medias/budget.JPG)
+[Budget](https://cmontmorency365-my.sharepoint.com/personal/1828951_cmontmorency_qc_ca/_layouts/15/Doc.aspx?sourcedoc={2cc75d83-a79b-422e-abcd-e859e14fa709}&action=embedview&wdAllowInteractivity=False&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True)
 
 ## Échéancier global
 Étapes importantes du projet visualisé dans GitHub (*milestones*):  
@@ -156,7 +181,7 @@ https://github.com/Groupe-W/Concerto/milestones
 - Préapprobation de la préproduction: 2 février 2021
 - Présentation de la préproduction: 9 février 2021
 - Présentation itération prototype: 23 février 2021
-- Pratique générale : 19 mars (toute la journée)
+- Pratique générale : 18 mars (17h-22h)
 - Début de la diffusion : lundi 22 mars
 - Présentation des projets devant public : jeudi 25 mars (soir)
 
@@ -175,7 +200,7 @@ https://github.com/Groupe-W/Concerto/issues
 - Rédaction du journal hebdomadaire sur le site web;
 - Organiser le contenu sonore dans le patcher Max;
 - Gérer la liaison entre OSC et Max;
-- Création d'un robot musicien (Joueur de bongo)
+- Création d'un robot musicien (Joueur de trompette)
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Emile76
@@ -188,7 +213,6 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Aemi
 - Gère la création de presets;
 - Création d'instruments sur Max;
 - Gère les contenus lumineux (Max, QLC+...);
-- Création d'un robot musicien (Joueur de *** )
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Cephalobyte
@@ -199,7 +223,6 @@ https://github.com/Groupe-W/Concerto/projects/1?card_filter_query=assignee%3Acep
 - Comité Diffusion et coordination de la diffusion (mise en ligne du Site Web, organisation de la plateforme et de l'événement de diffusion);
 - Suivis personnel avec les membres de l'équipe lors des réunions et hors classe;
 - Création du contenu de projection visuel;
-- Création d'un robot musicien (Joueur de *** )
 
 Liste des tâches dans Git Hub:  
 https://github.com/Groupe-W/Concerto/issues/assigned/Mrm0u 

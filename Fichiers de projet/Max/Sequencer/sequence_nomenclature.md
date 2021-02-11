@@ -1,6 +1,6 @@
 # Nomenclature d'un fichier séquence
 ## 1 (général),
-numérateur signature temporelle beat/mesure (int) _ dénominateur signature temporelle note/beat (int) _  ;
+numérateur signature temporelle beat/mesure (int) _ dénominateur signature temporelle durée beat (int) ;
 ### 2 (séquence),
 (liste) tempo en bpm du loop (int) ;
 ### 3 (séquence),

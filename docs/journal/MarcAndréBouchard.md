@@ -78,7 +78,7 @@ Oui, j'ai du mal a exporté mes fichié une fois concue
 Cherché des invormation au pres d'un proffesseur
 
 ### Défis pour la prochaine semaine
-Concevoir plus de beat
+Concevoir Le plan de mon robot
 
 ---
 ## Semaine 2 (6 au 12 février)

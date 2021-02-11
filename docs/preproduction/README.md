@@ -127,6 +127,7 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
 
 * Réseau
     * 6 Câble ethernet 
+    * 1 VPS
 
 * Ordinateur
     * 1 ordinateur studio

@@ -95,7 +95,7 @@ Croquis de mon robot, création d'une commande de matériels pour les robots/dé
 Corrections du document de préprod et ajout de la semaine 3 sur le site web
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-<img src="web/medias/osc.jpg" width="500px">
+<img src="https://github.com/Groupe-W/Concerto/blob/main/docs/web/medias/osc.JPG" width="500px">
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?

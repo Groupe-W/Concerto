@@ -6,23 +6,41 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Allo Machines</title>
 	<style type="text/css">
+		@font-face {
+			font-family: "Oslo";
+			font-weight: normal;
+			font-style: normal;
+			src: url("typo/Oslo.ttf");
+		}
+		@font-face {
+			font-family: "Oslo";
+			font-weight: bold;
+			font-style: normal;
+			src: url("typo/Oslo_Bold.ttf");
+		}
+		@font-face {
+			font-family: "DPSD Beyond";
+			font-weight: normal;
+			font-style: normal;
+			src: url("typo/DPSDbeyond.otf");
+		}
 		* {
 			margin: 0;
 			padding: 0;
 		}
-		img {
+		img, object {
 			position: absolute;
-			width: 100vh;
-			height: 100vh;
+			width: auto;
+			height: 100%;
 			top: 0;
 		}
-		img:nth-child(2) {
+		object {
 			opacity: .5;
 		}
 	</style>
 </head>
 <body>
 	<img src="Another_Electro_Sunday.png" alt="" >
-	<img src="Allo_Machines_BandLogo.svg" alt="" >
+	<object data="Allo_Machines_BandLogo.svg"></object>
 </body>
 </html>

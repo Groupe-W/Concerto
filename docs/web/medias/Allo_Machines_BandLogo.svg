@@ -2,10 +2,13 @@
 	<defs>
 		<style>
 			@font-face {
-				
+				font-family: "DPSDbeyond";
+				font-weight: normal;
+				font-style: normal;
+				src: url("typo/DPSDbeyond.otf");
 			}
 			g {
-				outline: 2px solid yellow
+				font-family: "DPSDbeyond";
 			}
 		</style>
 		<linearGradient id="gradTri" x1="0" x2="0" y1="0" y2="100%">
@@ -39,21 +42,22 @@
 	</defs>
 	<rect width="100%" height="100%" fill="#010105"/>
 	<g id="bars">
-		<rect x="15" y="25" width="30" height="188" fill="url(#grad1)"/>
-		<rect x="50" y="25" width="30" height="188" fill="url(#grad2)"/>
-		<rect x="85" y="25" width="30" height="188" fill="url(#grad3)"/>
-		<rect x="141" y="25" width="30" height="188" fill="url(#grad4)"/>
-		<rect x="176" y="25" width="30" height="188" fill="url(#grad5)"/>
-		<rect x="211" y="25" width="30" height="188" fill="url(#grad6)"/>
+		<rect x="15" y="27" width="28" height="188" fill="url(#grad1)"/>
+		<rect x="50" y="27" width="28" height="188" fill="url(#grad2)"/>
+		<rect x="85" y="27" width="28" height="188" fill="url(#grad3)"/>
+		<rect x="141" y="27" width="28" height="188" fill="url(#grad4)"/>
+		<rect x="176" y="27" width="28" height="188" fill="url(#grad5)"/>
+		<rect x="211" y="27" width="28" height="188" fill="url(#grad6)"/>
 	</g>
 	
 	<g fill="url(#gradTri)">
-		<polygon points="0,0 0,6.6 128,192 256,6.6 256,0" />
-		<polygon points="16,0 128,168 240,0" />
-		<polygon points="37,0 128,144 219,0" />
-		<polygon points="58,0 128,120 198,0" />
+		<!-- <polygon points="0,0 0,4.5 128,180 256,4.5 256,0" /> -->
+		<polygon points="15,25 128,177 241,25" />
+		<!-- <polygon points="16,0 128,168 240,0" /> -->
+		<!-- <polygon points="37,0 128,144 219,0" /> -->
+		<!-- <polygon points="58,0 128,120 198,0" /> -->
 	</g>
-	<g font-family="Roboto Mono" font-size="10" font-weight="200" textLength="20" fill="#fff">
+	<g font-family="Oslo" font-size="10" textLength="20" fill="#fafada">
 		<text x="72" y="16" textLength="112" >allo_machines</text>
 		<text x="68" y="240" textLength="120" font-size="12">Concerto</text>
 	</g>

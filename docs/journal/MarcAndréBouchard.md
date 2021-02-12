@@ -78,26 +78,27 @@ Oui, j'ai du mal a exporté mes fichié une fois concue
 Cherché des invormation au pres d'un proffesseur
 
 ### Défis pour la prochaine semaine
+Faire d'autre beat
 Concevoir Le plan de mon robot
 
 ---
 ## Semaine 2 (6 au 12 février)
 ### Résumé des réalisations effectuées
-
+j'ai produit un des pla pour la conception de mon robot
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
+![v2](medias/v2.jpg)
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
-- [ ] Assez
+- [X] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ Je voulais à l'origine je voulais produire des nouveau beat mais mon objectif a changer au cours de la semaine
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
@@ -105,18 +106,18 @@ Concevoir Le plan de mon robot
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+Il y a eu un changement au niveau de mon objectif. 
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+resté flexible
 
 ### Défis pour la prochaine semaine
-
+Concevoir mon robot et le testé dans notre environement de travail.
 ---
 ## Semaine 3 (13 au 19 février)
 ### Résumé des réalisations effectuées

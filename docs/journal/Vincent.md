@@ -88,40 +88,44 @@ Combiner les patchers de sound vizualiser avec Jérémie
 ---
 ## Semaine 2 (6 au 12 février)
 ### Résumé des réalisations effectuées
-
+Effectué le ménage du patcher sound visualizer de Jérémy
+Ajouté 4 nouveaux instruments
+Ajouté 4 nouvelles icones pour chaque instrument
+Adapté le nouveau Sequencer au projet
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
+![Max joue une séquence à 132 bpm sans problème](medias/journal_vincent_S2a.png)
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+L'objectif principal de cette semaine était de terminer le Sequencer, mais la tâche a été ralentie par plusieurs empêchements nécéssaires.
+J'ai tout de même eu le temps de rapidement créer des fonctionalités prévues au produit final sans qu'elles empiètent sur la progression actuelle.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+Je termine le fameux sequencer dans les jours qui suivent.
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
 - [ ] Complètement
 - [ ] Assez
-- [ ] Un peu
+- [x] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+Le sequencer aurait pu être terminé la veille, mais ça aurait coûté un retard à la remise de la liste de matériel à remettre à Cédrick.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+Je termine le fameux sequencer dans les jours qui suivent.
 
 ### Défis pour la prochaine semaine
-
+Le sequencer doit être terminé, l'interface dans OSC doit être utilisable par le commun des mortels.
 ---
 ## Semaine 3 (13 au 19 février)
 ### Résumé des réalisations effectuées

@@ -1759,7 +1759,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1252.0, 936.0, 38.0, 22.0 ],
 					"style" : "Concerto 2",
-					"text" : "14."
+					"text" : "1."
 				}
 
 			}
@@ -4457,13 +4457,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-12",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 150.0, 315.0, 60.0, 22.0 ],
+					"patching_rect" : [ 150.0, 315.0, 60.0, 50.0 ],
 					"style" : "Concerto 2",
-					"text" : "/root 0."
+					"text" : "/keyboard_1 71. 0."
 				}
 
 			}

@@ -48,7 +48,7 @@
         "colorWidget": "auto",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -147,7 +147,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -426,8 +427,8 @@
           },
           {
             "type": "xy",
-            "top": 340,
-            "left": 0,
+            "top": 339.99999999999994,
+            "left": 10,
             "id": "beat12_xy",
             "visible": true,
             "interaction": true,
@@ -541,7 +542,7 @@
         "colorWidget": "auto",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -640,7 +641,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -919,8 +921,8 @@
           },
           {
             "type": "xy",
-            "top": 340,
-            "left": 0,
+            "top": 339.99999999999994,
+            "left": 10,
             "id": "beat11_xy",
             "visible": true,
             "interaction": true,
@@ -1034,7 +1036,7 @@
         "colorWidget": "auto",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -1133,7 +1135,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -1412,8 +1415,8 @@
           },
           {
             "type": "xy",
-            "top": 340,
-            "left": 0,
+            "top": 339.99999999999994,
+            "left": 10,
             "id": "beat10_xy",
             "visible": true,
             "interaction": true,
@@ -1527,7 +1530,7 @@
         "colorWidget": "auto",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -1626,7 +1629,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -1905,8 +1909,8 @@
           },
           {
             "type": "xy",
-            "top": 340,
-            "left": 0,
+            "top": 339.99999999999994,
+            "left": 10,
             "id": "beat9_xy",
             "visible": true,
             "interaction": true,
@@ -2020,7 +2024,7 @@
         "colorWidget": "auto",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -2119,7 +2123,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -2398,8 +2403,8 @@
           },
           {
             "type": "xy",
-            "top": 340,
-            "left": 0,
+            "top": 339.99999999999994,
+            "left": 10,
             "id": "beat8_xy",
             "visible": true,
             "interaction": true,
@@ -2513,7 +2518,7 @@
         "colorWidget": "auto",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -2612,7 +2617,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -2891,8 +2897,8 @@
           },
           {
             "type": "xy",
-            "top": 340,
-            "left": 0,
+            "top": 339.99999999999994,
+            "left": 10,
             "id": "beat7_xy",
             "visible": true,
             "interaction": true,
@@ -3006,7 +3012,7 @@
         "colorWidget": "auto",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -3105,7 +3111,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -3384,8 +3391,8 @@
           },
           {
             "type": "xy",
-            "top": 340,
-            "left": 0,
+            "top": 339.99999999999994,
+            "left": 10,
             "id": "beat6_xy",
             "visible": true,
             "interaction": true,
@@ -3499,7 +3506,7 @@
         "colorWidget": "auto",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -3598,7 +3605,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -3992,7 +4000,7 @@
         "colorWidget": "auto",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -4050,7 +4058,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -4370,8 +4379,8 @@
           },
           {
             "type": "xy",
-            "top": 340,
-            "left": 0,
+            "top": 339.99999999999994,
+            "left": 10,
             "id": "beat4_xy",
             "visible": true,
             "interaction": true,
@@ -4485,7 +4494,7 @@
         "colorWidget": "auto",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -4566,8 +4575,8 @@
           },
           {
             "type": "xy",
-            "top": 340,
-            "left": 0,
+            "top": 339.99999999999994,
+            "left": 9.999999999999998,
             "id": "beat3_xy",
             "visible": true,
             "interaction": true,
@@ -4918,7 +4927,8 @@
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "align": "center"
+            "align": "center",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -4978,7 +4988,7 @@
         "colorWidget": "auto",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -5036,7 +5046,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -5356,8 +5367,8 @@
           },
           {
             "type": "xy",
-            "top": 340,
-            "left": 0,
+            "top": 339.99999999999994,
+            "left": 10,
             "id": "beat2_xy",
             "visible": true,
             "interaction": true,
@@ -5468,10 +5479,10 @@
         "height": 520,
         "expand": "false",
         "colorText": "auto",
-        "colorWidget": "auto",
+        "colorWidget": "#ffffff",
         "colorStroke": "auto",
         "colorFill": "auto",
-        "alphaStroke": "auto",
+        "alphaStroke": 1,
         "alphaFillOff": "auto",
         "alphaFillOn": "auto",
         "lineWidth": "auto",
@@ -5570,7 +5581,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -5849,8 +5861,8 @@
           },
           {
             "type": "xy",
-            "top": 340,
-            "left": 0,
+            "top": 339.99999999999994,
+            "left": 10,
             "id": "beat1_xy",
             "visible": true,
             "interaction": true,
@@ -6022,7 +6034,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "keyboard",
@@ -6063,7 +6076,8 @@
             "typeTags": "",
             "decimals": 2,
             "ignoreDefaults": false,
-            "bypass": false
+            "bypass": false,
+            "velocity": false
           }
         ],
         "tabs": []
@@ -6140,7 +6154,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -6341,6 +6356,6 @@
     ],
     "tabs": []
   },
-  "version": "1.6.1",
+  "version": "1.8.7",
   "type": "Open Stage Control session"
 }

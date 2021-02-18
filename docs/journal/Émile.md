@@ -129,7 +129,7 @@ Réinstaller notre équipement dans le grand studio
 ---
 ## Semaine 3 (13 au 19 février)
 ### Résumé des réalisations effectuées
-Installation d'une partie des équipements dans le grand studio, ajout des beats de Jeremy dans le patcher, corrections de plusieurs défauts dans notre patcher Max et notre interface OSC, ajout d'informations dans le haut de notre page web, achat des matériaux pour la construction du robot et ajout d'issues dans le kanban.
+Installation d'une partie des équipements dans le grand studio, ajout des beats de Jeremy dans le patcher, corrections de plusieurs défauts dans notre patcher Max et notre interface OSC, ajout d'informations dans le haut de notre page web, création d'un guide d'utilisation pour les utilisateurs, achat des matériaux pour la construction du robot et ajout d'issues dans le kanban.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 

@@ -129,40 +129,40 @@ Réinstaller notre équipement dans le grand studio
 ---
 ## Semaine 3 (13 au 19 février)
 ### Résumé des réalisations effectuées
-
+Installation d'une partie des équipements dans le grand studio, ajout des beats de Jeremy dans le patcher, corrections de plusieurs défauts dans notre patcher Max et notre interface OSC, ajout d'informations dans le haut de notre page web, création d'un guide d'utilisation pour les utilisateurs, achat des matériaux pour la construction du robot et ajout d'issues dans le kanban.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-
+<img src="https://github.com/Groupe-W/Concerto/blob/main/docs/journal/medias/presentiel.png" width="80%">
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+Nous avons très bien avancé dans le grand studio, et la partie logiciel de notre projet est presque terminé.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+NA
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+NA
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+NA
 
 ### Défis pour la prochaine semaine
-
+Présentation du prototype
 ---
 ## Semaine 4 (20 au 26 février)
 ### Résumé des réalisations effectuées

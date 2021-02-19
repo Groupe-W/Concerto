@@ -138,7 +138,7 @@ J'ai completé mon robot, et notre équipe a travaillé sur notre instalation.
  Mon robot est construit
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+![Robot](medias/Robot.png)
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 

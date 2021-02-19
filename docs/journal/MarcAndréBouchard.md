@@ -121,7 +121,7 @@ Concevoir mon robot et le testé dans notre environement de travail.
 ---
 ## Semaine 3 (13 au 19 février)
 ### Résumé des réalisations effectuées
-
+J'ai completé mon robot, et notre équipe a travaillé sur notre instalation.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
@@ -129,20 +129,20 @@ Concevoir mon robot et le testé dans notre environement de travail.
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ Mon robot est construit
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+![Robot](medias/Robot.png)
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
@@ -154,7 +154,7 @@ Concevoir mon robot et le testé dans notre environement de travail.
 
 
 ### Défis pour la prochaine semaine
-
+Continué de travaillé sur l'instaltion quand nous aurobs nos pieces manquantes.
 ---
 ## Semaine 4 (20 au 26 février)
 ### Résumé des réalisations effectuées

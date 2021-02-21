@@ -416,7 +416,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,
@@ -1033,7 +1033,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,
@@ -1650,7 +1650,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,
@@ -2267,7 +2267,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,
@@ -2884,7 +2884,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,
@@ -3501,7 +3501,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,
@@ -4118,7 +4118,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,
@@ -4735,7 +4735,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,
@@ -5352,7 +5352,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,
@@ -5756,7 +5756,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,
@@ -6586,7 +6586,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,
@@ -7203,7 +7203,7 @@
             "align": "center",
             "values": {
               "Lowpass": 1,
-              "Highpass": 4,
+              "Highpass": 2,
               "Bandpass": 3,
               "Bandstop": 4,
               "Peaknotch": 5,

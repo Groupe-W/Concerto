@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1546.0, 913.0 ],
+		"rect" : [ 35.0, 83.0, 804.0, 1070.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -76,13 +76,13 @@
 					"patching_rect" : [ 225.0, 630.0, 199.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "live.gain~[37]",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4,
 							"parameter_linknames" : 1,
 							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[37]",
-							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~[37]"
+							"parameter_longname" : "live.gain~[1]"
 						}
 
 					}
@@ -123,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 570.0, 150.0, 58.0, 22.0 ],
+					"patching_rect" : [ 585.0, 150.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -145,12 +145,12 @@
 					"presentation_rect" : [ 2.0, 91.5, 71.0, 69.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 20.0,
+							"parameter_shortname" : "Hauteur",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_mmin" : -20.0,
-							"parameter_longname" : "dial.spd",
-							"parameter_mmax" : 20.0,
-							"parameter_shortname" : "Hauteur"
+							"parameter_longname" : "dial.spd"
 						}
 
 					}
@@ -398,12 +398,12 @@
 					"presentation_rect" : [ 75.0, 105.0, 90.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 20.0,
+							"parameter_shortname" : "Mode",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_mmin" : 1.0,
-							"parameter_longname" : "slider.mode",
-							"parameter_mmax" : 20.0,
-							"parameter_shortname" : "Mode"
+							"parameter_longname" : "slider.mode"
 						}
 
 					}
@@ -429,12 +429,12 @@
 					"presentation_rect" : [ 75.0, 60.0, 90.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 2000.0,
+							"parameter_shortname" : "Durée",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0,
 							"parameter_mmin" : 100.0,
-							"parameter_longname" : "slider.dur",
-							"parameter_mmax" : 2000.0,
-							"parameter_shortname" : "Durée"
+							"parameter_longname" : "slider.dur"
 						}
 
 					}
@@ -459,12 +459,12 @@
 					"presentation_rect" : [ 135.0, 195.0, 30.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 5.0,
+							"parameter_shortname" : "Q",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1,
 							"parameter_mmin" : 0.2,
-							"parameter_longname" : "slider.q",
-							"parameter_mmax" : 5.0,
-							"parameter_shortname" : "Q"
+							"parameter_longname" : "slider.q"
 						}
 
 					}
@@ -1208,12 +1208,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-6",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 225.0, 570.0, 379.189189255237579, 38.0 ],
+					"patching_rect" : [ 225.0, 570.0, 424.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 1,
@@ -1221,15 +1220,15 @@
 						"loopend" : [ 2000.0, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 1950.018954271674147, "ticks" ],
-						"originaltempo" : 119.999999999999986,
+						"originallength" : [ 0.0, "ticks" ],
+						"originaltempo" : 120.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 1 ]
 					}
 ,
-					"text" : "groove~ #1 2 @loop1 @followglobaltempo 1 @timestretch 1 @mode 1 @loop 1"
+					"text" : "groove~ #1 2 @loop 1 @followglobaltempo 1 @timestretch 1 @mode 1 "
 				}
 
 			}
@@ -1237,7 +1236,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1524,13 +1523,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-141", 8 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-141", 6 ]
 				}
@@ -1540,6 +1532,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-141", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-141", 8 ]
 				}
 
 			}
@@ -1928,7 +1927,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 414.59459462761879, 615.146341383457184, 414.5, 615.146341383457184 ],
+					"midpoints" : [ 437.0, 615.146341383457184, 414.5, 615.146341383457184 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
@@ -2121,9 +2120,26 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1" : [ "dial.spd", "Hauteur", 0 ],
+			"obj-258" : [ "slider.dur", "Durée", 0 ],
+			"obj-9" : [ "live.gain~[1]", "live.gain~[37]", 0 ],
+			"obj-259" : [ "slider.mode", "Mode", 0 ],
+			"obj-233" : [ "slider.q", "Q", 0 ],
+			"parameterbanks" : 			{
+
+			}
+
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Concerto 2",
 				"default" : 				{
+					"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -2135,12 +2151,9 @@
 					}
 ,
 					"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-					"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
 					"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+					"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

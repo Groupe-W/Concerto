@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,15 +37,40 @@
 		"tags" : "",
 		"style" : "Concerto 2",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-146",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 420.0, 60.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1515.0, 330.0, 33.0, 22.0 ],
+					"text" : "read"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "Son",
 					"id" : "obj-394",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 1260.0, 30.0, 30.0 ]
+					"patching_rect" : [ 420.0, 1184.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -93,7 +118,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1905.0, 750.0, 78.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "nsub 6 $1 $2"
 				}
 
@@ -106,7 +130,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1830.0, 750.0, 78.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "nsub 5 $1 $2"
 				}
 
@@ -171,7 +194,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -204,6 +227,7 @@
 						"tags" : "",
 						"style" : "Concerto 2",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -525,12 +549,10 @@
 , 							{
 								"name" : "Concerto 2",
 								"default" : 								{
-									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -541,7 +563,9 @@
 										"autogradient" : 0.0
 									}
 ,
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -550,12 +574,10 @@
 , 							{
 								"name" : "Concerto 2-1",
 								"default" : 								{
-									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -566,7 +588,9 @@
 										"autogradient" : 0.0
 									}
 ,
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -589,20 +613,9 @@
 									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
 								}
 ,
-								"comment" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontsize" : [ 24.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
-								"multislider" : 								{
-									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
-									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
-								}
-,
 								"message" : 								{
+									"fontname" : [ "Arial" ],
 									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
-									"fontsize" : [ 30.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -613,7 +626,18 @@
 										"autogradient" : 0.79
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 30.0 ]
+								}
+,
+								"comment" : 								{
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
+									"fontsize" : [ 24.0 ]
+								}
+,
+								"multislider" : 								{
+									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
+									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -622,9 +646,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 13.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -638,10 +662,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -651,11 +675,11 @@
 								"name" : "m4vatextbutton",
 								"default" : 								{
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"fontsize" : [ 14.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -733,8 +757,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -743,8 +767,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -753,8 +777,8 @@
 , 							{
 								"name" : "newobjYellow-3",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -812,7 +836,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1455.0, 300.0, 90.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "recharger"
 				}
@@ -838,7 +861,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1590.0, 720.0, 94.0, 22.0 ],
-					"text" : "63"
+					"text" : "179"
 				}
 
 			}
@@ -1148,7 +1171,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 615.0, 120.0, 480.0, 22.0 ],
-					"text" : "symbol Allo_Machines"
+					"text" : "Richard Wagner"
 				}
 
 			}
@@ -1162,7 +1185,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 615.0, 30.0, 480.0, 30.0 ],
-					"text" : "Séquence personalisée 3"
+					"text" : "La Chevauchée des Walkyries"
 				}
 
 			}
@@ -1373,7 +1396,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1406,6 +1429,7 @@
 						"tags" : "",
 						"style" : "Concerto 2",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-96",
@@ -2343,12 +2367,10 @@
 , 							{
 								"name" : "Concerto 2",
 								"default" : 								{
-									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -2359,7 +2381,9 @@
 										"autogradient" : 0.0
 									}
 ,
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2382,20 +2406,9 @@
 									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
 								}
 ,
-								"comment" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontsize" : [ 24.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
-								"multislider" : 								{
-									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
-									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
-								}
-,
 								"message" : 								{
+									"fontname" : [ "Arial" ],
 									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
-									"fontsize" : [ 30.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -2406,7 +2419,18 @@
 										"autogradient" : 0.79
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 30.0 ]
+								}
+,
+								"comment" : 								{
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
+									"fontsize" : [ 24.0 ]
+								}
+,
+								"multislider" : 								{
+									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
+									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2415,9 +2439,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 13.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2431,10 +2455,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2444,11 +2468,11 @@
 								"name" : "m4vatextbutton",
 								"default" : 								{
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"fontsize" : [ 14.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2526,8 +2550,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2536,8 +2560,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2546,8 +2570,8 @@
 , 							{
 								"name" : "newobjYellow-3",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2860,7 +2884,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1665.0, 75.0, 30.0, 22.0 ],
-					"text" : "0"
+					"text" : "12"
 				}
 
 			}
@@ -3073,11 +3097,11 @@
 				"box" : 				{
 					"id" : "obj-172",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
+					"numinlets" : 6,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1680.0, 240.0, 195.0, 22.0 ],
-					"text" : "combine path seq_ name index .txt"
+					"patching_rect" : [ 1680.0, 240.0, 259.0, 22.0 ],
+					"text" : "combine path Sequencer/ seq_ name index .txt"
 				}
 
 			}
@@ -3274,15 +3298,15 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 420.0, 690.0, 123.0, 47.0 ],
+					"patching_rect" : [ 435.0, 690.0, 123.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "live.gain~[1]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~",
-							"parameter_mmax" : 6.0
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -3359,7 +3383,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 873.5, 884.5, 34.0, 22.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -3624,7 +3648,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 945.0, 1004.5, 45.0, 22.0 ],
-					"text" : "0"
+					"text" : "148"
 				}
 
 			}
@@ -3685,7 +3709,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1155.0, 1095.0, 64.0, 22.0 ],
-					"text" : "size 64"
+					"text" : "size 180"
 				}
 
 			}
@@ -3712,7 +3736,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3745,6 +3769,7 @@
 						"tags" : "",
 						"style" : "Concerto 2",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "Signal of chosen instrument",
@@ -4089,12 +4114,10 @@
 , 							{
 								"name" : "Concerto 2",
 								"default" : 								{
-									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -4105,7 +4128,9 @@
 										"autogradient" : 0.0
 									}
 ,
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4114,12 +4139,10 @@
 , 							{
 								"name" : "Concerto 2-1",
 								"default" : 								{
-									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -4130,7 +4153,9 @@
 										"autogradient" : 0.0
 									}
 ,
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4153,20 +4178,9 @@
 									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
 								}
 ,
-								"comment" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontsize" : [ 24.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
-								"multislider" : 								{
-									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
-									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
-								}
-,
 								"message" : 								{
+									"fontname" : [ "Arial" ],
 									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
-									"fontsize" : [ 30.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -4177,7 +4191,18 @@
 										"autogradient" : 0.79
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 30.0 ]
+								}
+,
+								"comment" : 								{
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
+									"fontsize" : [ 24.0 ]
+								}
+,
+								"multislider" : 								{
+									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
+									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4186,9 +4211,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 13.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4202,10 +4227,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4215,11 +4240,11 @@
 								"name" : "m4vatextbutton",
 								"default" : 								{
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"fontsize" : [ 14.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4297,8 +4322,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4307,8 +4332,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4317,8 +4342,8 @@
 , 							{
 								"name" : "newobjYellow-3",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4508,7 +4533,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1126.999999999999318, 1005.0, 38.0, 22.0 ],
 					"style" : "Concerto 2",
-					"text" : "0."
+					"text" : "148."
 				}
 
 			}
@@ -4565,9 +4590,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3510.0, 735.0, 270.0, 90.0 ],
 					"range" : 127,
-					"size" : 64,
+					"size" : 180,
 					"style" : "Concerto 2",
-					"table_data" : [ 0, 0, 0, 0, 0, 11, 12, 18, 19, 20, 24, 26, 28, 33, 35, 37, 39, 42, 44, 46, 48, 51, 52, 55, 56, 33, 21, 14, 9, 7, 6, 6, 6, 7, 10, 16, 22, 24, 20, 19, 15, 12, 9, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"table_data" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 8, 0, 0, 3, 6, 0, 20, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 8, 0, 0, 3, 6, 0, 20, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 8, 0, 0, 3, 6, 0, 20, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 8, 0, 0, 3, 6, 0, 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 8, 0, 0, 3, 6, 0, 20, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 8, 0, 0, 3, 6, 0, 20, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 8, 0, 0, 3, 6, 0, 20, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 8, 0, 0, 3, 6, 0, 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 					"varname" : "itable_Pitch[3]"
 				}
 
@@ -4581,7 +4606,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1260.0, 1065.0, 45.0, 22.0 ],
 					"style" : "Concerto 2",
-					"text" : "0 32"
+					"text" : "0 180"
 				}
 
 			}
@@ -4652,9 +4677,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 3180.0, 735.0, 270.0, 90.0 ],
 					"range" : 127,
-					"size" : 64,
+					"size" : 180,
 					"style" : "Concerto 2",
-					"table_data" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 19, 21, 28, 30, 34, 36, 37, 41, 43, 45, 53, 55, 57, 60, 48, 36, 27, 25, 25, 25, 25, 30, 31, 31, 24, 20, 12, 6, 1, 0, 0, 0, 0, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+					"table_data" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 58, 0, 63, 0, 0, 55, 59, 0, 72, 0, 0, 0, 0, 0, 69, 0, 0, 0, 0, 0, 63, 0, 0, 55, 59, 0, 72, 0, 0, 0, 0, 0, 69, 0, 0, 0, 0, 0, 63, 0, 0, 55, 59, 0, 72, 0, 0, 0, 0, 0, 69, 0, 0, 0, 0, 0, 63, 0, 0, 55, 59, 0, 75, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 58, 0, 63, 0, 0, 55, 59, 0, 72, 0, 0, 0, 0, 0, 69, 0, 0, 0, 0, 0, 63, 0, 0, 55, 59, 0, 72, 0, 0, 0, 0, 0, 69, 0, 0, 0, 0, 0, 63, 0, 0, 55, 59, 0, 75, 0, 0, 0, 0, 0, 64, 0, 0, 0, 0, 0, 63, 0, 0, 55, 59, 0, 68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
 					"varname" : "itable_Pitch[4]"
 				}
 
@@ -4752,9 +4777,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 525.0, 270.0, 270.0, 90.0 ],
 					"range" : 36,
-					"size" : 64,
+					"size" : 180,
 					"style" : "Concerto 2",
-					"table_data" : [ 0, 12, 12, 8, 8, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 18, 20, 20, 21, 21, 19, 17, 14, 13, 13, 13, 14, 14, 15, 16, 17, 20, 22, 23, 25, 25, 23, 21, 21, 20, 20, 22, 18, 18, 18, 18, 18, 18, 19, 19, 19, 19, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 ],
+					"table_data" : [ 0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 11, 11, 11, 6, 11, 11, 14, 14, 14, 14, 14, 14, 11, 11, 11, 11, 11, 11, 14, 14, 14, 11, 14, 14, 18, 18, 18, 18, 18, 18, 14, 14, 14, 14, 14, 14, 18, 18, 18, 14, 18, 18, 21, 21, 21, 21, 21, 21, 9, 9, 9, 9, 9, 9, 14, 14, 14, 9, 14, 14, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 9, 9, 14, 14, 14, 9, 14, 14, 18, 18, 18, 18, 18, 18, 14, 14, 14, 14, 14, 14, 18, 18, 18, 14, 18, 18, 21, 21, 21, 21, 21, 21, 18, 18, 18, 18, 18, 18, 21, 21, 21, 18, 21, 21, 25, 25, 25, 25, 25, 25, 13, 13, 13, 13, 13, 13, 18, 18, 18, 13, 18, 18, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22 ],
 					"varname" : "itable_Pitch[5]"
 				}
 
@@ -4847,7 +4872,7 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1252.500000000000227, 1095.0, 135.0, 30.0 ],
-					"size" : 64.0,
+					"size" : 180.0,
 					"style" : "Concerto 2"
 				}
 
@@ -4997,7 +5022,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5030,7 +5055,7 @@
 						"tags" : "",
 						"style" : "Concerto 2",
 						"subpatcher_template" : "",
-						"visible" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-152",
@@ -5112,7 +5137,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 0.0, 376.0, 50.0, 22.0 ],
-									"text" : "0"
+									"text" : "295"
 								}
 
 							}
@@ -5822,12 +5847,12 @@
 , 							{
 								"name" : "Concerto 2",
 								"default" : 								{
-									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
 									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
+									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5850,20 +5875,9 @@
 									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
 								}
 ,
-								"comment" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontsize" : [ 24.0 ],
-									"fontname" : [ "Arial" ]
-								}
-,
-								"multislider" : 								{
-									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
-									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
-								}
-,
 								"message" : 								{
+									"fontname" : [ "Arial" ],
 									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
-									"fontsize" : [ 30.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -5874,7 +5888,18 @@
 										"autogradient" : 0.79
 									}
 ,
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 30.0 ]
+								}
+,
+								"comment" : 								{
+									"fontname" : [ "Arial" ],
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
+									"fontsize" : [ 24.0 ]
+								}
+,
+								"multislider" : 								{
+									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
+									"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5883,9 +5908,9 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-									"fontsize" : [ 13.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 13.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5899,10 +5924,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
+									"fontname" : [ "Arial" ],
 									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5912,11 +5937,11 @@
 								"name" : "m4vatextbutton",
 								"default" : 								{
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"fontsize" : [ 14.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5994,8 +6019,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6004,8 +6029,8 @@
 , 							{
 								"name" : "newobjYellow-2",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6014,8 +6039,8 @@
 , 							{
 								"name" : "newobjYellow-3",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6075,7 +6100,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 750.0, 45.0, 45.0 ],
+					"patching_rect" : [ 435.0, 765.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2805.0, 1095.0, 45.0, 45.0 ],
 					"style" : "Concerto 2"
@@ -6107,7 +6132,7 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 520.0, 278.079151000000024, 280.0, 75.0 ],
-					"size" : 64.0,
+					"size" : 180.0,
 					"style" : "Concerto 2",
 					"thickness" : 10.0
 				}
@@ -6157,7 +6182,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2640.0, 165.0, 212.0, 105.0 ],
+					"patching_rect" : [ 2640.0, 165.0, 215.0, 105.0 ],
 					"text" : "6 0 6 0 6 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 24 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 12 0 6 0 24 0 6 0 6 0 6 0"
 				}
 
@@ -6170,7 +6195,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3660.0, 210.0, 323.518387764692307, 77.0 ],
+					"patching_rect" : [ 3660.0, 210.0, 325.0, 77.0 ],
 					"text" : "6 0 6 0 6 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 24 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 12 0 6 0 6 0 6 0 12 0 6 0 24 0 6 0 6 0 6 0"
 				}
 
@@ -6260,7 +6285,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3645.0, 60.0, 332.0, 91.0 ],
-					"presentation_linecount" : 6,
 					"style" : "Concerto 2",
 					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 8 0 0 3 6 0 20 0 0 0 0 0 20 0 0 0 0 0 8 0 0 3 6 0 20 0 0 0 0 0 20 0 0 0 0 0 8 0 0 3 6 0 20 0 0 0 0 0 20 0 0 0 0 0 8 0 0 3 6 0 72 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 8 0 0 3 6 0 20 0 0 0 0 0 20 0 0 0 0 0 8 0 0 3 6 0 20 0 0 0 0 0 20 0 0 0 0 0 8 0 0 3 6 0 20 0 0 0 0 0 20 0 0 0 0 0 8 0 0 3 6 0 72 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
@@ -6312,7 +6336,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3330.0, 60.0, 312.0, 105.0 ],
+					"patching_rect" : [ 3330.0, 60.0, 315.0, 105.0 ],
 					"style" : "Concerto 2",
 					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58 0 63 0 0 55 59 0 72 0 0 0 0 0 69 0 0 0 0 0 63 0 0 55 59 0 72 0 0 0 0 0 69 0 0 0 0 0 63 0 0 55 59 0 72 0 0 0 0 0 69 0 0 0 0 0 63 0 0 55 59 0 75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58 0 63 0 0 55 59 0 72 0 0 0 0 0 69 0 0 0 0 0 63 0 0 55 59 0 72 0 0 0 0 0 69 0 0 0 0 0 63 0 0 55 59 0 75 0 0 0 0 0 64 0 0 0 0 0 63 0 0 55 59 0 68 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
@@ -7213,6 +7237,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-333", 0 ],
+					"source" : [ "obj-146", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-131", 1 ],
 					"source" : [ "obj-149", 1 ]
 				}
@@ -7517,8 +7548,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-172", 2 ],
-					"midpoints" : [ 1809.5, 225.843511193990707, 1777.5, 225.843511193990707 ],
+					"destination" : [ "obj-172", 3 ],
+					"midpoints" : [ 1809.5, 225.843511193990707, 1833.5, 225.843511193990707 ],
 					"source" : [ "obj-186", 0 ]
 				}
 
@@ -7567,16 +7598,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-172", 2 ],
-					"midpoints" : [ 1989.5, 235.5, 1777.5, 235.5 ],
+					"destination" : [ "obj-172", 3 ],
+					"midpoints" : [ 1989.5, 235.5, 1833.5, 235.5 ],
 					"source" : [ "obj-193", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-172", 2 ],
-					"midpoints" : [ 1899.5, 230.03562331199646, 1777.5, 230.03562331199646 ],
+					"destination" : [ "obj-172", 3 ],
+					"midpoints" : [ 1899.5, 230.03562331199646, 1833.5, 230.03562331199646 ],
 					"source" : [ "obj-194", 0 ]
 				}
 
@@ -8440,6 +8471,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-161", 0 ],
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"midpoints" : [ 489.5, 1022.5, 519.321428716182709, 1022.5 ],
 					"source" : [ "obj-41", 0 ]
@@ -8769,7 +8807,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-149", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-77", 0 ]
 				}
 
@@ -8777,7 +8815,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-394", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-77", 0 ]
 				}
 
@@ -8827,8 +8865,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-172", 2 ],
-					"midpoints" : [ 1719.5, 222.147582978010178, 1777.5, 222.147582978010178 ],
+					"destination" : [ "obj-172", 3 ],
+					"midpoints" : [ 1719.5, 222.147582978010178, 1833.5, 222.147582978010178 ],
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -8933,30 +8971,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-149" : [ "live.gain~", "live.gain~", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "seq_MountainKing.txt",
-				"bootpath" : "D:/Local Disk/Users/Vincent/Documents/GitHub/Concerto/Fichiers de projet/Max/Sequencer",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq_user0.txt",
-				"bootpath" : "D:/Local Disk/Users/Vincent/Documents/GitHub/Concerto/Fichiers de projet/Max/Sequencer",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -8978,13 +8992,13 @@
 , 			{
 				"name" : "Concerto 2",
 				"default" : 				{
-					"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-					"locked_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
 					"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+					"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+					"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
+					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+					"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+					"locked_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -8993,12 +9007,10 @@
 , 			{
 				"name" : "Concerto 2-1",
 				"default" : 				{
-					"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-					"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+					"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -9009,7 +9021,9 @@
 						"autogradient" : 0.0
 					}
 ,
-					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+					"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+					"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -9032,20 +9046,9 @@
 					"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
 				}
 ,
-				"comment" : 				{
-					"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-					"fontsize" : [ 24.0 ],
-					"fontname" : [ "Arial" ]
-				}
-,
-				"multislider" : 				{
-					"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
-					"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
-				}
-,
 				"message" : 				{
+					"fontname" : [ "Arial" ],
 					"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
-					"fontsize" : [ 30.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -9056,7 +9059,18 @@
 						"autogradient" : 0.79
 					}
 ,
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 30.0 ]
+				}
+,
+				"comment" : 				{
+					"fontname" : [ "Arial" ],
+					"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
+					"fontsize" : [ 24.0 ]
+				}
+,
+				"multislider" : 				{
+					"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
+					"color" : [ 1.0, 0.818637, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -9065,9 +9079,9 @@
 , 			{
 				"name" : "helpfile_label-1",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
-					"fontsize" : [ 13.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 13.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -9081,10 +9095,10 @@
 , 			{
 				"name" : "m4va",
 				"default" : 				{
+					"fontname" : [ "Arial" ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -9094,11 +9108,11 @@
 				"name" : "m4vatextbutton",
 				"default" : 				{
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"fontsize" : [ 14.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -9176,8 +9190,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -9186,8 +9200,8 @@
 , 			{
 				"name" : "newobjYellow-2",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -9196,8 +9210,8 @@
 , 			{
 				"name" : "newobjYellow-3",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",

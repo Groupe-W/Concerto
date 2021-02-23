@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "Concerto 2",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-14",
@@ -45,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 739.5, 420.0, 50.0, 22.0 ],
-					"text" : "1."
+					"text" : "9"
 				}
 
 			}
@@ -140,13 +141,13 @@
 					"patching_rect" : [ 225.0, 630.0, 199.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_linknames" : 1,
+							"parameter_longname" : "live.gain~[37]",
 							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "live.gain~[37]",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_linknames" : 1,
-							"parameter_mmin" : -70.0,
-							"parameter_longname" : "live.gain~[37]"
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -209,12 +210,12 @@
 					"presentation_rect" : [ 2.0, 91.5, 71.0, 69.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "dial.spd",
 							"parameter_mmax" : 20.0,
-							"parameter_shortname" : "Frequence",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
 							"parameter_mmin" : -20.0,
-							"parameter_longname" : "dial.spd"
+							"parameter_shortname" : "Hauteur",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -462,12 +463,12 @@
 					"presentation_rect" : [ 75.0, 105.0, 90.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "slider.mode",
 							"parameter_mmax" : 20.0,
-							"parameter_shortname" : "Vitesse",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
 							"parameter_mmin" : 1.0,
-							"parameter_longname" : "slider.mode"
+							"parameter_shortname" : "Mode",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -493,12 +494,12 @@
 					"presentation_rect" : [ 75.0, 60.0, 90.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "slider.dur",
 							"parameter_mmax" : 2000.0,
+							"parameter_mmin" : 100.0,
 							"parameter_shortname" : "Durée",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 0,
-							"parameter_mmin" : 100.0,
-							"parameter_longname" : "slider.dur"
+							"parameter_unitstyle" : 0
 						}
 
 					}
@@ -523,12 +524,12 @@
 					"presentation_rect" : [ 135.0, 195.0, 30.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_longname" : "slider.q",
 							"parameter_mmax" : 5.0,
+							"parameter_mmin" : 0.2,
 							"parameter_shortname" : "Q",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
-							"parameter_mmin" : 0.2,
-							"parameter_longname" : "slider.q"
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -1104,7 +1105,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 705.0, 480.0, 379.0, 151.5 ],
-					"setfilter" : [ 0, 1, 1, 0, 0, 1000.0, 17.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 9, 1, 0, 0, 1000.0, 17.0, 2.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -1272,19 +1273,20 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-6",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 225.0, 570.0, 438.0, 23.0 ],
+					"patching_rect" : [ 225.0, 570.0, 379.0, 38.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 1,
 						"formantcorrection" : 0,
-						"loopend" : [ 2000.0, "ms" ],
+						"loopend" : [ 0.0, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
-						"originallength" : [ 0.0, "ticks" ],
+						"originallength" : [ 1950.018954271674147, "ticks" ],
 						"originaltempo" : 119.999999999999986,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
@@ -1292,7 +1294,7 @@
 						"timestretch" : [ 1 ]
 					}
 ,
-					"text" : "groove~ #1 2 @loop 1 @followglobaltempo 1 @timestretch 1 @mode 1 "
+					"text" : "groove~ #1 2 @loop 1 @followglobaltempo 1 @timestretch 1 @mode basic "
 				}
 
 			}
@@ -2020,7 +2022,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"midpoints" : [ 444.0, 615.146341383457184, 414.5, 615.146341383457184 ],
+					"midpoints" : [ 414.5, 615.146341383457184, 414.5, 615.146341383457184 ],
 					"source" : [ "obj-6", 1 ]
 				}
 
@@ -2233,8 +2235,6 @@
 				"name" : "Concerto 2",
 				"default" : 				{
 					"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -2245,10 +2245,12 @@
 						"autogradient" : 0.0
 					}
 ,
-					"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
+					"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -160,7 +160,7 @@ Réessayer, j'imagine.
 
 ### Défis pour la prochaine semaine
 Commencer l'interface web et aider à l'installation physique du projet selon les recommendations qu'on nous a donnés
----
+
 ## Semaine 4 (20 au 26 février)
 ### Résumé des réalisations effectuées
 

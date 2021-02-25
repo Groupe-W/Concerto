@@ -126,28 +126,28 @@ Attaquer la mise en page de notre page de projet
 ---
 ## Semaine 3 (13 au 19 février)
 ### Résumé des réalisations effectuées
-
+J'ai participé aux réunions, autant d'équipe que de commité, et j'ai aidé à l'installation physique du prototype 1
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-
+![danslecoin](medias/danslecoin.jpg)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
 - [ ] Assez
-- [ ] Peu
+- [X] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+J'ai aucunement touché a l'interface web, mais j'ai réfléchi un peu a un concept
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+Réessayer, j'imagine.
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
@@ -159,8 +159,8 @@ Attaquer la mise en page de notre page de projet
 
 
 ### Défis pour la prochaine semaine
+Commencer l'interface web et aider à l'installation physique du projet selon les recommendations qu'on nous a donnés
 
----
 ## Semaine 4 (20 au 26 février)
 ### Résumé des réalisations effectuées
 

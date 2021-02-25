@@ -129,7 +129,7 @@ Le sequencer doit être terminé, l'interface dans OSC doit être utilisable par
 ---
 ## Semaine 3 (13 au 19 février)
 ### Résumé des réalisations effectuées
-
+Ménage de patchers, Sequencer version 1.0, implémentation d'icônes dans l'interface Open Stage Control
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 

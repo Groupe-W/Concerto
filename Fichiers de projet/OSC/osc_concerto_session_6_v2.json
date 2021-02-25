@@ -147,8 +147,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -372,7 +371,7 @@
             "spring": false,
             "doubleTap": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -554,8 +553,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -586,8 +584,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -618,8 +615,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -650,8 +646,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -769,8 +764,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -994,7 +988,7 @@
             "spring": false,
             "doubleTap": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -1176,8 +1170,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -1208,8 +1201,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -1240,8 +1232,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -1272,8 +1263,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -1391,8 +1381,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -1616,7 +1605,7 @@
             "spring": false,
             "doubleTap": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -1798,8 +1787,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -1830,8 +1818,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -1862,8 +1849,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -1894,8 +1880,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -2013,8 +1998,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -2238,7 +2222,7 @@
             "spring": false,
             "doubleTap": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -2420,8 +2404,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -2452,8 +2435,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -2484,8 +2466,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -2516,8 +2497,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -2635,8 +2615,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -2860,7 +2839,7 @@
             "spring": false,
             "doubleTap": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -3042,8 +3021,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -3074,8 +3052,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -3106,8 +3083,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -3138,8 +3114,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -3257,8 +3232,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -3482,7 +3456,7 @@
             "spring": false,
             "doubleTap": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -3664,8 +3638,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -3696,8 +3669,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -3728,8 +3700,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -3760,8 +3731,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -3879,8 +3849,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -4104,7 +4073,7 @@
             "spring": false,
             "doubleTap": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -4286,8 +4255,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -4318,8 +4286,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -4350,8 +4317,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -4382,8 +4348,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -4501,8 +4466,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -4726,7 +4690,7 @@
             "spring": false,
             "doubleTap": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -4908,8 +4872,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -4940,8 +4903,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -4972,8 +4934,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -5004,8 +4965,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -5082,8 +5042,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -5348,7 +5307,7 @@
             "spring": false,
             "doubleTap": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -5530,8 +5489,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -5562,8 +5520,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -5594,8 +5551,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -5626,8 +5582,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -5910,7 +5865,7 @@
             "snap": false,
             "spring": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -6079,8 +6034,7 @@
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "align": "center",
-            "decimals": 2
+            "align": "center"
           },
           {
             "type": "button",
@@ -6152,8 +6106,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -6184,8 +6137,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -6216,8 +6168,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -6248,8 +6199,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -6326,8 +6276,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -6592,7 +6541,7 @@
             "spring": false,
             "doubleTap": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -6774,8 +6723,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -6806,8 +6754,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -6838,8 +6785,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -6870,8 +6816,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -6989,8 +6934,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -7214,7 +7158,7 @@
             "spring": false,
             "doubleTap": false,
             "range": {
-              "min": 1,
+              "min": 0.2,
               "max": 20
             },
             "logScale": false,
@@ -7396,8 +7340,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -7428,8 +7371,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -7460,8 +7402,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "text",
@@ -7492,8 +7433,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           }
         ],
         "tabs": []
@@ -7501,7 +7441,7 @@
       {
         "type": "panel",
         "top": 1130,
-        "left": 410,
+        "left": 429.99999999999994,
         "id": "panel_1",
         "visible": true,
         "interaction": true,
@@ -7570,8 +7510,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "keyboard",
@@ -7612,8 +7551,7 @@
             "typeTags": "",
             "decimals": 2,
             "ignoreDefaults": false,
-            "bypass": false,
-            "velocity": false
+            "bypass": false
           }
         ],
         "tabs": []
@@ -7621,7 +7559,7 @@
       {
         "type": "panel",
         "top": 1130,
-        "left": 0,
+        "left": 20,
         "id": "panel_1",
         "visible": true,
         "interaction": true,
@@ -7690,8 +7628,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "decimals": 2
+            "target": ""
           },
           {
             "type": "button",
@@ -7861,43 +7798,14 @@
         "tabs": []
       },
       {
-        "type": "html",
-        "top": 30,
-        "left": 0,
-        "id": "html_3",
+        "type": "frame",
+        "top": 39.99999999999999,
+        "left": 20,
+        "id": "frame_2",
         "visible": true,
         "interaction": true,
-        "width": 1920,
-        "height": 1080,
-        "expand": "false",
-        "colorText": "auto",
-        "colorWidget": "auto",
-        "colorStroke": "#53d58dc1",
-        "colorFill": "auto",
-        "alphaStroke": 1,
-        "alphaFillOff": "auto",
-        "alphaFillOn": "auto",
-        "lineWidth": "auto",
-        "padding": "auto",
-        "html": "",
-        "css": "",
-        "value": "",
-        "default": "",
-        "linkId": "",
-        "script": "",
-        "address": "auto",
-        "preArgs": "",
-        "target": ""
-      },
-      {
-        "type": "html",
-        "top": 1360,
-        "left": 240,
-        "id": "html_1",
-        "visible": true,
-        "interaction": true,
-        "width": "auto",
-        "height": "auto",
+        "width": 1877.1428571428573,
+        "height": 1037.142857142857,
         "expand": "false",
         "colorText": "auto",
         "colorWidget": "auto",
@@ -7910,7 +7818,7 @@
         "padding": "auto",
         "html": "",
         "css": "",
-        "value": "",
+        "value": " https://obs.ninja/?view=i6B6hBh",
         "default": "",
         "linkId": "",
         "script": "",
@@ -7921,6 +7829,6 @@
     ],
     "tabs": []
   },
-  "version": "1.8.7",
+  "version": "1.6.1",
   "type": "Open Stage Control session"
 }

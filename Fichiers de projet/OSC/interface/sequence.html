@@ -4,51 +4,52 @@
 	<meta charset="UTF-8">
 	<title>Sequence</title>
 	<style type="text/css">
-		* {
-			box-sizing: border-box;
-			margin: 0;
-			padding: 0;
-			color: #eee;
-		}
-		:root {
-			--stg-bpm: 120;
-			--stg-TSN: 4;
-			--stg-TSD: 4;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: #eee;
+}
+:root {
+	--stg-bpm: 120;
+	--stg-TSN: 4;
+	--stg-TSD: 4;
 
-			--seq-len: 64;
+	--seq-len: 64;
 
-			--instrum-color: #409fff;
-			--instrum-octvOfst: 0;
+	--instrum-color: #409fff;
+	--instrum-octvOfst: 0;
 
-			--note-width: 50px;
-			--note-height: 2.778%;
-		}
-		body {
-			width: 100vw;
-			height: 100vh;
-			background: #333;
-		}
-		input {
-			color: black;
-		}
+	--note-width: 50px;
+	--note-height: 2.778%;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	background: #333;
+}
+input {
+	color: black;
+}
 /*---------------------------------------------*/
 
-		#sequence, #sequence>div {
-			width: 100%;
-			height: 100%;
-			position: relative;
-		}
-		#track {
-			background-image: url("sequencer_bg_basic16-1.svg");
-		}
-		.note {
-			width: var(--note-width);
-			height: var(--note-height);
-			border: 2px solid #00FE3F;
-			position: absolute;
-			background-color: rgba(0, 254, 63, .5);
-			transition: width .5s linear;
-		}
+.sequence, .sequence>div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+#track {
+	background-image: url("sequencer_bg_basic16-1.svg");
+}
+.note {
+	width: var(--note-width);
+	height: var(--note-height);
+	border: 2px solid #00FE3F;
+	position: absolute;
+	background-color: rgba(0, 254, 63, .5);
+	transition: width .5s linear;
+}
 	</style>
 	<script type="text/javascript">
 		let root = document.documentElement;
@@ -61,7 +62,7 @@
 		let listPit, listVel, listDur, listElm = [];
 		
 		function start() {
-			meloDiv = document.getElementById("melody");
+			meloDiv = document.getElementsByClassName("melody")[0];
 
 			loadMelody(listPit, listVel, listDur);
 			console.log(listPit, listVel, listDur, listPit.length);
@@ -86,17 +87,17 @@
 			note.update(pit, vel, dur);
 		}
 		function uIRegNote() {
-			form = document.getElementById("form");
+			form = document.getElementsByClassName("form")[0];
 			iptPos = form.children[0].value;
 			iptPit = form.children[1].value;
 			iptVel = form.children[2].value;
 			iptDur = form.children[3].value;
 			
-			console.log("User requested a note registration",
+			/*console.log("User requested a note registration",
 									"at postion "+ iptPos,
 									"with pitch "+ iptPit,
 									"with velocity "+ iptVel,
-									"with duration "+ iptDur);
+									"with duration "+ iptDur);*/
 			regNote(iptPos,iptPit,iptVel,iptDur);
 		}
 
@@ -145,31 +146,25 @@
 
 			this.remove = function() {
 				meloDiv.removeChild(this.div);
-				// for (let i = 0; i < Object.keys(this).length; i++) {
-				// 	if (Object.keys(this) != "delete") {
-				// 		delete this[Object.keys(this)[i]];
-				// 	}
-				// }
 			}
 			this.update();
 		}
 	</script>
 </head>
 <body onload="start();">
-	<div id="form">
-		<input type="number" id="idx" value="0">
-		<input type="number" id="pit" value="48" min="36" max="72">
-		<input type="number" id="vel" value="63" min="0" max="127">
-		<input type="number" id="dur" value="4" min="0">
-		<input type="submit" value="Register" onclick="uIRegNote()">
-	</div>
-	<div id="sequence">
-		<!-- <div id="track">
+<div class="form">
+	<input type="number" class="ipt idx" value="0">
+	<input type="number" class="ipt pit" value="48" min="36" max="72">
+	<input type="number" class="ipt vel" value="63" min="0" max="127">
+	<input type="number" class="ipt dur" value="4" min="0">
+	<input type="submit" value="Register" onclick="uIRegNote()">
+</div>
+<div class="sequence">
+	<!-- <div class="track">
 
-		</div> -->
-		<div id="melody">
-
-		</div>
+	</div> -->
+	<div class="melody">
 	</div>
+</div>
 </body>
 </html>

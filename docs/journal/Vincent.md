@@ -132,7 +132,7 @@ Le sequencer doit être terminé, l'interface dans OSC doit être utilisable par
 Ménage de patchers, Sequencer version 1.0, implémentation d'icônes dans l'interface Open Stage Control
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-![La version 1.0 du Sequencer est terminée!](medias/journal_vincent_S3a.png)
+![La version 1.0 du Sequencer est terminée!](medias/journal_vincent_S3a.png)<br>
 ![icones dans Open Stage Control](medias/journal_vincent_S3b.gif)
 ![icones dans Open Stage Control](medias/journal_vincent_S3c.gif)
 
@@ -171,15 +171,15 @@ Ménage massif de patchers, intégration du Sequencer au patcher principal, inte
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 Patcher Beat avant<br>
-![Patcher Beat avant](medias/journal_vincent_S4a.png)
+![Patcher Beat avant](medias/journal_vincent_S4a.png)<br>
 Patcher Beat après<br>
-![Patcher Beat après](medias/journal_vincent_S4b.png)
+![Patcher Beat après](medias/journal_vincent_S4b.png)<br>
 Sous-Patcher Capsules avant<br>
-![Sous-Patcher Capsules avant](medias/journal_vincent_S4c.png)
+![Sous-Patcher Capsules avant](medias/journal_vincent_S4c.png)<br>
 Sous-Patcher Capsules après<br>
-![Sous-Patcher Capsules après](medias/journal_vincent_S4d.png)
+![Sous-Patcher Capsules après](medias/journal_vincent_S4d.png)<br>
 Interface dev temporaire<br>
-![Interface dev temporaire](medias/journal_vincent_S4e.png)
+![Interface dev temporaire](medias/journal_vincent_S4e.png)<br>
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 

@@ -138,7 +138,7 @@ J'ai completé mon robot, et notre équipe a travaillé sur notre instalation.
  Mon robot est construit
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-![Robot2](medias/robot2.png)
+![Robot](medias/Robot.png)
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
@@ -161,7 +161,7 @@ Continué de travaillé sur l'instaltion quand nous aurobs nos pieces manquantes
 Nous avons continué de travailler sur notre instalation et j'ai produit un second robot
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-![Robot](medias/Robot.png)
+![Robot2](medias/robot2.png)
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?

@@ -138,7 +138,7 @@ J'ai completé mon robot, et notre équipe a travaillé sur notre instalation.
  Mon robot est construit
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-![Robot](medias/Robot.png)
+![Robot2](medias/robot2.png)
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
@@ -158,21 +158,21 @@ Continué de travaillé sur l'instaltion quand nous aurobs nos pieces manquantes
 ---
 ## Semaine 4 (20 au 26 février)
 ### Résumé des réalisations effectuées
-
+Nous avons continué de travailler sur notre instalation et j'ai produit un second robot
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
+![Robot](medias/Robot.png)
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ Il nous manque encore certaine pieces.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
@@ -180,18 +180,18 @@ Continué de travaillé sur l'instaltion quand nous aurobs nos pieces manquantes
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
 - [ ] Complètement
-- [ ] Assez
+- [X] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+nous attandons nencore les pieces manquantes
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
 
 ### Défis pour la prochaine semaine
-
+m'assuré que la lumierre est bien utilisé dans notre projet
 ---
 ## Semaine de rattrapage (27 février au 5 mars)
 ### Résumé des réalisations effectuées

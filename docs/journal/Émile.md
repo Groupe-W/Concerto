@@ -166,39 +166,40 @@ Présentation du prototype
 ---
 ## Semaine 4 (20 au 26 février)
 ### Résumé des réalisations effectuées
-
+Installation dans le grand studio (système de son, projecteur, repositionnement de la scène, positionnement des spots...), correction d'erreurs dans le patcher Max et l'interface OSC, création de la bannière et de la vignette du site web, écriture du journal d'équipe et début de la construction du robot
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-
+<img src="https://github.com/Groupe-W/Concerto/blob/main/docs/journal/medias/robot.jpg" width="80%">
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+Tout nos éléments sont opérationnel dans le grand studio, la construction des robots est presque fini et la partie interface avance bien
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+NA
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+NA
 
 ### Défis pour la prochaine semaine
+Finaliser l'installation et le positionnement de nos équipements dans le grand studio, continuer de travailler sur l'interface web et finir mon robot
 
 ---
 ## Semaine de rattrapage (27 février au 5 mars)

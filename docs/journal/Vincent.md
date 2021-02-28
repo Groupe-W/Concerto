@@ -52,7 +52,7 @@ Il faudra savoir quelles nouvelles fonctionnalités il y aurait à intégrer id�
 Je suis désormais capable d'enregistrer, charger, et jouer une séquence de notes selon leur valeur midi, la vélocité, la duration et le "pan", suivant le rythme selon le bpm, la signature temporelle et la longeur du loop.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-![Max joue des notes selon une séquence](medias/journal_Vincent_S1a.png)
+![Max joue des notes selon une séquence](medias/journal_vincent_S1a.png)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
@@ -132,74 +132,82 @@ Le sequencer doit être terminé, l'interface dans OSC doit être utilisable par
 Ménage de patchers, Sequencer version 1.0, implémentation d'icônes dans l'interface Open Stage Control
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
-
+![La version 1.0 du Sequencer est terminée!](medias/journal_vincent_S3a.png)<br>
+![icones dans Open Stage Control](medias/journal_vincent_S3b.gif)
+![icones dans Open Stage Control](medias/journal_vincent_S3c.gif)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+Le Sequencer v1.0 est complété, toutes les fonctions sont utilisables, mais uniquement par le développeur.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+Il faut que je construise une interface sur OpStCo ou au minimum une interface dev sur Max
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+Le Sequencer n'est pas utilisable par l'UI OpStCo
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+C'est un problème qui devra attendre, il doit être construit et intégré avec le reste de l'interface.
 
 ### Défis pour la prochaine semaine
-
+Il faut combiner le sequencer avec le patcher principal et lui donne une interface lisible et utilisable.  
 ---
 ## Semaine 4 (20 au 26 février)
 ### Résumé des réalisations effectuées
-
+Ménage massif de patchers, intégration du Sequencer au patcher principal, interface dev temporaire du Sequencer, apprentissage de scripts sur Open Stage Control
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
-
+Patcher Beat avant<br>
+![Patcher Beat avant](medias/journal_vincent_S4a.png)<br>
+Patcher Beat après<br>
+![Patcher Beat après](medias/journal_vincent_S4b.png)<br>
+Sous-Patcher Capsules avant<br>
+![Sous-Patcher Capsules avant](medias/journal_vincent_S4c.png)<br>
+Sous-Patcher Capsules après<br>
+![Sous-Patcher Capsules après](medias/journal_vincent_S4d.png)<br>
+Interface dev temporaire<br>
+![Interface dev temporaire](medias/journal_vincent_S4e.png)<br>
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+J'ai entièrement fais le ménage et optimisation des patchers qui étaient déjà intégrés, construit et intégré une interface de base pour le Sequencer.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+La séquence n'est toujours pas visible par l'utilisateur comme je l'imaginais, on peut voir la hauteur, la vélocité et la durée de chaque note, mais uniquement séparément. On doit pouvoir voir les notes avec l'opacité réfétant la vélocité et la longueur réflétant la durée.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+J'ai commencé à étudier les solutions possible et les ressources nécessaires (temps et effort) associées.
 
 ### Défis pour la prochaine semaine
-
+Trouver la solution idéale pour afficher à l'utilisateur sa séquence sur Open Stage Control
 ---
 ## Semaine de rattrapage (27 février au 5 mars)
 ### Résumé des réalisations effectuées

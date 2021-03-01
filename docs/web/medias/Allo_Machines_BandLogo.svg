@@ -45,20 +45,19 @@
 		<rect x="15" y="27" width="28" height="188" fill="url(#grad1)"/>
 		<rect x="50" y="27" width="28" height="188" fill="url(#grad2)"/>
 		<rect x="85" y="27" width="28" height="188" fill="url(#grad3)"/>
-		<rect x="141" y="27" width="28" height="188" fill="url(#grad4)"/>
-		<rect x="176" y="27" width="28" height="188" fill="url(#grad5)"/>
-		<rect x="211" y="27" width="28" height="188" fill="url(#grad6)"/>
+		<rect x="143" y="27" width="28" height="188" fill="url(#grad4)"/>
+		<rect x="178" y="27" width="28" height="188" fill="url(#grad5)"/>
+		<rect x="213" y="27" width="28" height="188" fill="url(#grad6)"/>
 	</g>
 	
 	<g fill="url(#gradTri)">
-		<!-- <polygon points="0,0 0,4.5 128,180 256,4.5 256,0" /> -->
-		<polygon points="15,25 128,177 241,25" />
-		<!-- <polygon points="16,0 128,168 240,0" /> -->
-		<!-- <polygon points="37,0 128,144 219,0" /> -->
-		<!-- <polygon points="58,0 128,120 198,0" /> -->
+		<polygon points="0,0 0,6.823 128,179 256,6.823 256,0" />
+		<polygon points="10,0 128,159 246,0" />
+		<polygon points="25,0 128,139 231,0" />
+		<polygon points="40,0 128,119 216,0" />
 	</g>
 	<g font-family="Oslo" font-size="10" textLength="20" fill="#fafada">
-		<text x="72" y="16" textLength="112" >allo_machines</text>
+		<text x="60" y="16" textLength="136" >Allo_Machines</text>
 		<text x="68" y="240" textLength="120" font-size="12">Concerto</text>
 	</g>
 </svg>

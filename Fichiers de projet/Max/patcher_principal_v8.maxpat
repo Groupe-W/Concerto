@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -18245.0, -18203.0, 2129.0, 1330.0 ],
+		"rect" : [ 41.0, 84.0, 2493.0, 1330.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "Concerto 2",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-43",
@@ -72,10 +73,10 @@
 					"patching_rect" : [ 300.0, 570.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 1,
 							"parameter_longname" : "live.dial",
-							"parameter_shortname" : "live.dial"
+							"parameter_shortname" : "live.dial",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
 						}
 
 					}
@@ -144,7 +145,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -177,6 +178,7 @@
 						"tags" : "",
 						"style" : "Concerto 2",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -215,7 +217,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -248,6 +250,7 @@
 										"tags" : "",
 										"style" : "Concerto 2",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "snapshot 1 internal cloc",
@@ -702,12 +705,12 @@
 												"name" : "Concerto 2",
 												"default" : 												{
 													"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-													"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-													"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
-													"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-													"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 													"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-													"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ]
+													"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
+													"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
+													"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+													"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+													"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -871,7 +874,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -904,6 +907,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-11",
@@ -1210,12 +1214,12 @@
 								"name" : "Concerto 2",
 								"default" : 								{
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-									"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ]
+									"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
+									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1335,8 +1339,9 @@
 				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 90.0, 1065.0, 245.0, 22.0 ],
 					"text" : "jit.gl.spoutsender sv @sendername sv-spout"
 				}
@@ -1414,7 +1419,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1447,6 +1452,7 @@
 						"tags" : "",
 						"style" : "Concerto 2",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-150",
@@ -1618,11 +1624,11 @@
 								"name" : "Concerto 2",
 								"default" : 								{
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ]
+									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1692,7 +1698,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1725,6 +1731,7 @@
 						"tags" : "",
 						"style" : "Concerto 2",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "StoS snapshot~ 1 internal clock",
@@ -1763,7 +1770,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1796,6 +1803,7 @@
 										"tags" : "",
 										"style" : "Concerto 2",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "snapshot 1 internal cloc",
@@ -2250,12 +2258,12 @@
 												"name" : "Concerto 2",
 												"default" : 												{
 													"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-													"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-													"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
-													"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-													"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 													"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-													"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ]
+													"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
+													"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
+													"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+													"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+													"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2419,7 +2427,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2452,6 +2460,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-11",
@@ -2779,12 +2788,12 @@
 								"name" : "Concerto 2",
 								"default" : 								{
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-									"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ]
+									"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
+									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2819,7 +2828,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2852,6 +2861,7 @@
 						"tags" : "",
 						"style" : "Concerto 2",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-150",
@@ -3023,11 +3033,11 @@
 								"name" : "Concerto 2",
 								"default" : 								{
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ]
+									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3074,7 +3084,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3107,6 +3117,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -3561,11 +3572,11 @@
 								"name" : "Concerto 2",
 								"default" : 								{
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ]
+									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3598,7 +3609,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3631,6 +3642,7 @@
 						"tags" : "",
 						"style" : "Concerto 2",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "snapshot 1 internal cloc",
@@ -4085,12 +4097,12 @@
 								"name" : "Concerto 2",
 								"default" : 								{
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-									"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ]
+									"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
+									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4228,7 +4240,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4261,6 +4273,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-11",
@@ -4575,13 +4588,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "jit.gen",
-						"rect" : [ -31958.0, -31915.0, 600.0, 450.0 ],
+						"rect" : [ 41.0, 84.0, 600.0, 450.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4608,6 +4621,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-11",
@@ -4786,7 +4800,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "" ],
+					"outlettype" : [ "jit_gl_texture", "bang", "" ],
 					"patching_rect" : [ 90.0, 1028.0, 812.0, 22.0 ],
 					"style" : "Concerto 2",
 					"text" : "jit.world sv @fsaa 1 @size 320 240 @windowposition 3000 50 @floating 1 @erase_color 0 0 0 1 @fsmenubar 0 @fps 120 @sync 1 @output_texture 1"
@@ -4830,7 +4844,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4863,6 +4877,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -5110,7 +5125,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5143,6 +5158,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -5404,13 +5420,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ -21292.0, -21249.0, 2493.0, 1330.0 ],
+						"rect" : [ 41.0, 84.0, 2493.0, 1330.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5437,6 +5453,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -5792,7 +5809,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5825,6 +5842,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -7189,7 +7207,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 2,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7222,6 +7240,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-10",
@@ -7230,7 +7249,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 15.0, 570.0, 46.0, 36.0 ],
-													"text" : "-8 -19"
+													"text" : "-120"
 												}
 
 											}
@@ -8757,12 +8776,12 @@
 								"name" : "Concerto 2",
 								"default" : 								{
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-									"locked_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"locked_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -8779,8 +8798,21 @@
 							}
 , 							{
 								"name" : "afxyellow",
+								"tab" : 								{
+									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
+									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
+									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
+								}
+,
+								"comment" : 								{
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
+									"fontsize" : [ 24.0 ],
+									"fontname" : [ "Arial" ]
+								}
+,
 								"message" : 								{
 									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
+									"fontsize" : [ 30.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -8791,25 +8823,12 @@
 										"autogradient" : 0.79
 									}
 ,
-									"fontsize" : [ 30.0 ],
 									"fontname" : [ "Arial" ]
-								}
-,
-								"tab" : 								{
-									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ],
-									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ]
 								}
 ,
 								"multislider" : 								{
 									"color" : [ 1.0, 0.818637, 0.0, 1.0 ],
 									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ]
-								}
-,
-								"comment" : 								{
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontsize" : [ 24.0 ],
-									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -8846,12 +8865,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontsize" : [ 14.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9003,12 +9022,12 @@
 					"patching_rect" : [ 45.0, 600.0, 124.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0,
 							"parameter_longname" : "live.gain~[14]",
 							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "live.gain~"
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -9042,7 +9061,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9075,6 +9094,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -9139,12 +9159,12 @@
 									"patching_rect" : [ 540.0, 735.0, 136.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 4,
-											"parameter_mmin" : -70.0,
 											"parameter_longname" : "live.gain~[12]",
 											"parameter_mmax" : 30.0,
-											"parameter_shortname" : "live.gain~"
+											"parameter_mmin" : -70.0,
+											"parameter_shortname" : "live.gain~",
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 4
 										}
 
 									}
@@ -9389,12 +9409,12 @@
 									"patching_rect" : [ 60.0, 735.0, 136.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 4,
-											"parameter_mmin" : -70.0,
 											"parameter_longname" : "live.gain~[13]",
 											"parameter_mmax" : 30.0,
-											"parameter_shortname" : "live.gain~"
+											"parameter_mmin" : -70.0,
+											"parameter_shortname" : "live.gain~",
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 4
 										}
 
 									}
@@ -10555,13 +10575,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 35.0, 83.0, 1213.0, 1077.0 ],
+						"rect" : [ 874.0, 265.0, 1213.0, 1077.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -10588,7 +10608,7 @@
 						"tags" : "",
 						"style" : "Concerto 2",
 						"subpatcher_template" : "",
-						"visible" : 1,
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -10639,12 +10659,12 @@
 									"patching_rect" : [ 225.0, 1005.0, 199.0, 47.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_unitstyle" : 4,
-											"parameter_mmin" : -70.0,
 											"parameter_longname" : "live.gain~",
 											"parameter_mmax" : 6.0,
-											"parameter_shortname" : "live.gain~"
+											"parameter_mmin" : -70.0,
+											"parameter_shortname" : "live.gain~",
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 4
 										}
 
 									}
@@ -11257,6 +11277,10 @@
 								"name" : "Concerto 2",
 								"default" : 								{
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
+									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.2, 0.2, 0.2, 1.0 ],
@@ -11267,12 +11291,8 @@
 										"autogradient" : 0.0
 									}
 ,
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
-									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -12000,7 +12020,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 2 ],
+					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -12209,97 +12229,132 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-22::obj-258" : [ "slider.dur[7]", "Durée", 0 ],
-			"obj-1::obj-27::obj-259" : [ "slider.mode[11]", "Mode", 0 ],
-			"obj-1::obj-19::obj-259" : [ "slider.mode[5]", "Mode", 0 ],
-			"obj-1::obj-24::obj-258" : [ "slider.dur[9]", "Durée", 0 ],
-			"obj-1::obj-14::obj-9" : [ "live.gain~[39]", "live.gain~[37]", 0 ],
-			"obj-1::obj-17::obj-259" : [ "slider.mode[3]", "Mode", 0 ],
-			"obj-8::obj-149" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-1::obj-21::obj-258" : [ "slider.dur[6]", "Durée", 0 ],
-			"obj-1::obj-26::obj-9" : [ "live.gain~[45]", "live.gain~[37]", 0 ],
-			"obj-1::obj-18::obj-1" : [ "dial.spd[4]", "Hauteur", 0 ],
-			"obj-1::obj-23::obj-233" : [ "slider.q[8]", "Q", 0 ],
-			"obj-39" : [ "live.dial", "live.dial", 0 ],
-			"obj-1::obj-16::obj-233" : [ "slider.q[2]", "Q", 0 ],
-			"obj-1::obj-5::obj-233" : [ "slider.q", "Q", 0 ],
-			"obj-1::obj-19::obj-1" : [ "dial.spd[5]", "Hauteur", 0 ],
-			"obj-1::obj-24::obj-233" : [ "slider.q[9]", "Q", 0 ],
-			"obj-20::obj-8" : [ "live.gain~[12]", "live.gain~", 0 ],
-			"obj-1::obj-27::obj-9" : [ "live.gain~[35]", "live.gain~[37]", 0 ],
-			"obj-1::obj-17::obj-258" : [ "slider.dur[3]", "Durée", 0 ],
-			"obj-1::obj-14::obj-258" : [ "slider.dur[1]", "Durée", 0 ],
-			"obj-1::obj-21::obj-9" : [ "live.gain~[42]", "live.gain~[37]", 0 ],
-			"obj-1::obj-14::obj-259" : [ "slider.mode[27]", "Mode", 0 ],
-			"obj-1::obj-18::obj-259" : [ "slider.mode[4]", "Mode", 0 ],
-			"obj-1::obj-23::obj-9" : [ "live.gain~[47]", "live.gain~[37]", 0 ],
-			"obj-1::obj-26::obj-259" : [ "slider.mode[10]", "Mode", 0 ],
-			"obj-1::obj-16::obj-1" : [ "dial.spd[2]", "Hauteur", 0 ],
-			"obj-1::obj-19::obj-258" : [ "slider.dur[5]", "Durée", 0 ],
-			"obj-1::obj-22::obj-259" : [ "slider.mode[7]", "Mode", 0 ],
-			"obj-1::obj-27::obj-1" : [ "dial.spd[11]", "Hauteur", 0 ],
-			"obj-1::obj-24::obj-259" : [ "slider.mode[9]", "Mode", 0 ],
-			"obj-1::obj-17::obj-9" : [ "live.gain~[38]", "live.gain~[37]", 0 ],
-			"obj-1::obj-18::obj-233" : [ "slider.q[4]", "Q", 0 ],
-			"obj-1::obj-21::obj-233" : [ "slider.q[6]", "Q", 0 ],
-			"obj-1::obj-26::obj-1" : [ "dial.spd[10]", "Hauteur", 0 ],
-			"obj-1::obj-23::obj-258" : [ "slider.dur[8]", "Durée", 0 ],
-			"obj-1::obj-16::obj-9" : [ "live.gain~[40]", "live.gain~[37]", 0 ],
-			"obj-92" : [ "live.gain~[14]", "live.gain~", 0 ],
-			"obj-1::obj-22::obj-1" : [ "dial.spd[7]", "Hauteur", 0 ],
-			"obj-1::obj-27::obj-233" : [ "slider.q[11]", "Q", 0 ],
-			"obj-1::obj-19::obj-9" : [ "live.gain~[43]", "live.gain~[37]", 0 ],
-			"obj-1::obj-24::obj-9" : [ "live.gain~[46]", "live.gain~[37]", 0 ],
-			"obj-1::obj-5::obj-1" : [ "dial.spd", "Hauteur", 0 ],
-			"obj-1::obj-14::obj-233" : [ "slider.q[1]", "Q", 0 ],
-			"obj-1::obj-17::obj-1" : [ "dial.spd[3]", "Hauteur", 0 ],
-			"obj-1::obj-21::obj-259" : [ "slider.mode[6]", "Mode", 0 ],
-			"obj-1::obj-26::obj-233" : [ "slider.q[10]", "Q", 0 ],
-			"obj-1::obj-5::obj-9" : [ "live.gain~[37]", "live.gain~[37]", 0 ],
-			"obj-1::obj-5::obj-259" : [ "slider.mode", "Mode", 0 ],
-			"obj-1::obj-18::obj-9" : [ "live.gain~[44]", "live.gain~[37]", 0 ],
-			"obj-1::obj-23::obj-1" : [ "dial.spd[8]", "Hauteur", 0 ],
-			"obj-1::obj-32" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-1::obj-5::obj-258" : [ "slider.dur", "Durée", 0 ],
-			"obj-1::obj-16::obj-259" : [ "slider.mode[2]", "Mode", 0 ],
-			"obj-1::obj-19::obj-233" : [ "slider.q[5]", "Q", 0 ],
-			"obj-1::obj-24::obj-1" : [ "dial.spd[9]", "Hauteur", 0 ],
-			"obj-1::obj-22::obj-9" : [ "live.gain~[41]", "live.gain~[37]", 0 ],
-			"obj-1::obj-27::obj-258" : [ "slider.dur[11]", "Durée", 0 ],
-			"obj-1::obj-17::obj-233" : [ "slider.q[3]", "Q", 0 ],
 			"obj-1::obj-14::obj-1" : [ "dial.spd[1]", "Hauteur", 0 ],
-			"obj-1::obj-18::obj-258" : [ "slider.dur[4]", "Durée", 0 ],
-			"obj-1::obj-23::obj-259" : [ "slider.mode[8]", "Mode", 0 ],
-			"obj-1::obj-21::obj-1" : [ "dial.spd[6]", "Hauteur", 0 ],
-			"obj-1::obj-26::obj-258" : [ "slider.dur[10]", "Durée", 0 ],
-			"obj-1::obj-22::obj-233" : [ "slider.q[7]", "Q", 0 ],
-			"obj-20::obj-151" : [ "live.gain~[13]", "live.gain~", 0 ],
+			"obj-1::obj-14::obj-233" : [ "slider.q[1]", "Q", 0 ],
+			"obj-1::obj-14::obj-258" : [ "slider.dur[1]", "Durée", 0 ],
+			"obj-1::obj-14::obj-259" : [ "slider.mode[27]", "Mode", 0 ],
+			"obj-1::obj-14::obj-9" : [ "live.gain~[39]", "live.gain~[37]", 0 ],
+			"obj-1::obj-16::obj-1" : [ "dial.spd[2]", "Hauteur", 0 ],
+			"obj-1::obj-16::obj-233" : [ "slider.q[2]", "Q", 0 ],
 			"obj-1::obj-16::obj-258" : [ "slider.dur[2]", "Durée", 0 ],
+			"obj-1::obj-16::obj-259" : [ "slider.mode[2]", "Mode", 0 ],
+			"obj-1::obj-16::obj-9" : [ "live.gain~[40]", "live.gain~[37]", 0 ],
+			"obj-1::obj-17::obj-1" : [ "dial.spd[3]", "Hauteur", 0 ],
+			"obj-1::obj-17::obj-233" : [ "slider.q[3]", "Q", 0 ],
+			"obj-1::obj-17::obj-258" : [ "slider.dur[3]", "Durée", 0 ],
+			"obj-1::obj-17::obj-259" : [ "slider.mode[3]", "Mode", 0 ],
+			"obj-1::obj-17::obj-9" : [ "live.gain~[38]", "live.gain~[37]", 0 ],
+			"obj-1::obj-18::obj-1" : [ "dial.spd[4]", "Hauteur", 0 ],
+			"obj-1::obj-18::obj-233" : [ "slider.q[4]", "Q", 0 ],
+			"obj-1::obj-18::obj-258" : [ "slider.dur[4]", "Durée", 0 ],
+			"obj-1::obj-18::obj-259" : [ "slider.mode[4]", "Mode", 0 ],
+			"obj-1::obj-18::obj-9" : [ "live.gain~[44]", "live.gain~[37]", 0 ],
+			"obj-1::obj-19::obj-1" : [ "dial.spd[5]", "Hauteur", 0 ],
+			"obj-1::obj-19::obj-233" : [ "slider.q[5]", "Q", 0 ],
+			"obj-1::obj-19::obj-258" : [ "slider.dur[5]", "Durée", 0 ],
+			"obj-1::obj-19::obj-259" : [ "slider.mode[5]", "Mode", 0 ],
+			"obj-1::obj-19::obj-9" : [ "live.gain~[43]", "live.gain~[37]", 0 ],
+			"obj-1::obj-21::obj-1" : [ "dial.spd[6]", "Hauteur", 0 ],
+			"obj-1::obj-21::obj-233" : [ "slider.q[6]", "Q", 0 ],
+			"obj-1::obj-21::obj-258" : [ "slider.dur[6]", "Durée", 0 ],
+			"obj-1::obj-21::obj-259" : [ "slider.mode[6]", "Mode", 0 ],
+			"obj-1::obj-21::obj-9" : [ "live.gain~[42]", "live.gain~[37]", 0 ],
+			"obj-1::obj-22::obj-1" : [ "dial.spd[7]", "Hauteur", 0 ],
+			"obj-1::obj-22::obj-233" : [ "slider.q[7]", "Q", 0 ],
+			"obj-1::obj-22::obj-258" : [ "slider.dur[7]", "Durée", 0 ],
+			"obj-1::obj-22::obj-259" : [ "slider.mode[7]", "Mode", 0 ],
+			"obj-1::obj-22::obj-9" : [ "live.gain~[41]", "live.gain~[37]", 0 ],
+			"obj-1::obj-23::obj-1" : [ "dial.spd[8]", "Hauteur", 0 ],
+			"obj-1::obj-23::obj-233" : [ "slider.q[8]", "Q", 0 ],
+			"obj-1::obj-23::obj-258" : [ "slider.dur[8]", "Durée", 0 ],
+			"obj-1::obj-23::obj-259" : [ "slider.mode[8]", "Mode", 0 ],
+			"obj-1::obj-23::obj-9" : [ "live.gain~[47]", "live.gain~[37]", 0 ],
+			"obj-1::obj-24::obj-1" : [ "dial.spd[9]", "Hauteur", 0 ],
+			"obj-1::obj-24::obj-233" : [ "slider.q[9]", "Q", 0 ],
+			"obj-1::obj-24::obj-258" : [ "slider.dur[9]", "Durée", 0 ],
+			"obj-1::obj-24::obj-259" : [ "slider.mode[9]", "Mode", 0 ],
+			"obj-1::obj-24::obj-9" : [ "live.gain~[46]", "live.gain~[37]", 0 ],
+			"obj-1::obj-26::obj-1" : [ "dial.spd[10]", "Hauteur", 0 ],
+			"obj-1::obj-26::obj-233" : [ "slider.q[10]", "Q", 0 ],
+			"obj-1::obj-26::obj-258" : [ "slider.dur[10]", "Durée", 0 ],
+			"obj-1::obj-26::obj-259" : [ "slider.mode[10]", "Mode", 0 ],
+			"obj-1::obj-26::obj-9" : [ "live.gain~[45]", "live.gain~[37]", 0 ],
+			"obj-1::obj-27::obj-1" : [ "dial.spd[11]", "Hauteur", 0 ],
+			"obj-1::obj-27::obj-233" : [ "slider.q[11]", "Q", 0 ],
+			"obj-1::obj-27::obj-258" : [ "slider.dur[11]", "Durée", 0 ],
+			"obj-1::obj-27::obj-259" : [ "slider.mode[11]", "Mode", 0 ],
+			"obj-1::obj-27::obj-9" : [ "live.gain~[35]", "live.gain~[37]", 0 ],
+			"obj-1::obj-32" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-1::obj-5::obj-1" : [ "dial.spd", "Hauteur", 0 ],
+			"obj-1::obj-5::obj-233" : [ "slider.q", "Q", 0 ],
+			"obj-1::obj-5::obj-258" : [ "slider.dur", "Durée", 0 ],
+			"obj-1::obj-5::obj-259" : [ "slider.mode", "Mode", 0 ],
+			"obj-1::obj-5::obj-9" : [ "live.gain~[37]", "live.gain~[37]", 0 ],
+			"obj-20::obj-151" : [ "live.gain~[13]", "live.gain~", 0 ],
+			"obj-20::obj-8" : [ "live.gain~[12]", "live.gain~", 0 ],
+			"obj-39" : [ "live.dial", "live.dial", 0 ],
+			"obj-8::obj-149" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-92" : [ "live.gain~[14]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-1::obj-22::obj-258" : 				{
-					"parameter_longname" : "slider.dur[7]"
+				"obj-1::obj-14::obj-1" : 				{
+					"parameter_longname" : "dial.spd[1]",
+					"parameter_shortname" : "Hauteur"
 				}
 ,
-				"obj-1::obj-27::obj-259" : 				{
-					"parameter_longname" : "slider.mode[11]",
-					"parameter_shortname" : "Mode"
+				"obj-1::obj-14::obj-233" : 				{
+					"parameter_longname" : "slider.q[1]"
 				}
 ,
-				"obj-1::obj-19::obj-259" : 				{
-					"parameter_longname" : "slider.mode[5]",
-					"parameter_shortname" : "Mode"
+				"obj-1::obj-14::obj-258" : 				{
+					"parameter_longname" : "slider.dur[1]"
 				}
 ,
-				"obj-1::obj-24::obj-258" : 				{
-					"parameter_longname" : "slider.dur[9]"
+				"obj-1::obj-14::obj-259" : 				{
+					"parameter_longname" : "slider.mode[27]",
+					"parameter_range" : [ 0.2, 20.0 ]
 				}
 ,
 				"obj-1::obj-14::obj-9" : 				{
 					"parameter_longname" : "live.gain~[39]"
+				}
+,
+				"obj-1::obj-16::obj-1" : 				{
+					"parameter_longname" : "dial.spd[2]",
+					"parameter_shortname" : "Hauteur"
+				}
+,
+				"obj-1::obj-16::obj-233" : 				{
+					"parameter_longname" : "slider.q[2]"
+				}
+,
+				"obj-1::obj-16::obj-258" : 				{
+					"parameter_longname" : "slider.dur[2]"
+				}
+,
+				"obj-1::obj-16::obj-259" : 				{
+					"parameter_longname" : "slider.mode[2]",
+					"parameter_shortname" : "Mode"
+				}
+,
+				"obj-1::obj-16::obj-9" : 				{
+					"parameter_longname" : "live.gain~[40]"
+				}
+,
+				"obj-1::obj-17::obj-1" : 				{
+					"parameter_longname" : "dial.spd[3]",
+					"parameter_shortname" : "Hauteur"
+				}
+,
+				"obj-1::obj-17::obj-233" : 				{
+					"parameter_longname" : "slider.q[3]"
+				}
+,
+				"obj-1::obj-17::obj-258" : 				{
+					"parameter_longname" : "slider.dur[3]"
 				}
 ,
 				"obj-1::obj-17::obj-259" : 				{
@@ -12307,16 +12362,8 @@
 					"parameter_shortname" : "Mode"
 				}
 ,
-				"obj-8::obj-149" : 				{
-					"parameter_longname" : "live.gain~[1]"
-				}
-,
-				"obj-1::obj-21::obj-258" : 				{
-					"parameter_longname" : "slider.dur[6]"
-				}
-,
-				"obj-1::obj-26::obj-9" : 				{
-					"parameter_longname" : "live.gain~[45]"
+				"obj-1::obj-17::obj-9" : 				{
+					"parameter_longname" : "live.gain~[38]"
 				}
 ,
 				"obj-1::obj-18::obj-1" : 				{
@@ -12324,12 +12371,180 @@
 					"parameter_shortname" : "Hauteur"
 				}
 ,
+				"obj-1::obj-18::obj-233" : 				{
+					"parameter_longname" : "slider.q[4]"
+				}
+,
+				"obj-1::obj-18::obj-258" : 				{
+					"parameter_longname" : "slider.dur[4]"
+				}
+,
+				"obj-1::obj-18::obj-259" : 				{
+					"parameter_longname" : "slider.mode[4]",
+					"parameter_shortname" : "Mode"
+				}
+,
+				"obj-1::obj-18::obj-9" : 				{
+					"parameter_longname" : "live.gain~[44]"
+				}
+,
+				"obj-1::obj-19::obj-1" : 				{
+					"parameter_longname" : "dial.spd[5]",
+					"parameter_shortname" : "Hauteur"
+				}
+,
+				"obj-1::obj-19::obj-233" : 				{
+					"parameter_longname" : "slider.q[5]"
+				}
+,
+				"obj-1::obj-19::obj-258" : 				{
+					"parameter_longname" : "slider.dur[5]"
+				}
+,
+				"obj-1::obj-19::obj-259" : 				{
+					"parameter_longname" : "slider.mode[5]",
+					"parameter_shortname" : "Mode"
+				}
+,
+				"obj-1::obj-19::obj-9" : 				{
+					"parameter_longname" : "live.gain~[43]"
+				}
+,
+				"obj-1::obj-21::obj-1" : 				{
+					"parameter_longname" : "dial.spd[6]",
+					"parameter_shortname" : "Hauteur"
+				}
+,
+				"obj-1::obj-21::obj-233" : 				{
+					"parameter_longname" : "slider.q[6]"
+				}
+,
+				"obj-1::obj-21::obj-258" : 				{
+					"parameter_longname" : "slider.dur[6]"
+				}
+,
+				"obj-1::obj-21::obj-259" : 				{
+					"parameter_longname" : "slider.mode[6]",
+					"parameter_shortname" : "Mode"
+				}
+,
+				"obj-1::obj-21::obj-9" : 				{
+					"parameter_longname" : "live.gain~[42]"
+				}
+,
+				"obj-1::obj-22::obj-1" : 				{
+					"parameter_longname" : "dial.spd[7]",
+					"parameter_shortname" : "Hauteur"
+				}
+,
+				"obj-1::obj-22::obj-233" : 				{
+					"parameter_longname" : "slider.q[7]"
+				}
+,
+				"obj-1::obj-22::obj-258" : 				{
+					"parameter_longname" : "slider.dur[7]"
+				}
+,
+				"obj-1::obj-22::obj-259" : 				{
+					"parameter_longname" : "slider.mode[7]",
+					"parameter_shortname" : "Mode"
+				}
+,
+				"obj-1::obj-22::obj-9" : 				{
+					"parameter_longname" : "live.gain~[41]"
+				}
+,
+				"obj-1::obj-23::obj-1" : 				{
+					"parameter_longname" : "dial.spd[8]",
+					"parameter_shortname" : "Hauteur"
+				}
+,
 				"obj-1::obj-23::obj-233" : 				{
 					"parameter_longname" : "slider.q[8]"
 				}
 ,
-				"obj-1::obj-16::obj-233" : 				{
-					"parameter_longname" : "slider.q[2]"
+				"obj-1::obj-23::obj-258" : 				{
+					"parameter_longname" : "slider.dur[8]"
+				}
+,
+				"obj-1::obj-23::obj-259" : 				{
+					"parameter_longname" : "slider.mode[8]",
+					"parameter_shortname" : "Mode"
+				}
+,
+				"obj-1::obj-23::obj-9" : 				{
+					"parameter_longname" : "live.gain~[47]"
+				}
+,
+				"obj-1::obj-24::obj-1" : 				{
+					"parameter_longname" : "dial.spd[9]",
+					"parameter_shortname" : "Hauteur"
+				}
+,
+				"obj-1::obj-24::obj-233" : 				{
+					"parameter_longname" : "slider.q[9]"
+				}
+,
+				"obj-1::obj-24::obj-258" : 				{
+					"parameter_longname" : "slider.dur[9]"
+				}
+,
+				"obj-1::obj-24::obj-259" : 				{
+					"parameter_longname" : "slider.mode[9]",
+					"parameter_shortname" : "Mode"
+				}
+,
+				"obj-1::obj-24::obj-9" : 				{
+					"parameter_longname" : "live.gain~[46]"
+				}
+,
+				"obj-1::obj-26::obj-1" : 				{
+					"parameter_longname" : "dial.spd[10]",
+					"parameter_shortname" : "Hauteur"
+				}
+,
+				"obj-1::obj-26::obj-233" : 				{
+					"parameter_longname" : "slider.q[10]"
+				}
+,
+				"obj-1::obj-26::obj-258" : 				{
+					"parameter_longname" : "slider.dur[10]"
+				}
+,
+				"obj-1::obj-26::obj-259" : 				{
+					"parameter_longname" : "slider.mode[10]",
+					"parameter_shortname" : "Mode"
+				}
+,
+				"obj-1::obj-26::obj-9" : 				{
+					"parameter_longname" : "live.gain~[45]"
+				}
+,
+				"obj-1::obj-27::obj-1" : 				{
+					"parameter_longname" : "dial.spd[11]",
+					"parameter_shortname" : "Hauteur"
+				}
+,
+				"obj-1::obj-27::obj-233" : 				{
+					"parameter_longname" : "slider.q[11]"
+				}
+,
+				"obj-1::obj-27::obj-258" : 				{
+					"parameter_longname" : "slider.dur[11]"
+				}
+,
+				"obj-1::obj-27::obj-259" : 				{
+					"parameter_longname" : "slider.mode[11]",
+					"parameter_shortname" : "Mode"
+				}
+,
+				"obj-1::obj-27::obj-9" : 				{
+					"parameter_longname" : "live.gain~[35]"
+				}
+,
+				"obj-1::obj-5::obj-1" : 				{
+					"parameter_longname" : "dial.spd",
+					"parameter_shortname" : "Hauteur"
 				}
 ,
 				"obj-1::obj-5::obj-233" : 				{
@@ -12342,142 +12557,14 @@
 					"parameter_unitstyle" : 1
 				}
 ,
-				"obj-1::obj-19::obj-1" : 				{
-					"parameter_longname" : "dial.spd[5]",
-					"parameter_shortname" : "Hauteur"
-				}
-,
-				"obj-1::obj-24::obj-233" : 				{
-					"parameter_longname" : "slider.q[9]"
-				}
-,
-				"obj-1::obj-27::obj-9" : 				{
-					"parameter_longname" : "live.gain~[35]"
-				}
-,
-				"obj-1::obj-17::obj-258" : 				{
-					"parameter_longname" : "slider.dur[3]"
-				}
-,
-				"obj-1::obj-14::obj-258" : 				{
-					"parameter_longname" : "slider.dur[1]"
-				}
-,
-				"obj-1::obj-21::obj-9" : 				{
-					"parameter_longname" : "live.gain~[42]"
-				}
-,
-				"obj-1::obj-14::obj-259" : 				{
-					"parameter_longname" : "slider.mode[27]"
-				}
-,
-				"obj-1::obj-18::obj-259" : 				{
-					"parameter_longname" : "slider.mode[4]",
-					"parameter_shortname" : "Mode"
-				}
-,
-				"obj-1::obj-23::obj-9" : 				{
-					"parameter_longname" : "live.gain~[47]"
-				}
-,
-				"obj-1::obj-26::obj-259" : 				{
-					"parameter_longname" : "slider.mode[10]",
-					"parameter_shortname" : "Mode"
-				}
-,
-				"obj-1::obj-16::obj-1" : 				{
-					"parameter_longname" : "dial.spd[2]",
-					"parameter_shortname" : "Hauteur"
-				}
-,
-				"obj-1::obj-19::obj-258" : 				{
-					"parameter_longname" : "slider.dur[5]"
-				}
-,
-				"obj-1::obj-22::obj-259" : 				{
-					"parameter_longname" : "slider.mode[7]",
-					"parameter_shortname" : "Mode"
-				}
-,
-				"obj-1::obj-27::obj-1" : 				{
-					"parameter_longname" : "dial.spd[11]",
-					"parameter_shortname" : "Hauteur"
-				}
-,
-				"obj-1::obj-24::obj-259" : 				{
-					"parameter_longname" : "slider.mode[9]",
-					"parameter_shortname" : "Mode"
-				}
-,
-				"obj-1::obj-17::obj-9" : 				{
-					"parameter_longname" : "live.gain~[38]"
-				}
-,
-				"obj-1::obj-18::obj-233" : 				{
-					"parameter_longname" : "slider.q[4]"
-				}
-,
-				"obj-1::obj-21::obj-233" : 				{
-					"parameter_longname" : "slider.q[6]"
-				}
-,
-				"obj-1::obj-26::obj-1" : 				{
-					"parameter_longname" : "dial.spd[10]",
-					"parameter_shortname" : "Hauteur"
-				}
-,
-				"obj-1::obj-23::obj-258" : 				{
-					"parameter_longname" : "slider.dur[8]"
-				}
-,
-				"obj-1::obj-16::obj-9" : 				{
-					"parameter_longname" : "live.gain~[40]"
-				}
-,
-				"obj-1::obj-22::obj-1" : 				{
-					"parameter_longname" : "dial.spd[7]",
-					"parameter_shortname" : "Hauteur"
-				}
-,
-				"obj-1::obj-27::obj-233" : 				{
-					"parameter_longname" : "slider.q[11]"
-				}
-,
-				"obj-1::obj-19::obj-9" : 				{
-					"parameter_longname" : "live.gain~[43]"
-				}
-,
-				"obj-1::obj-24::obj-9" : 				{
-					"parameter_longname" : "live.gain~[46]"
-				}
-,
-				"obj-1::obj-5::obj-1" : 				{
-					"parameter_longname" : "dial.spd",
-					"parameter_shortname" : "Hauteur"
-				}
-,
-				"obj-1::obj-14::obj-233" : 				{
-					"parameter_longname" : "slider.q[1]"
-				}
-,
-				"obj-1::obj-17::obj-1" : 				{
-					"parameter_longname" : "dial.spd[3]",
-					"parameter_shortname" : "Hauteur"
-				}
-,
-				"obj-1::obj-21::obj-259" : 				{
-					"parameter_longname" : "slider.mode[6]",
-					"parameter_shortname" : "Mode"
-				}
-,
-				"obj-1::obj-26::obj-233" : 				{
-					"parameter_longname" : "slider.q[10]"
-				}
-,
-				"obj-1::obj-5::obj-9" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "live.gain~[37]",
-					"parameter_shortname" : "live.gain~[37]"
+				"obj-1::obj-5::obj-258" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "slider.dur",
+					"parameter_modmode" : 0,
+					"parameter_range" : [ 100.0, 2000.0 ],
+					"parameter_shortname" : "Durée",
+					"parameter_type" : 0,
+					"parameter_unitstyle" : 0
 				}
 ,
 				"obj-1::obj-5::obj-259" : 				{
@@ -12490,84 +12577,19 @@
 					"parameter_unitstyle" : 1
 				}
 ,
-				"obj-1::obj-18::obj-9" : 				{
-					"parameter_longname" : "live.gain~[44]"
+				"obj-1::obj-5::obj-9" : 				{
+					"parameter_linknames" : 1,
+					"parameter_longname" : "live.gain~[37]",
+					"parameter_shortname" : "live.gain~[37]"
 				}
 ,
-				"obj-1::obj-23::obj-1" : 				{
-					"parameter_longname" : "dial.spd[8]",
-					"parameter_shortname" : "Hauteur"
-				}
-,
-				"obj-1::obj-5::obj-258" : 				{
-					"parameter_invisible" : 0,
-					"parameter_longname" : "slider.dur",
-					"parameter_modmode" : 0,
-					"parameter_range" : [ 100.0, 2000.0 ],
-					"parameter_shortname" : "Durée",
-					"parameter_type" : 0,
-					"parameter_unitstyle" : 0
-				}
-,
-				"obj-1::obj-16::obj-259" : 				{
-					"parameter_longname" : "slider.mode[2]",
-					"parameter_shortname" : "Mode"
-				}
-,
-				"obj-1::obj-19::obj-233" : 				{
-					"parameter_longname" : "slider.q[5]"
-				}
-,
-				"obj-1::obj-24::obj-1" : 				{
-					"parameter_longname" : "dial.spd[9]",
-					"parameter_shortname" : "Hauteur"
-				}
-,
-				"obj-1::obj-22::obj-9" : 				{
-					"parameter_longname" : "live.gain~[41]"
-				}
-,
-				"obj-1::obj-27::obj-258" : 				{
-					"parameter_longname" : "slider.dur[11]"
-				}
-,
-				"obj-1::obj-17::obj-233" : 				{
-					"parameter_longname" : "slider.q[3]"
-				}
-,
-				"obj-1::obj-14::obj-1" : 				{
-					"parameter_longname" : "dial.spd[1]",
-					"parameter_shortname" : "Hauteur"
-				}
-,
-				"obj-1::obj-18::obj-258" : 				{
-					"parameter_longname" : "slider.dur[4]"
-				}
-,
-				"obj-1::obj-23::obj-259" : 				{
-					"parameter_longname" : "slider.mode[8]",
-					"parameter_shortname" : "Mode"
-				}
-,
-				"obj-1::obj-21::obj-1" : 				{
-					"parameter_longname" : "dial.spd[6]",
-					"parameter_shortname" : "Hauteur"
-				}
-,
-				"obj-1::obj-26::obj-258" : 				{
-					"parameter_longname" : "slider.dur[10]"
-				}
-,
-				"obj-1::obj-22::obj-233" : 				{
-					"parameter_longname" : "slider.q[7]"
-				}
-,
-				"obj-1::obj-16::obj-258" : 				{
-					"parameter_longname" : "slider.dur[2]"
+				"obj-8::obj-149" : 				{
+					"parameter_longname" : "live.gain~[1]"
 				}
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"parameter_map" : 		{
@@ -12592,42 +12614,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "beat.maxpat",
-				"bootpath" : "H:/Fichiers de projet/Max",
+				"bootpath" : "F:/Fichiers de projet/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SoundtoSpot.maxpat",
-				"bootpath" : "H:/Fichiers de projet/Max",
+				"bootpath" : "F:/Fichiers de projet/Max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hue.png",
-				"bootpath" : "H:/Fichiers de projet/Media/Images",
-				"patcherrelativepath" : "../Media/Images",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "OSCSequencer.maxpat",
-				"bootpath" : "H:/Fichiers de projet/Max/Sequencer",
+				"bootpath" : "F:/Fichiers de projet/Max/Sequencer",
 				"patcherrelativepath" : "./Sequencer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "seq_MountainKing.txt",
-				"bootpath" : "H:/Fichiers de projet/Max/Sequencer",
-				"patcherrelativepath" : "./Sequencer",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "seq_userEmpty.txt",
-				"bootpath" : "H:/Fichiers de projet/Max/Sequencer",
+				"bootpath" : "F:/Fichiers de projet/Max/Sequencer",
 				"patcherrelativepath" : "./Sequencer",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -12638,18 +12646,22 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "jit.gl.spoutsender.mxe64",
+				"type" : "mx64"
+			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Concerto 2",
 				"default" : 				{
 					"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
-					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
-					"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ]
+					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ],
+					"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
+					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -1,0 +1,294 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+	<defs>
+		<style type="text/css">
+			:root {
+				--l-6: #333;
+				--l-5: #3c3c3c;
+				--l-4: #444;
+				--l-3: #4d4d4d;
+				--l-2: #555;
+				--l-1: #5e5e5e;
+				--l0: #666;
+				--l1: #6f6f6f;
+				--l2: #777;
+				--l3: #808080;
+				--l4: #888;
+				--l5: #919191;
+				--l6: #999;
+				--met-1: #666;
+				--met-2: #333;
+				--met-3: #8f8f80;
+			}/*
+			#robot>*:not(.glow) {filter: url(#base2)}*/
+
+			.l-6 {fill: var(--l-6)} .line.l-6,.limb.l-6 {stroke: var(--l-6)}
+			.l-5 {fill: var(--l-5)} .line.l-5,.limb.l-5 {stroke: var(--l-5)}
+			.l-4 {fill: var(--l-4)} .line.l-4,.limb.l-4 {stroke: var(--l-4)}
+			.l-3 {fill: var(--l-3)} .line.l-3,.limb.l-3 {stroke: var(--l-3)}
+			.l-2 {fill: var(--l-2)} .line.l-2,.limb.l-2 {stroke: var(--l-2)}
+			.l-1 {fill: var(--l-1)} .line.l-1,.limb.l-1 {stroke: var(--l-1)}
+			.l1 {fill: var(--l1)} .line.l1,.limb.l1 {stroke: var(--l1)}
+			.l2 {fill: var(--l2)} .line.l2,.limb.l2 {stroke: var(--l2)}
+			.l3 {fill: var(--l3)} .line.l3,.limb.l3 {stroke: var(--l3)}
+			.l4 {fill: var(--l4)} .line.l4,.limb.l4 {stroke: var(--l4)}
+			.l5 {fill: var(--l5)} .line.l5,.limb.l5 {stroke: var(--l5)}
+			.l6 {fill: var(--l6)} .line.l6,.limb.l6 {stroke: var(--l6)}
+	
+			.fill, .met-1 {fill: var(--met-1)}
+			.line, .limb {stroke: var(--met-1)}
+			.met-2 {fill: var(--met-2)}
+			.line .met-2,.limb.met-2 {stroke: var(--met-2)}
+			.met-3 {fill: var(--met-3)}
+			.line.met-3, .limb.met-3 {stroke: var(--met-3)}
+			.line, .limb {fill: none}
+			.limb {
+				stroke-width: 10;
+				stroke-linecap: round;
+				stroke-linejoin: round;
+			}
+		</style>
+		<radialGradient id="flash" r="50%">
+			<stop offset=".2" stop-color="#ddf"/>
+			<stop offset="1" stop-color="#88f" stop-opacity="0"/>
+		</radialGradient>
+		<filter id="base" primitiveUnits="objectBoundingBox">
+			<feColorMatrix result="a"
+				type="matrix"
+				values="0 0 0 0 1
+								0 0 0 0 1
+								0 0 0 0 1
+								0 0 0 1 0" />
+
+			<feDiffuseLighting in="a" result="dif1"
+					lighting-color="#888" diffuseConstant="2">
+				<fePointLight x=".85" y="0" z="0.3"/>
+			</feDiffuseLighting>
+			<feComposite in="a" in2="dif1" result="l1"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+
+			<feDiffuseLighting result="dif2"
+					lighting-color="#8f8">
+				<feDistantLight azimuth="45" elevation="0"/>
+			</feDiffuseLighting>
+			<feSpecularLighting in="SourceGraphic" result="spc2"
+					lighting-color="#8f8" surfaceScale="1" specularExponent="5">
+				<feDistantLight azimuth="45" elevation="-30"/>
+			</feSpecularLighting>
+			<feComposite in="a" in2="dif2" result="l2d"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+			<feComposite in="a" in2="spc2" result="l2s"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+			<feComposite in="l2d" in2="l2s" result="l2"
+					operator="arithmetic" k1="0" k2="1" k3="1"/>
+
+			<feDiffuseLighting result="dif3"
+					lighting-color="#00f">
+				<feDistantLight azimuth="180" elevation="0"/>
+			</feDiffuseLighting>
+			<feSpecularLighting in="SourceGraphic" result="spc3"
+				lighting-color="#88f" surfaceScale="1" specularExponent="10">
+				<feDistantLight azimuth="180" elevation="-30"/>
+			</feSpecularLighting>
+			<feComposite in="a" in2="dif3" result="l3d"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+			<feComposite in="a" in2="spc3" result="l3s"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+			<feComposite in="l3d" in2="l3s" result="l3"
+					operator="arithmetic" k1="0" k2="1" k3="1"/>
+
+			<feComposite in="l1" in2="l2" result="l"
+					operator="arithmetic" k1="0" k2="1" k3="1"/>
+			<feComposite in="l" in2="l3" result="l"
+					operator="arithmetic" k1="0" k2="1" k3="1"/>
+			<feComposite in="SourceGraphic" in2="l"
+					operator="arithmetic" k1="5" k2="0.2" k3="0"/>
+		</filter>
+		<filter id="base2" primitiveUnits="objectBoundingBox">
+			<feColorMatrix result="a"
+				type="matrix"
+				values="0 0 0 0 1
+								0 0 0 0 1
+								0 0 0 0 1
+								0 0 0 1 0" />
+
+			<feDiffuseLighting in="a" result="dif1"
+					lighting-color="#888" diffuseConstant="2">
+				<fePointLight x=".85" y="0" z="0.3"/>
+			</feDiffuseLighting>
+			<feComposite in="a" in2="dif1" result="l1"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+
+			<feDiffuseLighting result="dif2"
+					lighting-color="#8f8">
+				<feDistantLight azimuth="45" elevation="0"/>
+			</feDiffuseLighting>
+			<feSpecularLighting in="SourceGraphic" result="spc2"
+					lighting-color="#8f8" surfaceScale="1" specularExponent="5">
+				<feDistantLight azimuth="45" elevation="-30"/>
+			</feSpecularLighting>
+			<feComposite in="a" in2="dif2" result="l2d"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+			<feComposite in="a" in2="spc2" result="l2s"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+			<feComposite in="l2d" in2="l2s" result="l2"
+					operator="arithmetic" k1="0" k2="1" k3="1"/>
+
+			<feComposite in="l1" in2="l2" result="l"
+					operator="arithmetic" k1="0" k2="1" k3="1"/>
+			<feComposite in="SourceGraphic" in2="l"
+					operator="arithmetic" k1="5" k2="0.2" k3="0"/>
+		</filter>
+		<filter id="base3" primitiveUnits="objectBoundingBox">
+			<feColorMatrix result="a"
+				type="matrix"
+				values="0 0 0 0 1
+								0 0 0 0 1
+								0 0 0 0 1
+								0 0 0 1 0" />
+
+			<feDiffuseLighting result="dif1"
+					lighting-color="#8f8">
+				<feDistantLight azimuth="45" elevation="0"/>
+			</feDiffuseLighting>
+			<feSpecularLighting in="SourceGraphic" result="spc1"
+					lighting-color="#8f8" surfaceScale="1" specularExponent="5">
+				<feDistantLight azimuth="45" elevation="-30"/>
+			</feSpecularLighting>
+			<feComposite in="a" in2="dif1" result="l1d"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+			<feComposite in="a" in2="spc1" result="l1s"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+			<feComposite in="l1d" in2="l1s" result="l1"
+					operator="arithmetic" k1="0" k2="1" k3="1"/>
+
+			<feDiffuseLighting result="dif2"
+					lighting-color="#00f">
+				<feDistantLight azimuth="180" elevation="0"/>
+			</feDiffuseLighting>
+			<feSpecularLighting in="SourceGraphic" result="spc2"
+				lighting-color="#88f" surfaceScale="1" specularExponent="10">
+				<feDistantLight azimuth="180" elevation="-30"/>
+			</feSpecularLighting>
+			<feComposite in="a" in2="dif2" result="l2d"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+			<feComposite in="a" in2="spc2" result="l2s"
+					operator="arithmetic" k1="1" k2="0" k3="0"/>
+			<feComposite in="l2d" in2="l2s" result="l2"
+					operator="arithmetic" k1="0" k2="1" k3="1"/>
+
+			<feComposite in="l1" in2="l2" result="l"
+					operator="arithmetic" k1="0" k2="1" k3="1"/>
+			<feComposite in="SourceGraphic" in2="l"
+					operator="arithmetic" k1="5" k2=".2" k3="0"/>
+		</filter>
+	</defs>
+	<!-- <g stroke="#888" stroke-width=".2" fill="#333">
+		<rect width="100%" height="100%" />
+		<rect x="12.5%" y="12.5%" width="75%" height="75%"/>
+		<rect x="25%" y="25%" width="50%" height="50%"/>
+	</g> -->
+	<g id="robot" class="met-1" stroke="#555" stroke-width="0" y="10">
+		<path class="l-5" d="M80 224 q-4 -12 -14 -12 q-16 0 -20 12"/>
+		<g>
+			<rect x="55" y="184" width="29" height="36" fill="none"/>
+			<path class="limb l-4" d="M80 188 l-8 16 h-8 l-5 12"/>
+		</g>
+		<path class="l-3" d="M72 224 q-4 -12 -14 -12 q-16 0 -20 12"/>
+
+		<path class="l-3" d="M156 224 q4 -12 16 -12 q16 0 24 12"/>
+		<g>
+			<rect x="128" y="184" width="46" height="36" fill="none"/>
+			<path class="limb l-2" d="M132 188 l16 16 h16 l6 12"/>
+		</g>
+		<path class="l-1" d="M148 224 q4 -12 16 -12 q16 0 24 12"/>
+
+		<path class="l-1" d="M108 224 q1 -12 4 -12 q16 0 18 12"/>
+		<g>
+			<rect x="94" y="184" width="24" height="36" fill="none"/>
+			<path class="limb" d="M98 188 l4 16 h8 l4 12"/>
+		</g>
+		<path class="l1" d="M98 224 q1 -12 10 -12 q12 0 14 12"/>
+
+		<g>
+			<animateTransform attributeName="transform"
+															attributeType="XML"
+															type="translate"
+															values="0 0; 2 4; 0 0; -2 4; 0 0"
+															keyTimes="0; .2; .5; .7; 1"
+															dur="1"
+															repeatCount="indefinite"/>
+			
+			<path class="l-4" d="m160 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
+			<path class="l-3" d="M156 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
+			<g>
+				<rect x="112" y="104" width="52" height="28" fill="none"/>
+				<path class="limb l-2" d="M116 108 l16 16 h24 l4 4"/>
+			</g>
+			<path class="l-1" d="M152 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
+			<path d="M148 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
+			<circle class="met-2 l1" cx="152" cy="128" r="2"/>
+
+			<path class="line l-3" stroke-width="6" d="M106 40 q-32 0 -32 24">
+				<animate attributeName="d"
+								dur="0.5"
+								begin="0.1"
+								values="M106 40 q-32 0 -32 24; M106 44 q-36 -4 -32 20; M106 40 q-32 0 -32 24"
+								repeatCount="indefinite"
+								keyTimes="0;.2;1"/>
+			</path>
+			<g>
+				<rect x="70" y="36" width="32" height="28" fill="none"/>
+				<path class="line l-1" stroke-width="8" stroke-dasharray="3,1" d="M106 40 q-32 0 -32 24">
+					<animate attributeName="d"
+									dur="0.5"
+									begin="0.1"
+									values="M106 40 q-32 0 -32 24; M106 44 q-36 -4 -32 20; M106 40 q-32 0 -32 24"
+									repeatCount="indefinite"
+									keyTimes="0;.2;1"/>
+				</path>
+			</g>
+			<g>
+				<animateTransform attributeName="transform"
+													type="translate"
+													dur="0.5"
+													begin="0.1"
+													values="0 0; 0 4; 0 0"
+													keyTimes="0;.2;1"
+													repeatCount="indefinite"/>
+				
+				<g>
+					<path d="M106 48 c-6 0 -6 -16 0 -16 h24 v16z"/>
+					<path class="met-3" d="M130 48 c-6 0 -6 -16 0 -16 h4 c6 0 6 16 0 16z"/>
+				</g>
+				<circle class="glow" fill="url(#flash)" cx="136" cy="40" r="12"/>
+			</g>
+			<path fill-rule="evenodd"
+				d="M64 68 q.3 -3.7 4 -4 h72 q3.7 0.3 4 4 v120 q-.3 3.7 -4 4 h-72 q-3.7 -.3 -4 -4z
+					M80 85 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z
+					M80 109 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z
+					M80 133 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z
+					M80 157 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z
+					M106 85 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z
+					M106 109 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z
+					M106 133 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z
+					M106 157 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z
+					M130 85 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z
+					M130 109 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z
+					M130 133 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z
+					M130 157 c9.4 0 9.4 14 0 14 c-9.4 0 -9.4 -14 0 -14z"/>
+
+			<path class="l-1" d="M116 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
+			<path d="M112 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
+			<g>
+				<rect x="68" y="104" width="52" height="28" fill="none"/>
+				<path class="limb l1" d="M72 108 l16 16 h24 l4 4"/>
+			</g>
+			<circle class="met-2 l2" cx="72" cy="108" r="2"/>
+			<path class="l2" d="M108 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
+			<path class="l3" d="M104 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
+			<circle class="met-2 l4" cx="108" cy="128" r="2"/>
+		</g>
+	</g>
+	<g>
+	</g>
+</svg>

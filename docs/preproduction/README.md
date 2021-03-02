@@ -109,42 +109,41 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
     * 4 caméra a6000
     * 4 batterie filaire pour cam
     * 4 microHDMI
-    * 4 HDMI extender
-    * 4 câbles HDMI
-    * 4 Adapteur HDMI vers USB
+    * 5 HDMI extender
+    * 6 câbles HDMI
+    * 4 cartes vidéos
     * 4 Trépieds
 
 * Lumière
     * 6 spots 
     * 6 Câble alimentation spot
-    * 6 Câble XLR
-    * 6 Cheezboro
-    * 2 "poteaux" trépieds fixées au plafond
-    * 2 Ultra DMX
+    * 7 Câble XLR
+    * 2 Câble XLR vers femelle vers Jack
+    * 5 Cheezboro
+    * 6 Trépieds pour lumière 
     
 * Électricité
-    * 5 multiprises
+    * 6 multiprises
 
 * Réseau
-    * 6 Câble ethernet 
-    * 1 VPS
+    * 8 Câble ethernet 
 
 * Ordinateur
-    * 1 ordinateur studio
+    * 1 Ordinateur studio
 
 * Audio
-    * 2 speakers
-    * 1 carte de son Focusrite 6i6
-    * 2 câbles XLR
+    * 2 Speakers
+    * 1 Carte de son Focusrite 6i6
+    
  
  * Projection
     * 1 projecteur 1.5
-    * 1 câble HDMI
-    * 1 extender HDMI (5 total)
-    * 1 câble ethernet
 
  * Autre
-    * Boîte de pommes
+    * 4 Boîtes de pomme
+    * 1 Piano midi
+    * 1 Contrôleur midi
+    * 1 Drap rouge 
 
 ## Logiciels requis
 > Liste des logiciels requis, version ainsi que leurs dépendences

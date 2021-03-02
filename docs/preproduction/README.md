@@ -129,18 +129,18 @@ Nous voulions rassembler des gens autour d'une expérience musicale interactive 
     * 8 Câble ethernet 
 
 * Ordinateur
-    * 1 ordinateur studio
+    * 1 Ordinateur studio
 
 * Audio
-    * 2 speakers
-    * 1 carte de son Focusrite 6i6
+    * 2 Speakers
+    * 1 Carte de son Focusrite 6i6
     
  
  * Projection
     * 1 projecteur 1.5
 
  * Autre
-    * Boîte de pommes
+    * 4 Boîtes de pomme
     * 1 Piano midi
     * 1 Contrôleur midi
     * 1 Drap rouge 

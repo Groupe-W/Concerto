@@ -37,7 +37,7 @@
       {
         "type": "panel",
         "top": 1110,
-        "left": 2830,
+        "left": 2870,
         "id": "panel_12",
         "visible": true,
         "interaction": true,
@@ -147,7 +147,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -553,7 +554,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -584,7 +586,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -615,7 +618,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -646,7 +650,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -654,7 +659,7 @@
       {
         "type": "panel",
         "top": 1110,
-        "left": 2530,
+        "left": 2570,
         "id": "panel_11",
         "visible": true,
         "interaction": true,
@@ -764,7 +769,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -1170,7 +1176,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -1201,7 +1208,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -1232,7 +1240,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -1263,7 +1272,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -1271,7 +1281,7 @@
       {
         "type": "panel",
         "top": 1110,
-        "left": 2230,
+        "left": 2270,
         "id": "panel_10",
         "visible": true,
         "interaction": true,
@@ -1381,7 +1391,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -1787,7 +1798,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -1818,7 +1830,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -1849,7 +1862,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -1880,7 +1894,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -1888,7 +1903,7 @@
       {
         "type": "panel",
         "top": 1110,
-        "left": 1930,
+        "left": 1970,
         "id": "panel_9",
         "visible": true,
         "interaction": true,
@@ -1998,7 +2013,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -2404,7 +2420,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -2435,7 +2452,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -2466,7 +2484,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -2497,7 +2516,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -2505,7 +2525,7 @@
       {
         "type": "panel",
         "top": 570,
-        "left": 2830,
+        "left": 2870,
         "id": "panel_8",
         "visible": true,
         "interaction": true,
@@ -2615,7 +2635,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -3021,7 +3042,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -3052,7 +3074,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -3083,7 +3106,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -3114,7 +3138,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -3122,7 +3147,7 @@
       {
         "type": "panel",
         "top": 570,
-        "left": 2530,
+        "left": 2570,
         "id": "panel_7",
         "visible": true,
         "interaction": true,
@@ -3232,7 +3257,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -3638,7 +3664,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -3669,7 +3696,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -3700,7 +3728,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -3731,7 +3760,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -3739,7 +3769,7 @@
       {
         "type": "panel",
         "top": 570,
-        "left": 2230,
+        "left": 2270,
         "id": "panel_6",
         "visible": true,
         "interaction": true,
@@ -3849,7 +3879,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -4255,7 +4286,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -4286,7 +4318,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -4317,7 +4350,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -4348,7 +4382,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -4356,7 +4391,7 @@
       {
         "type": "panel",
         "top": 570,
-        "left": 1930,
+        "left": 1970,
         "id": "panel_5",
         "visible": true,
         "interaction": true,
@@ -4466,7 +4501,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -4659,7 +4695,7 @@
             "height": 40,
             "expand": false,
             "colorText": "auto",
-            "colorWidget": "auto",
+            "colorWidget": "rgba(83,213,141,0.76)",
             "colorStroke": "auto",
             "colorFill": "auto",
             "alphaStroke": 1,
@@ -4872,7 +4908,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -4903,7 +4940,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -4934,7 +4972,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -4965,7 +5004,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -4973,7 +5013,7 @@
       {
         "type": "panel",
         "top": 30,
-        "left": 2830,
+        "left": 2870,
         "id": "panel_4",
         "visible": true,
         "interaction": true,
@@ -5042,7 +5082,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -5489,7 +5530,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -5520,7 +5562,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -5551,7 +5594,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -5582,7 +5626,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -5590,7 +5635,7 @@
       {
         "type": "panel",
         "top": 30,
-        "left": 2530,
+        "left": 2570,
         "id": "panel_3",
         "visible": true,
         "interaction": true,
@@ -6034,7 +6079,8 @@
             "address": "auto",
             "preArgs": "",
             "target": "",
-            "align": "center"
+            "align": "center",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -6106,7 +6152,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -6137,7 +6184,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -6168,7 +6216,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -6199,7 +6248,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -6207,7 +6257,7 @@
       {
         "type": "panel",
         "top": 30,
-        "left": 2230,
+        "left": 2270,
         "id": "panel_2",
         "visible": true,
         "interaction": true,
@@ -6276,7 +6326,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -6723,7 +6774,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -6754,7 +6806,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -6785,7 +6838,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -6816,7 +6870,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -6824,7 +6879,7 @@
       {
         "type": "panel",
         "top": 30,
-        "left": 1930,
+        "left": 1970,
         "id": "panel_1",
         "visible": true,
         "interaction": true,
@@ -6934,7 +6989,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
@@ -7340,7 +7396,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -7371,7 +7428,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -7402,7 +7460,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "text",
@@ -7433,7 +7492,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           }
         ],
         "tabs": []
@@ -7441,12 +7501,12 @@
       {
         "type": "panel",
         "top": 1100,
-        "left": 440,
+        "left": 100,
         "id": "panel_1",
         "visible": true,
         "interaction": true,
-        "width": 580,
-        "height": 218.77551020408166,
+        "width": 579.0123456790124,
+        "height": 230,
         "expand": "false",
         "colorText": "auto",
         "colorWidget": "#53d58dc1",
@@ -7487,8 +7547,8 @@
             "left": 0,
             "id": "mode2",
             "visible": true,
-            "width": 568.1632653061225,
-            "height": 40.00000000000001,
+            "width": 568.7654320987655,
+            "height": 40,
             "expand": "false",
             "colorText": "auto",
             "colorWidget": "auto",
@@ -7510,7 +7570,8 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "keyboard",
@@ -7518,8 +7579,8 @@
             "left": 0,
             "id": "keyboard_1",
             "visible": true,
-            "width": 567.5510204081633,
-            "height": 120.6122448979592,
+            "width": 568.7654320987655,
+            "height": 120,
             "expand": "false",
             "colorText": "auto",
             "colorWidget": "auto",
@@ -7551,7 +7612,8 @@
             "typeTags": "",
             "decimals": 2,
             "ignoreDefaults": false,
-            "bypass": false
+            "bypass": false,
+            "velocity": false
           }
         ],
         "tabs": []
@@ -7559,12 +7621,12 @@
       {
         "type": "panel",
         "top": 1100,
-        "left": 40,
+        "left": 800,
         "id": "panel_1",
         "visible": true,
         "interaction": true,
-        "width": 370.00000000000006,
-        "height": 193.6734693877551,
+        "width": 472.4489795918368,
+        "height": 219.3877551020408,
         "expand": "false",
         "colorText": "auto",
         "colorWidget": "#53d58dc1",
@@ -7601,11 +7663,11 @@
         "widgets": [
           {
             "type": "text",
-            "top": 19.999999999999996,
+            "top": 20,
             "left": 0,
             "id": "mode4",
             "visible": true,
-            "width": 355.7142857142858,
+            "width": 455.7142857142858,
             "height": 40.00000000000001,
             "expand": "false",
             "colorText": "auto",
@@ -7628,17 +7690,18 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": ""
+            "target": "",
+            "decimals": 2
           },
           {
             "type": "button",
-            "top": 89.99999999999999,
-            "left": 280,
+            "top": 79.99999999999999,
+            "left": 349.99999999999994,
             "id": "btn_cam4",
             "visible": true,
             "interaction": true,
-            "width": 70,
-            "height": 70,
+            "width": 95,
+            "height": 95,
             "expand": "false",
             "colorText": "auto",
             "colorWidget": "auto",
@@ -7652,7 +7715,7 @@
             "html": "",
             "css": "",
             "colorTextOn": "auto",
-            "label": "auto",
+            "label": "Caméra 4",
             "vertical": false,
             "wrap": false,
             "on": 1,
@@ -7673,13 +7736,13 @@
           },
           {
             "type": "button",
-            "top": 89.99999999999999,
-            "left": 189.99999999999997,
+            "top": 79.99999999999999,
+            "left": 239.99999999999997,
             "id": "btn_cam3",
             "visible": true,
             "interaction": true,
-            "width": 70,
-            "height": 70,
+            "width": 95,
+            "height": 95,
             "expand": "false",
             "colorText": "auto",
             "colorWidget": "auto",
@@ -7693,7 +7756,7 @@
             "html": "",
             "css": "",
             "colorTextOn": "auto",
-            "label": "auto",
+            "label": "Caméra 3",
             "vertical": false,
             "wrap": false,
             "on": 1,
@@ -7714,13 +7777,13 @@
           },
           {
             "type": "button",
-            "top": 89.99999999999999,
-            "left": 99.99999999999999,
+            "top": 79.99999999999999,
+            "left": 130,
             "id": "btn_cam2",
             "visible": true,
             "interaction": true,
-            "width": 70,
-            "height": 70,
+            "width": 95,
+            "height": 95,
             "expand": "false",
             "colorText": "auto",
             "colorWidget": "auto",
@@ -7734,7 +7797,7 @@
             "html": "",
             "css": "",
             "colorTextOn": "auto",
-            "label": "auto",
+            "label": "Caméra 2",
             "vertical": false,
             "wrap": false,
             "on": 1,
@@ -7755,13 +7818,13 @@
           },
           {
             "type": "button",
-            "top": 89.99999999999999,
-            "left": 10,
+            "top": 79.99999999999999,
+            "left": 19.999999999999996,
             "id": "btn_cam1",
             "visible": true,
             "interaction": true,
-            "width": 70,
-            "height": 70,
+            "width": 95,
+            "height": 95,
             "expand": false,
             "colorText": "auto",
             "colorWidget": "auto",
@@ -7775,7 +7838,7 @@
             "html": "",
             "css": "",
             "colorTextOn": "auto",
-            "label": "auto",
+            "label": "Caméra 1",
             "vertical": false,
             "wrap": false,
             "on": 1,
@@ -7800,7 +7863,7 @@
       {
         "type": "image",
         "top": 40,
-        "left": 40,
+        "left": 100,
         "id": "frame_2",
         "visible": true,
         "width": 1850.6122448979593,
@@ -7817,7 +7880,7 @@
         "padding": "auto",
         "html": "",
         "css": "",
-        "value": "https://i.imgur.com/ouogpkr.png",
+        "value": "https://i.imgur.com/Tatvech.png",
         "default": "",
         "linkId": "",
         "script": "",
@@ -7833,21 +7896,21 @@
       {
         "type": "modal",
         "top": 40,
-        "left": 40,
+        "left": 10,
         "id": "guide",
         "visible": true,
         "interaction": true,
-        "width": 100,
-        "height": 100,
+        "width": 80.3125,
+        "height": 80.3125,
         "expand": "false",
         "popupWidth": "80%",
         "popupHeight": "80%",
         "popupLeft": "auto",
         "popupTop": "auto",
-        "colorText": "#000000",
-        "colorWidget": "#53d58d",
-        "colorStroke": "#ffffff",
-        "colorFill": "auto",
+        "colorText": "rgba(255,255,255,1)",
+        "colorWidget": "rgba(53,83,219,1)",
+        "colorStroke": "rgba(255,255,255,1)",
+        "colorFill": "rgba(53,83,219,1)",
         "alphaStroke": 1,
         "alphaFillOff": 1,
         "alphaFillOn": 1,
@@ -7855,7 +7918,7 @@
         "padding": 1,
         "html": "",
         "css": "",
-        "colorBg": "auto",
+        "colorBg": "rgba(5,5,5,0.83)",
         "layout": "default",
         "justify": "start",
         "gridTemplate": "",
@@ -7882,13 +7945,13 @@
         "widgets": [
           {
             "type": "image",
-            "top": 60,
-            "left": 50,
+            "top": 190,
+            "left": 1620,
             "id": "image_1",
             "visible": true,
             "interaction": true,
-            "width": 1167.5,
-            "height": 713,
+            "width": 1085.5555555555557,
+            "height": 930,
             "expand": "false",
             "colorText": "auto",
             "colorWidget": "auto",
@@ -7905,7 +7968,7 @@
             "position": "center",
             "repeat": "no-repeat",
             "cache": true,
-            "value": "https://i.imgur.com/xTZtGB2.png",
+            "value": "https://i.imgur.com/GuAjWvT.png",
             "default": "",
             "linkId": "",
             "script": "",
@@ -7914,11 +7977,54 @@
             "target": ""
           }
         ],
-        "tabs": []
+        "tabs": [],
+        "relative": false,
+        "ignoreTabs": false
+      },
+      {
+        "type": "button",
+        "top": 500,
+        "left": 1020,
+        "id": "_",
+        "visible": true,
+        "interaction": true,
+        "width": 48.97959183673469,
+        "height": 39.795918367346935,
+        "expand": "false",
+        "colorText": "auto",
+        "colorWidget": "#53d58dc1",
+        "colorStroke": "auto",
+        "colorFill": "auto",
+        "alphaStroke": 1,
+        "alphaFillOff": "auto",
+        "alphaFillOn": "auto",
+        "lineWidth": "auto",
+        "padding": "auto",
+        "html": "<a href=\"https://openstagecontrol.discourse.group/t/embed-video-player-in-osc/1179/10\">0 0</a>",
+        "css": "",
+        "colorTextOn": "auto",
+        "label": "auto",
+        "vertical": false,
+        "wrap": false,
+        "on": 1,
+        "off": 0,
+        "mode": "tap",
+        "doubleTap": true,
+        "value": "",
+        "default": "",
+        "linkId": "",
+        "script": "",
+        "address": "auto",
+        "preArgs": "",
+        "typeTags": "",
+        "decimals": 2,
+        "target": "",
+        "ignoreDefaults": false,
+        "bypass": false
       }
     ],
     "tabs": []
   },
-  "version": "1.6.1",
+  "version": "1.8.7",
   "type": "Open Stage Control session"
 }

@@ -206,7 +206,7 @@ J'ai aidé aux grand studios et j'ai enfin participer a la creation de la page w
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-![texte2000](medias/texte2000.png)
+![texte2000](medias/texte2000.PNG)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 

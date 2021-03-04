@@ -5,13 +5,17 @@
 				--met-1: #666;
 				--met-2: #333;
 				--met-3: #8f8f80;
+				--ppe-1: #1a1a1a;
+				--ppe-3: #eee;
 			}
 
 			.met-1 {fill: var(--met-1); stroke: var(--met-1)}
 			.met-2 {fill: var(--met-2); stroke: var(--met-2)}
 			.met-3 {fill: var(--met-3); stroke: var(--met-3)}
+			.ppe-1 {fill: var(--ppe-1); stroke: var(--ppe-1)}
+			.ppe-3 {fill: var(--ppe-3); stroke: var(--ppe-3)}
 
-			.line, .limb {fill: none}
+			.line, .limb {fill: none;}
 			:not(.line, .limb) {stroke: none}
 			.limb {
 				stroke-width: 10;
@@ -19,6 +23,11 @@
 				stroke-linejoin: round;
 			}
 		</style>
+		<linearGradient id="Gradient1">
+			<stop class="stop1" offset="0%"/>
+			<stop class="stop2" offset="50%"/>
+			<stop class="stop3" offset="100%"/>
+		</linearGradient>
 		<radialGradient id="flash" r="50%">
 			<stop offset=".2" stop-color="#ddf"/>
 			<stop offset="1" stop-color="#88f" stop-opacity="0"/>
@@ -77,31 +86,22 @@
 		</filter>
 	</defs>
 	<!-- <g stroke="#888" stroke-width=".2" fill="#333">
-		<rect width="100%" height="100%" />
-		<rect x="12.5%" y="12.5%" width="75%" height="75%"/>
-		<rect x="25%" y="25%" width="50%" height="50%"/>
+		<rect fill-opacity=".1" width="100%" height="100%" />
+		<rect fill-opacity=".1" x="12.5%" y="12.5%" width="75%" height="75%"/>
+		<rect fill-opacity=".1" x="25%" y="25%" width="50%" height="50%"/>
 	</g> -->
 	<animate id="a" dur="1s" begin="0;a.end"/>
 	<g id="robot" class="met-1">
 		<path class="l-5" d="M40 224 q4 -12 20 -12 q10 0 14 12"/>
-		<g>
-			<rect x="55" y="184" width="29" height="36" fill="none"/>
-			<path class="limb l-4" d="M53 216 l5 -12 h10 l8 -16"/>
-		</g>
+		<path class="limb l-4" d="M53 216 l5 -12 h10 l8 -16"/>
 		<path class="l-3" d="M32 224 q4 -12 20 -12 q10 0 14 12"/>
 
 		<path class="l-3" d="M156 224 q4 -12 16 -12 q16 0 24 12"/>
-		<g>
-			<rect x="128" y="184" width="46" height="36" fill="none"/>
-			<path class="limb  l-2" d="M128 188 l16 16 h20 l6 12"/>
-		</g>
+		<path class="limb  l-2" d="M128 188 l16 16 h20 l6 12"/>
 		<path class="l-1" d="M148 224 q4 -12 16 -12 q16 0 24 12"/>
 
 		<path class="l-2" d="M108 224 q1 -12 4 -12 q16 0 18 12"/>
-		<g>
-			<rect x="94" y="184" width="24" height="36" fill="none"/>
-			<path class="limb l-1" d="M98 188 l4 16 h8 l4 12"/>
-		</g>
+		<path class="limb l-1" d="M98 188 l4 16 h8 l4 12"/>
 		<path d="M98 224 q1 -12 10 -12 q12 0 14 12"/>
 
 		<g>
@@ -114,10 +114,7 @@
 			
 			<path class="l-4" d="m160 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
 			<path class="l-3" d="M156 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
-			<g>
-				<rect x="112" y="104" width="52" height="28" fill="none"/>
-				<path class="limb l-2" d="M116 108 l16 16 h24 l4 4"/>
-			</g>
+			<path class="limb l-2" d="M116 108 l16 16 h24 l4 4"/>
 			<path class="l-1" d="M152 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
 			<path d="M148 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
 			<circle class="met-2 l1" cx="152" cy="128" r="2"/>
@@ -130,17 +127,14 @@
 								values="M106 40 q-32 0 -32 24; M106 44 q-36 -4 -32 20; M106 40 q-32 0 -32 24"
 								keyTimes="0;.2;1"/>
 			</path>
-			<g>
-				<rect x="70" y="36" width="32" height="28" fill="none"/>
-				<path class="line l-1" stroke-width="8" stroke-dasharray="3,1" d="M106 40 q-32 0 -32 24">
-					<animate attributeName="d"
-									dur="0.5"
-									begin="a.begin+0.1"
-									repeatCount="2"
-									values="M106 40 q-32 0 -32 24; M106 44 q-36 -4 -32 20; M106 40 q-32 0 -32 24"
-									keyTimes="0;.2;1"/>
-				</path>
-			</g>
+			<path class="line l-1" stroke-width="8" stroke-dasharray="3,1" d="M106 40 q-32 0 -32 24">
+				<animate attributeName="d"
+								dur="0.5"
+								begin="a.begin+0.1"
+								repeatCount="2"
+								values="M106 40 q-32 0 -32 24; M106 44 q-36 -4 -32 20; M106 40 q-32 0 -32 24"
+								keyTimes="0;.2;1"/>
+			</path>
 			<g>
 				<animateTransform attributeName="transform"
 													type="translate"
@@ -149,10 +143,8 @@
 													repeatCount="2"
 													values="0 0; 0 4; 0 0"
 													keyTimes="0;.2;1"/>
-				<g>
-					<path d="M106 48 c-6 0 -6 -16 0 -16 h24 v16z"/>
-					<path class="met-3" d="M130 48 c-6 0 -6 -16 0 -16 h4 c6 0 6 16 0 16z"/>
-				</g>
+				<path d="M106 48 c-6 0 -6 -16 0 -16 h24 v16z"/>
+				<path class="met-3" d="M130 48 c-6 0 -6 -16 0 -16 h4 c6 0 6 16 0 16z"/>
 				<circle class="glow" fill="url(#flash)" cx="136" cy="40" r="12"/>
 			</g>
 			<path fill-rule="evenodd"
@@ -172,10 +164,7 @@
 
 			<path class="l-1" d="M116 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
 			<path d="M112 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
-			<g>
-				<rect x="68" y="104" width="52" height="28" fill="none"/>
-				<path class="limb l1" d="M72 108 l16 16 h24 l4 4"/>
-			</g>
+			<path class="limb l1" d="M72 108 l16 16 h24 l4 4"/>
 			<circle class="met-2 l2" cx="72" cy="108" r="2"/>
 			<path class="l2" d="M108 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
 			<path class="l3" d="M104 132 c-4.5 -4.5 -1.1 -10.125 3.4 -10.125 h2 c1.5 0 3.1 .625 4.6 2.125 l12 12 h-2 l-3.875 -3.875 c-1.25 -1.25 -2.75 -1.25 -4 0 c-1.5 1.5 -2.375 1.875 -4.125 1.875 h-4 c-1.25 0 -2.75 -.75 -4 -2"/>
@@ -183,7 +172,45 @@
 		</g>
 	</g>
 	<g>
+		<g class="met-2 line" stroke-width="8" stroke-linecap="round">
+			<path class="line l-3" d="M168 220 h44"/>
+			<path class="line l-2" d="M172 220 l-80 -56"/>
+			<path class="line l-1" d="M96 220 l80 -56"/>
+			<path class="line" d="M208 220 l-80 -56"/>
+			<path class="line l1" d="M132 220 l80 -56"/>
+			<path class="line l2" d="M92 220 h44"/>
+		</g>
+		<g>
+			<animateTransform attributeName="transform"
+												type="translate"
+												begin="a.begin"
+												dur="1"
+												values="0 0; -1 2; 0 0; 1 2; 0 0"
+												keyTimes="0; .2; .5; .7; 1"/>
 		
+			<g class="met-1 line" stroke-width="2">
+				<path class="line l-4" d="M208 140 v3.5 l-16 1"/>
+				<path class="line l-3" d="M200 140 v3.5 l-16 1"/>
+				<path class="line l-2" d="M192 140 v3.5 l-16 1"/>
+				<path class="line l-1" d="M184 140 v3.5 l-16 1"/>
+				<path class="met-3 line" stroke-width="3" d="M168 141 v3"/>
+				<path class="line l2" stroke-width="3" d="M160 142 v2"/>
+				<path class="line l3" stroke-width="3" d="M152 142 v2"/>
+				<path class="met-2 line l4" d="M144 140 v4"/>
+				<path class="line l5" d="M136 142 v2"/>
+			</g>
+			<rect class="ppe-3" x="80" y="148" width="100" height="8">
+				<animateTransform attributeName="transform"
+													type="translate"
+													dur="0.5"
+													begin="a.begin+0.1"
+													repeatCount="2"
+													values="0 0; 0 2; 0 0"
+													keyTimes="0;.1;1"/>
+			</rect>
+			<rect class="ppe-1" x="136" y="144" width="100" height="20"/>
+			<path class="ppe-1 l1" d="M68 164 h68 v-20 h-28 l-8 8 h-32z"/>
+		</g>
 	</g>
 	<script href="AlloMachines_machine.js">
 	</script>

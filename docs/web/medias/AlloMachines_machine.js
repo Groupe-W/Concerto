@@ -17,10 +17,6 @@ function StrHexToArRGB(str) {
 function ArRGBToStrHex(ar = new Int16Array(3)) {
 	var str = '#';
 	str += ar.map(ch => Math.round(ch).toString(16).padStart(2,0)).join('');
-	// ar.forEach(val => {
-	// 	str+= Math.round(val).toString(16).padStart(2,'0').toUpperCase();
-	// });
-	// console.log(str);
 	return str;
 }
 function clrSpread(clrStr='', spread=2, step=17, className='') {
@@ -40,3 +36,4 @@ function clrSpread(clrStr='', spread=2, step=17, className='') {
 // clrSpread('#FABB55',5,8.5,'met-1');
 clrSpread(met1,5,5.67,'met-1');
 clrSpread(met2,4,5.67,'met-2');
+clrSpread(met2,1,5.67,'ppe-1');

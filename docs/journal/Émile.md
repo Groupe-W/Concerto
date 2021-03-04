@@ -207,7 +207,7 @@ Finaliser l'installation et le positionnement de nos équipements dans le grand 
 Aide à l'installation dans le grand studio (positionnement des spots, inventaire des équipements, gestion du câblage, setup OBS Ninja...), finition de Joe (le robot trompette), écriture du journal d'équipe et travail d'équipe sur le site web.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-<img src="https://github.com/Groupe-W/Concerto/blob/main/docs/journal/medias/https://github.com/Groupe-W/Concerto/blob/main/docs/web/medias/8B3E735A-D75F-41A0-8187-89F79E78B7A7.jpeg" width="80%">
+<img src="https://github.com/Groupe-W/Concerto/blob/main/docs/web/medias/8B3E735A-D75F-41A0-8187-89F79E78B7A7.jpeg" width="80%">
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?

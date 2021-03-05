@@ -195,28 +195,29 @@ m'assuré que la lumierre est bien utilisé dans notre projet
 ---
 ## Semaine de rattrapage (27 février au 5 mars)
 ### Résumé des réalisations effectuées
-
+J'ai un peu travaillé sur la lumierre et j'ai fini l'un de mes instrument de musique pour mon robot
 
 ### Image d'une réalisation dont tu es la ou le plus fier
+![robot_g](medias/robot_g.jpg)
 
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
-- [ ] Assez
+- [x] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ Tout les robots sont construis et j'ai travailler sur les lumierre de la scène.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
@@ -228,7 +229,7 @@ m'assuré que la lumierre est bien utilisé dans notre projet
 
 
 ### Défis pour la prochaine semaine
-
+Travailler sur la scénographie et bien instaler les lumierres.
 ---
 ## Semaine 5 (6 au 12 mars)
 ### Résumé des réalisations effectuées

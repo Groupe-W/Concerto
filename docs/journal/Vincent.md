@@ -211,21 +211,23 @@ Trouver la solution idéale pour afficher à l'utilisateur sa séquence sur Open
 ---
 ## Semaine de rattrapage (27 février au 5 mars)
 ### Résumé des réalisations effectuées
+Recherche, recherche et recherche (comment intégrer du html/js dans open stage control et comment le mettre à jour)
+Intégrations de strip DEL sur la scène (sans avoir testé)
 
+J'ai aussi fait un des 3 robots sur notre scène en svg pour la bannière du site.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
-
+![Input file pour ouvrir les séquences plus simplement](medias/journal_vincent_SRa.png)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
 - [ ] Assez
-- [ ] Peu
+- [x] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+La recherche effectuée a peu porté ses fruits, je n'ai pas fait de progrès significatifs côté UI utilisateur.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
@@ -234,17 +236,17 @@ Trouver la solution idéale pour afficher à l'utilisateur sa séquence sur Open
 
 - [ ] Complètement
 - [ ] Assez
-- [ ] Un peu
+- [x] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+Émile me demande maintenant de compléter l'UI utilisateur pour la semaine prochaine.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+Je dois lâcher le visualisateur de sequencer pour l'instant et me concentrer sur les inputs que je connais et que je sais qui vont fonctionner
 
 ### Défis pour la prochaine semaine
-
+Terminer l'UI fonctionnel sur l'interface OpStCo principale, trouver un moyen si possible d'afficher le sequencer.
 ---
 ## Semaine 5 (6 au 12 mars)
 ### Résumé des réalisations effectuées

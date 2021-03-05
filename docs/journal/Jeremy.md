@@ -1,4 +1,4 @@
-# Journal de "Jeremy"
+# Journal de "Jeremy" 
 
 ## Table des matières
 - [Semaine 0 (25 au 29 janvier)](#Semaine-0-(25-au-29-janvier))
@@ -163,28 +163,30 @@ Commencer l'interface web et aider à l'installation physique du projet selon le
 
 ## Semaine 4 (20 au 26 février)
 ### Résumé des réalisations effectuées
-
+J'ai aidé a installer du matériel grand studio (système de son,repositionnement de la scène, projecteur, positionnement des spots, etc.)
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-
+![scene2000](medias/scene2000.jpg)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
 - [ ] Complètement
-- [ ] Assez
+- [X] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
  
+Je n'ai toujours pas fait quoi que se soit en lien avec l'interface web
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
+L'équipe commence a manquer de chose a faire vu qu'on avance bien. Nous allons donc probablement se pencher sur le problème la semaine prochaine.
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
@@ -196,32 +198,33 @@ Commencer l'interface web et aider à l'installation physique du projet selon le
 
 
 ### Défis pour la prochaine semaine
-
+Le même que d'habitude j'imagine...
 ---
 ## Semaine de rattrapage (27 février au 5 mars)
 ### Résumé des réalisations effectuées
-
+J'ai aidé aux grand studios et j'ai enfin participer a la creation de la page web du projet
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-
+![texte2000](medias/texte2000.PNG)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
  
+ Émile et moi avons enfin accompli l'objectif que je m'était donner il y a plusieurs semaines
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
@@ -233,7 +236,7 @@ Commencer l'interface web et aider à l'installation physique du projet selon le
 
 
 ### Défis pour la prochaine semaine
-
+Effectuer avec l'équipe les testes de fumées.
 ---
 ## Semaine 5 (6 au 12 mars)
 ### Résumé des réalisations effectuées

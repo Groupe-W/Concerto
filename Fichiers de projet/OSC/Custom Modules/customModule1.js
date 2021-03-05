@@ -4,7 +4,7 @@ module.exports = {
 
 			var {address, args, host, port} = data
 
-			if (address === '/some_address') {
+			if (address === '/fader_cool') {
 
 					args[0].value = args[0].value * 10
 
@@ -18,7 +18,7 @@ module.exports = {
 
 			var {address, args, host, port, clientId} = data
 
-			if (address === '/some_address') {
+			if (address === '/fader_cool') {
 
 					args[0].value = args[0].value / 10
 

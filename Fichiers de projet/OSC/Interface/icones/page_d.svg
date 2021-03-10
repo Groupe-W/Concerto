@@ -5,6 +5,5 @@
 	<path fill="#00FE3F" stroke-linejoin="miter" stroke-miterlimit="40"
 				d="M32 16 q0 -6 8 -7 q-4 3 -4 5 q3 0 4 1 q-3 1 -4 5 q3 0 4 1 q-3 1 -4 5 q3 0 4 1 q-3 1 -4 5 q3 0 4 1 q-3 1 -4 5 q3 0 4 1 q-3 1 -4 5 q3 0 4 1 q-3 1 -4 5 q3 0 4 1 q-3 1 -4 4 q3 0 4 1q-6 1 -8 7z"/>
 	<!-- <path d="M60 12 Q32 8 32 16 v47 Q32 55 60 59z"/> -->
-	<!-- <path d="M58 10 Q32 4 32 16 v47 Q32 51 58 57z" fill="#00FE3F"/> -->
 	<path d="M44 40 h8" stroke="#f44" />
 </svg>

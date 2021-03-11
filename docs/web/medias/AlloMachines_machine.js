@@ -4,6 +4,7 @@ let cSS = document.styleSheets[0];
 const met1 = rCompStyle.getPropertyValue('--met-1');
 const met2 = rCompStyle.getPropertyValue('--met-2');
 const met3 = rCompStyle.getPropertyValue('--met-3');
+const ppe1 = rCompStyle.getPropertyValue('--ppe-1');
 
 function StrHexToArRGB(str) {
 	str = str.trim().replace('#','');
@@ -26,14 +27,14 @@ function clrSpread(clrStr='', spread=2, step=17, className='') {
 		if (i == 0) {i++;}
 		var delt = i * step;
 		var ar = [clr[0] + delt, clr[1] + delt, clr[2] + delt];
-		var slc1 = `.${className} .l${i}`;
-		var slc2 = `.${className}.l${i}`;
-		cSS.insertRule(`:where(${slc1},${slc2}):where(.line,.limb) {stroke:${ArRGBToStrHex(ar)}}`,cSS.cssRules.length-3);
-		cSS.insertRule(`:where(${slc1},${slc2}):not(.line,.limb) {fill:${ArRGBToStrHex(ar)}}`,cSS.cssRules.length-3);
+		var slct1 = `.${className} .l${i}`;
+		var slct2 = `.${className}.l${i}`;
+		cSS.insertRule(`:where(${slct1},${slct2}):where(.line,.limb) {stroke:${ArRGBToStrHex(ar)}}`,cSS.cssRules.length-3);
+		cSS.insertRule(`:where(${slct1},${slct2}):not(.line,.limb) {fill:${ArRGBToStrHex(ar)}}`,cSS.cssRules.length-3);
 	}
 }
 
 // clrSpread('#FABB55',5,8.5,'met-1');
 clrSpread(met1,5,5.67,'met-1');
 clrSpread(met2,4,5.67,'met-2');
-clrSpread(met2,1,5.67,'ppe-1');
+clrSpread(ppe1,3,5.67,'ppe-1');

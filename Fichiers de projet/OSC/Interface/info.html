@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Manuel d'utilisation</title>
+	<link rel="stylesheet" href="style/concerto.css">
+	<style>
+		:root {
+			--color-stroke: var(--color-widget);
+			--color-fill: var(--color-widget);
+			--alpha-stroke: .5;
+			--alpha-fill: .15;
+			--line-width: 1px;
+			font-family: sans-serif;
+		}
+		* {
+			box-sizing: border-box;
+			/* margin: 0;
+			padding: 0; */
+			color: var(--color-text);
+		}
+		body {
+			background: var(--color-background);
+		}
+		hr{display: block;}
+		section, .commande{
+			padding: 8px 32px;
+		}
+		table {margin-right: 16px;}
+		img {
+			height: 64px;
+		}
+		.groupe {
+			padding: 4px 16px;
+		}
+		.groupe>table {margin-left: 32px;}
+		.groupe>.commande {
+			border-left: var(--line-width) solid var(--color-stroke);
+		}
+		.commande {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.commande>h3 {flex-basis: 100%}
+		th,td {
+			position: relative;
+			padding: 4px;
+		}
+		td {
+			min-width: 64px;
+			height: 64px;
+			text-align: center;
+			font-family: "Baskerville Old Face";
+			font-size: 200%;
+			font-weight: bold;
+		}
+		th::before, td::before, th::after, td::after {
+			content: '';
+			position: absolute;
+			top:0;left:0;bottom:0;right:0;
+		}
+		th::after, td::after {
+			border: var(--line-width) solid var(--color-stroke);
+			opacity: var(--alpha-stroke)
+		}
+		th::before, td::before {
+			background: var(--color-fill);
+			opacity: var(--alpha-fill);
+			z-index: -2
+		}
+		.description>hr {margin: 8px 0;}
+	</style>
+</head>
+<body>
+	<h1>Comment utiliser le Sequencer? | How to use the sequencer?</h1>
+	<section>
+		<h2>Mode DJ | DJ Mode</h2>
+		<div id="onOff" class="commande">
+			<h3>Bascule On/Off | On/Off toggle</h3>
+			<table>
+				<thead>
+					<th>défaut | default</th>
+					<th>0</th>
+					<th>1</th>
+				</thead>
+				<tbody>
+					<td><img src="icones/on_1.svg" alt="OFF"></td>
+					<td><img src="icones/on_0.svg" alt="ON"></td>
+					<td><img src="icones/on_1.svg" alt="OFF"></td>
+				</tbody>
+			</table>
+			<div class="description">
+				<p>Démarre et arrête la séquence</p>
+				<hr>
+				<p>Starts and stops the sequence</p>
+			</div>
+		</div>
+
+		<div id="tempo" class="commande">
+			<h3>Roulette tempo | Tempo wheel</h3>
+			<table>
+				<thead>
+					<th></th>
+					<th>défaut | default</th>
+					<th>min</th>
+					<th>max</th>
+				</thead>
+				<tbody>
+					<td><img src="icones/tempo.svg" alt="ON"></td>
+					<td>120</td>
+					<td>1</td>
+					<td>480</td>
+				</tbody>
+			</table>
+			<div class="description">
+				<p>Détermine la vitesse à laquelle la séquence joue en bpm (battements par minutes)</p>
+				<hr>
+				<p>Determines how fast the sequence plays in bpm (beats per minute)</p>
+			</div>
+		</div>
+
+		<div id="timeSignature" class="groupe">
+			<h3>Groupe signature temporelle | Time signature group</h3>
+			<table>
+				<td>/</td>
+			</table>
+			<div id="numerator" class="commande">
+				<h3>Roulette nominateur | Nominator wheel</h3>
+				<table>
+					<thead>
+						<th>défaut | default</th>
+						<th>min</th>
+						<th>max</th>
+					</thead>
+					<tbody>
+						<td>4</td>
+						<td>1</td>
+						<td>32</td>
+					</tbody>
+				</table>
+				<div class="description">
+					<p></p>
+					<hr>
+					<p></p>
+				</div>
+			</div>
+			
+			<div id="denominator" class="commande">
+				<h3>Menu dénominateur | Denominator menu</h3>
+				<table>
+					<thead>
+						<th>défaut | default</th>
+						<th>choix | choices</th>
+					</thead>
+					<tbody>
+						<td>4</td>
+						<td>1 | 2 | 4 | 8 | 16</td>
+					</tbody>
+				</table>
+				<div class="description">
+					<p></p>
+					<hr>
+					<p></p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="key" class="groupe">
+			<h3>Groupe clé | Clef group</h3>
+			<table>
+				<td><img src="icones/clef.svg" alt=""></td>
+			</table>
+			<div id="numerator" class="commande">
+				<h3>Roulette nominateur | Nominator wheel</h3>
+				<table>
+					<thead>
+						<th>défaut | default</th>
+						<th>min</th>
+						<th>max</th>
+					</thead>
+					<tbody>
+						<td>4</td>
+						<td>1</td>
+						<td>32</td>
+					</tbody>
+				</table>
+				<div class="description">
+					<p></p>
+					<hr>
+					<p></p>
+				</div>
+			</div>
+			
+			<div id="denominator" class="commande">
+				<h3>Menu dénominateur | Denominator menu</h3>
+				<table>
+					<thead>
+						<th>défaut | default</th>
+						<th>choix | choices</th>
+					</thead>
+					<tbody>
+						<td>4</td>
+						<td>1 | 2 | 4 | 8 | 16</td>
+					</tbody>
+				</table>
+				<div class="description">
+					<p></p>
+					<hr>
+					<p></p>
+				</div>
+			</div>
+		</div>
+
+		<div id="record" class="commande">
+			<h3>Bascule d'enregistrement | Record toggle</h3>
+			<table>
+				<thead>
+					<th>défaut | default</th>
+					<th>0</th>
+					<th>1</th>
+				</thead>
+				<tbody>
+					<td><img src="icones/record.svg" alt="record"></td>
+					<td><img src="icones/recording.svg" alt="recording"></td>
+					<td><img src="icones/record.svg" alt="record"></td>
+				</tbody>
+			</table>
+			<div class="description">
+				<p>Permet d'entrer en <a href="#Maestro mode">mode Maestro</a></p>
+				<hr>
+				<p>Allows you to enter <a href="#Maestro mode">Maestro mode</a></p>
+			</div>
+		</div>
+	</section>
+	<section id="Maestro mode">
+		<h2>Mode Maestro | Maestro Mode</h2>
+		<div id="onOff" class="commande">
+			<h3>Bascule On/Off | On/Off toggle</h3>
+			<table>
+				<thead>
+					<th>défaut | default</th>
+					<th>0</th>
+					<th>1</th>
+				</thead>
+				<tbody>
+					<td><img src="icones/on_1.svg" alt="OFF"></td>
+					<td><img src="icones/on_0.svg" alt="ON"></td>
+					<td><img src="icones/on_1.svg" alt="OFF"></td>
+				</tbody>
+			</table>
+			<div class="description"></div>
+		</div>
+	</section>
+</body>
+</html>

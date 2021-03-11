@@ -1,13 +1,13 @@
 :root {
 	--nav-height: 40rem;
 	--grid-width: 10;
-	--color-background: #152018;
+	--color-background: #21252b;
 	--color-ui-background: #2c313a;
 	--color-ui-button: #3b4252;
-	--color-accent: ;
+	--color-accent: #6db5fd;
 	--color-text: #d8dee9;
 	--color-text-solid: #eceff4;
-	--color-accent: #00FE3F;
+	--color-accent: #6db5fd;
 	--color-error: #bf616a;
 	--color-warning: #ebcb8b;
 	--color-success: #a3be8c;
@@ -22,8 +22,16 @@
 	--color-widget: var(--color-accent)
 }
 :root {
-	--color-background: #404040;
-	--color-ui-background: #505050;
-	--color-ui-button: #606060;
-	--color-accent: #00FE3F
+	--color-background: #152018;
+	--color-ui-background: #152018;
+	--color-ui-button: #235930;
+	--color-accent: #00FE3F;
+	--color-text: #e6e6e6;
+	--color-text-solid: #D6FFE0;
+	--color-error: #bf616a;
+	--color-warning: #ebcb8b;
+	--color-success: #a3be8c;
+	--color-context-menu: #D6FFE0;
+	--color-context-menu-text: #235930;
+	--color-widget: var(--color-accent);
 }

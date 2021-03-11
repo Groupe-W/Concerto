@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64" stroke="#00FE3F" stroke-width="2" fill="#00FE3F">
+<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 64" fill="#00FE3F" stroke="#00FE3F" stroke-width="2">
 	<path d="M4 4 h120
 					m0 14 h-120
 					m0 14 h120
@@ -13,4 +13,20 @@
 					m0 14 h0
 					M111 25 h0
 					m0 14 h0"/>
+</svg> -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="#00FE3F" stroke="#00FE3F" stroke-width="2">
+	<path d="M1 1 h63
+					m0 15.5 h-63
+					m0 15.5 h63
+					m0 15.5 h-63
+					m0 15.5 h63"/>
+	<path d="M59 1 h4 v63 h-4z
+					m-4 0 v63"/>
+	<path d="M1 1 h4 v63 h-4z
+					m8 0 v63"/>
+	<path stroke-linecap="round" stroke-width="4"
+				d="M14 24.5 h0
+					m0 15 h0
+					M47 24.5 h0
+					m0 15 h0"/>
 </svg>

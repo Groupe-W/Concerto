@@ -166,7 +166,7 @@ Présentation du prototype
 ---
 ## Semaine 4 (20 au 26 février)
 ### Résumé des réalisations effectuées
-Aide à l'installation dans le grand studio (système de son, projecteur, repositionnement de la scène, positionnement des spots...), correction d'erreurs dans le patcher Max et l'interface OSC, création de la bannière et de la vignette du site web, écriture du journal d'équipe et début de la construction du robot
+Installation dans le grand studio (système de son, projecteur, repositionnement de la scène, positionnement des spots...), correction d'erreurs dans le patcher Max et l'interface OSC, création de la bannière et de la vignette du site web, écriture du journal d'équipe et début de la construction du robot
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
@@ -204,7 +204,7 @@ Finaliser l'installation et le positionnement de nos équipements dans le grand 
 ---
 ## Semaine de rattrapage (27 février au 5 mars)
 ### Résumé des réalisations effectuées
-Aide à l'installation dans le grand studio (positionnement des spots, inventaire des équipements, gestion du câblage, setup OBS Ninja...), finition de Joe (le robot trompette), écriture du journal d'équipe et travail d'équipe sur le site web.
+Installation dans le grand studio (positionnement des spots, inventaire des équipements, gestion du câblage, setup OBS Ninja...), finition de Joe (le robot trompette), écriture du journal d'équipe et travail d'équipe sur le site web.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 <img src="https://github.com/Groupe-W/Concerto/blob/main/docs/web/medias/8B3E735A-D75F-41A0-8187-89F79E78B7A7.jpeg" width="80%">
@@ -241,40 +241,40 @@ Finir la scéno (Si on reçoit le matériel) et tester tout nos éléments «cli
 ---
 ## Semaine 5 (6 au 12 mars)
 ### Résumé des réalisations effectuées
-
+Installation dans le grand studio (ajout des caméras manquantes, gestion du cablâge, setup du stream...), correction de bogues divers et écriture du journal d'équipe.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
+<img src="docs/web/photo/9C5FE2C0-02E5-46F4-A6B9-F984A87EB73D.jpeg" width="80%">
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+Je ne pensais pas que nous aurions fini l'installation des équipements cette semaine! Nous avons quasiment terminé notre projet «brut», il ne nous reste qu'à peaufiner notre installation et faciliter le démarrage de notre projet.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+NA
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+NA
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+NA
 
 ### Défis pour la prochaine semaine
-
+Peaufiner les derniers détails
 ---
 ## Semaine 6 (13 au 19 mars)
 ### Résumé des réalisations effectuées

@@ -244,7 +244,7 @@ J'ai aidé à tester la machine a fumée, a finaliser l'installation physique du
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-![fumee](medias/fumee.PNG)
+![fumee.jpg](medias/fumee.jpg)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 

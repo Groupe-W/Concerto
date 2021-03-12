@@ -233,28 +233,28 @@ Travailler sur la scénographie et bien instaler les lumierres.
 ---
 ## Semaine 5 (6 au 12 mars)
 ### Résumé des réalisations effectuées
-
+La scénographie est terminé.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
+![Scénographie](medias/LaScénographie.jpg)
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ La scénographie corespond a ce a quoi je m'attend
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
@@ -266,7 +266,7 @@ Travailler sur la scénographie et bien instaler les lumierres.
 
 
 ### Défis pour la prochaine semaine
-
+faire de petites amélioration à la scénographie si nésésaire
 ---
 ## Semaine 6 (13 au 19 mars)
 ### Résumé des réalisations effectuées

@@ -240,28 +240,28 @@ Effectuer avec l'équipe les testes de fumées.
 ---
 ## Semaine 5 (6 au 12 mars)
 ### Résumé des réalisations effectuées
-
+J'ai aidé à tester la machine a fumée, a finaliser l'installation physique du projet et assister au deux réunions hebdomadaires.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-
+![fumee](medias/fumee.PNG)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ j'ai aidé l'équipe et nous ne somme pas en retard, mission accomplie!
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
@@ -273,7 +273,7 @@ Effectuer avec l'équipe les testes de fumées.
 
 
 ### Défis pour la prochaine semaine
-
+Finir le projet et être prêt à présenter
 ---
 ## Semaine 6 (13 au 19 mars)
 ### Résumé des réalisations effectuées

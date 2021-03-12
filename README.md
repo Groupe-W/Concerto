@@ -5,3 +5,4 @@ L'idée derrière notre projet est de souligner l'avancement de l'intelligence a
 
 «Concerto» est une expérience menée par une bande de scientifiques mélomanes. Ceux-ci, incapable de jouer le moindre instrument, ont créé un groupe de musique nommé «Allo Machines», composé exclusivement de robots. Pour réaliser leur rêve de former un «band», les chercheurs organisent donc le concert expérimental «Concerto». Ils invitent donc les spectateurs à contrôler eux-mêmes les androïdes musiciens pour leur enseigner l'art de la musique à travers leurs compositions musicales expérimentales.
 
+

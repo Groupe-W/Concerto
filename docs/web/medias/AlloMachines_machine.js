@@ -3,7 +3,7 @@ let rCompStyle = getComputedStyle(root);
 let cSS = document.styleSheets[0];
 const met1 = rCompStyle.getPropertyValue('--met-1');
 const met2 = rCompStyle.getPropertyValue('--met-2');
-const met3 = rCompStyle.getPropertyValue('--met-3');
+const met4 = rCompStyle.getPropertyValue('--met-4');
 const ppe1 = rCompStyle.getPropertyValue('--ppe-1');
 
 function StrHexToArRGB(str) {
@@ -37,4 +37,6 @@ function clrSpread(clrStr='', spread=2, step=17, className='') {
 // clrSpread('#FABB55',5,8.5,'met-1');
 clrSpread(met1,5,5.67,'met-1');
 clrSpread(met2,4,5.67,'met-2');
+clrSpread(met4,4,8.5,'met-4');
 clrSpread(ppe1,3,5.67,'ppe-1');
+console.log(cSS);

@@ -1,0 +1,26 @@
+Concerto 
+Concert interactif en ligne
+Composer & moduler musique & observer comment scène réagit
+
+Pouvez entrer mélodie jouera boucle
+| modifier mélodies existantes
+
+Pouvez ajouter beats depuis éventail choix
+& moduler individuellement chacun beats
+
+Lumières réagissent en fonction volume & hauteur son généré
+Choix entre 4 angles de caméra diffusés en ligne
+
+
+Bonjour, Vincent
+Chargé transformer musique -> lumières.
+Contribué au "Sound Visualizer"
+
+Chargé fonctionnement "Sequencer", permet lire & remémorer notes jouées.
+Afficher mélodie sur interface utilisateur été grand défi,
+mais ainsi réalisation dont plus fier.
+charge design icônes de l'interface.
+
+Charge aussi optimisation immenses patchers qui sont moteur Concerto.
+
+Beaucoup appris sur musique -> donner expérience authentique ceux qui s'y connaissent.

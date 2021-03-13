@@ -91,7 +91,8 @@
 		<rect fill-opacity=".1" x="25%" y="25%" width="50%" height="50%"/>
 	</g> -->
 	<animate id="a" dur="1s" begin="0;a.end"/>
-	<g id="robot_1" class="robot">
+
+<g id="robot_1" class="robot">
 		<g class="met-1">
 			<path class="l-5" d="M40 224 q4 -12 20 -12 q10 0 14 12"/>
 			<path class="limb l-4" d="M53 216 l5 -12 h10 l8 -16"/>

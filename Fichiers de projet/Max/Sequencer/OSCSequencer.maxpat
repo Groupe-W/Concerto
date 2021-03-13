@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1489.0, 913.0 ],
+		"rect" : [ 41.0, 84.0, 1489.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,7 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-264",
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 669.0, 930.0, 70.0, 22.0 ],
+					"style" : "Concerto 2",
+					"text" : "loadmess 0"
+				}
+
+, 			{
+				"box" : 				{
+					"id" : "obj-255",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -230,8 +241,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3435.0, 555.0, 121.0, 22.0 ],
-					"text" : "s instrument.octvOfst"
+					"patching_rect" : [ 3405.0, 195.0, 87.0, 22.0 ],
+					"text" : "send versOSC"
 				}
 
 			}
@@ -784,7 +795,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1138,11 +1149,11 @@
 , 							{
 								"name" : "Concerto 2",
 								"default" : 								{
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -1154,7 +1165,7 @@
 										"autogradient" : 0.0
 									}
 ,
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1163,11 +1174,11 @@
 , 							{
 								"name" : "Concerto 2-1",
 								"default" : 								{
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -1179,7 +1190,7 @@
 										"autogradient" : 0.0
 									}
 ,
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1203,13 +1214,20 @@
 ,
 								"tab" : 								{
 									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
-									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
+									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ],
+									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ]
+								}
+,
+								"comment" : 								{
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
+									"fontsize" : [ 24.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"message" : 								{
 									"fontsize" : [ 30.0 ],
 									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -1219,14 +1237,12 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.79
 									}
-,
-									"fontname" : [ "Arial" ]
+
 								}
 ,
-								"comment" : 								{
-									"fontsize" : [ 24.0 ],
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ]
+								"multislider" : 								{
+									"color" : [ 1.0, 0.818637, 0.0, 1.0 ],
+									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1235,8 +1251,8 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"fontsize" : [ 13.0 ],
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"fontsize" : [ 13.0 ],
 									"fontname" : [ "Arial" ]
 								}
 ,
@@ -1251,10 +1267,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1263,11 +1279,11 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"fontsize" : [ 14.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -1967,7 +1983,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2937,11 +2953,11 @@
 , 							{
 								"name" : "Concerto 2",
 								"default" : 								{
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -2953,7 +2969,7 @@
 										"autogradient" : 0.0
 									}
 ,
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2977,13 +2993,20 @@
 ,
 								"tab" : 								{
 									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
-									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
+									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ],
+									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ]
+								}
+,
+								"comment" : 								{
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
+									"fontsize" : [ 24.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"message" : 								{
 									"fontsize" : [ 30.0 ],
 									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -2993,14 +3016,12 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.79
 									}
-,
-									"fontname" : [ "Arial" ]
+
 								}
 ,
-								"comment" : 								{
-									"fontsize" : [ 24.0 ],
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ]
+								"multislider" : 								{
+									"color" : [ 1.0, 0.818637, 0.0, 1.0 ],
+									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3009,8 +3030,8 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"fontsize" : [ 13.0 ],
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"fontsize" : [ 13.0 ],
 									"fontname" : [ "Arial" ]
 								}
 ,
@@ -3025,10 +3046,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3037,11 +3058,11 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"fontsize" : [ 14.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -3904,7 +3925,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 558.5, 899.5, 34.0, 22.0 ],
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -4169,7 +4190,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 630.0, 1019.5, 45.0, 22.0 ],
-					"text" : "0"
+					"text" : "14"
 				}
 
 			}
@@ -4259,7 +4280,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4636,11 +4657,11 @@
 , 							{
 								"name" : "Concerto 2",
 								"default" : 								{
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -4652,7 +4673,7 @@
 										"autogradient" : 0.0
 									}
 ,
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4661,11 +4682,11 @@
 , 							{
 								"name" : "Concerto 2-1",
 								"default" : 								{
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -4677,7 +4698,7 @@
 										"autogradient" : 0.0
 									}
 ,
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4701,13 +4722,20 @@
 ,
 								"tab" : 								{
 									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
-									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
+									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ],
+									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ]
+								}
+,
+								"comment" : 								{
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
+									"fontsize" : [ 24.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"message" : 								{
 									"fontsize" : [ 30.0 ],
 									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -4717,14 +4745,12 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.79
 									}
-,
-									"fontname" : [ "Arial" ]
+
 								}
 ,
-								"comment" : 								{
-									"fontsize" : [ 24.0 ],
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ]
+								"multislider" : 								{
+									"color" : [ 1.0, 0.818637, 0.0, 1.0 ],
+									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4733,8 +4759,8 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"fontsize" : [ 13.0 ],
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"fontsize" : [ 13.0 ],
 									"fontname" : [ "Arial" ]
 								}
 ,
@@ -4749,10 +4775,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4761,11 +4787,11 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"fontsize" : [ 14.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -5060,7 +5086,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 811.999999999999318, 1020.0, 38.0, 22.0 ],
 					"style" : "Concerto 2",
-					"text" : "0."
+					"text" : "14."
 				}
 
 			}
@@ -5523,7 +5549,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5637,7 +5663,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 0.0, 376.0, 50.0, 22.0 ],
-									"text" : "0"
+									"text" : "27"
 								}
 
 							}
@@ -6347,12 +6373,12 @@
 , 							{
 								"name" : "Concerto 2",
 								"default" : 								{
-									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
+									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+									"selectioncolor" : [ 1.0, 0.749019607843137, 0.0, 1.0 ],
 									"locked_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-									"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6376,13 +6402,20 @@
 ,
 								"tab" : 								{
 									"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
-									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
+									"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ],
+									"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ]
+								}
+,
+								"comment" : 								{
+									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
+									"fontsize" : [ 24.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"message" : 								{
 									"fontsize" : [ 30.0 ],
 									"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
+									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -6392,14 +6425,12 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.79
 									}
-,
-									"fontname" : [ "Arial" ]
+
 								}
 ,
-								"comment" : 								{
-									"fontsize" : [ 24.0 ],
-									"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ]
+								"multislider" : 								{
+									"color" : [ 1.0, 0.818637, 0.0, 1.0 ],
+									"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6408,8 +6439,8 @@
 , 							{
 								"name" : "helpfile_label-1",
 								"default" : 								{
-									"fontsize" : [ 13.0 ],
 									"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+									"fontsize" : [ 13.0 ],
 									"fontname" : [ "Arial" ]
 								}
 ,
@@ -6424,10 +6455,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6436,11 +6467,11 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"fontsize" : [ 14.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -6807,7 +6838,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2610.0, 75.0, 355.0, 91.0 ],
+					"patching_rect" : [ 2610.0, 75.0, 359.0, 91.0 ],
 					"style" : "Concerto 2",
 					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58 0 63 0 0 55 59 0 72 0 0 0 0 0 69 0 0 0 0 0 63 0 0 55 59 0 72 0 0 0 0 0 69 0 0 0 0 0 63 0 0 55 59 0 72 0 0 0 0 0 69 0 0 0 0 0 63 0 0 55 59 0 75 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58 0 63 0 0 55 59 0 72 0 0 0 0 0 69 0 0 0 0 0 63 0 0 55 59 0 72 0 0 0 0 0 69 0 0 0 0 0 63 0 0 55 59 0 75 0 0 0 0 0 64 0 0 0 0 0 63 0 0 55 59 0 68 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
@@ -7054,12 +7085,12 @@
 				"box" : 				{
 					"id" : "obj-75",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3300.0, 75.0, 97.0, 22.0 ],
+					"patching_rect" : [ 3300.0, 75.0, 119.0, 22.0 ],
 					"style" : "Concerto 2",
-					"text" : "udpreceive 9091"
+					"text" : "receive controleOSC"
 				}
 
 			}
@@ -8639,6 +8670,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-123", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-126", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-262", 0 ],
 					"source" : [ "obj-301", 0 ]
 				}
@@ -9529,15 +9574,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "seq_MountainKing.txt",
-				"bootpath" : "D:/Local Disk/Users/Vincent/Documents/GitHub/Concerto/Fichiers de projet/Max/Sequencer",
+				"bootpath" : "H:/Fichiers de projet/Max/Sequencer",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "seq_RideWalkyries.txt",
-				"bootpath" : "D:/Local Disk/Users/Vincent/Documents/GitHub/Concerto/Fichiers de projet/OSC/Sequences",
-				"patcherrelativepath" : "../../OSC/Sequences",
+				"name" : "sequence.html",
+				"bootpath" : "H:/Fichiers de projet/OSC/interface",
+				"patcherrelativepath" : "../../OSC/interface",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -9564,13 +9609,13 @@
 , 			{
 				"name" : "Concerto 2",
 				"default" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"elementcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 					"textcolor" : [ 0.901960784313726, 0.901960784313726, 0.901960784313726, 1.0 ],
 					"editing_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
+					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ],
 					"locked_bgcolor" : [ 0.250980392156863, 0.250980392156863, 0.250980392156863, 1.0 ],
-					"color" : [ 0.0, 0.996078431372549, 0.247058823529412, 1.0 ]
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -9594,13 +9639,20 @@
 ,
 				"tab" : 				{
 					"elementcolor" : [ 0.451979, 0.451979, 0.451979, 1.0 ],
-					"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ],
-					"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ]
+					"color" : [ 0.679508, 0.55813, 0.006126, 1.0 ],
+					"textcolor_inverse" : [ 0.881305, 0.881305, 0.881305, 1.0 ]
+				}
+,
+				"comment" : 				{
+					"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
+					"fontsize" : [ 24.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"message" : 				{
 					"fontsize" : [ 30.0 ],
 					"textcolor_inverse" : [ 1.0, 0.818637, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.204102, 0.125198, 0.002398, 1.0 ],
@@ -9610,14 +9662,12 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.79
 					}
-,
-					"fontname" : [ "Arial" ]
+
 				}
 ,
-				"comment" : 				{
-					"fontsize" : [ 24.0 ],
-					"textcolor" : [ 0.501961, 0.501961, 0.0, 1.0 ],
-					"fontname" : [ "Arial" ]
+				"multislider" : 				{
+					"color" : [ 1.0, 0.818637, 0.0, 1.0 ],
+					"bgcolor" : [ 0.204102, 0.125198, 0.002398, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -9626,8 +9676,8 @@
 , 			{
 				"name" : "helpfile_label-1",
 				"default" : 				{
-					"fontsize" : [ 13.0 ],
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ],
+					"fontsize" : [ 13.0 ],
 					"fontname" : [ "Arial" ]
 				}
 ,
@@ -9642,10 +9692,10 @@
 , 			{
 				"name" : "m4va",
 				"default" : 				{
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -9654,11 +9704,11 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,

@@ -22,16 +22,16 @@
 	--color-widget: var(--color-accent)
 }
 :root {
-	--color-background: #152018;
-	--color-ui-background: #152018;
-	--color-ui-button: #235930;
-	--color-accent: #00FE3F;
+	--color-background: #051008;
+	--color-ui-background: #051008;
+	--color-ui-button: #33b38d;
+	--color-accent: #53d58d;
 	--color-text: #e6e6e6;
 	--color-text-solid: #D6FFE0;
 	--color-error: #bf616a;
 	--color-warning: #ebcb8b;
 	--color-success: #a3be8c;
 	--color-context-menu: #D6FFE0;
-	--color-context-menu-text: #235930;
+	--color-context-menu-text: #53d58d;
 	--color-widget: var(--color-accent);
 }

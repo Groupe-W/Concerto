@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" stroke="#00FE3F" stroke-width="2" fill="#444">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" stroke="#53d58d" stroke-width="2" fill="#444">
 	<defs>
 		<radialGradient id="flash" r="50%">
 			<stop offset="0.1" stop-color="#FEffff"/>

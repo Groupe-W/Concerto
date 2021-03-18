@@ -278,36 +278,37 @@ Peaufiner les derniers détails
 ---
 ## Semaine 6 (13 au 19 mars)
 ### Résumé des réalisations effectuées
-
+Installation dans le grand studio (Setting caméras, gestion cablâge...), correction de bogues divers et écriture du journal d'équipe.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
+<img src="web/photo/685B69D8-0739-45AE-B2CD-1FB712791ED2.jpeg" width="80%">
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+On a (presque) fini!
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+NA
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
 
 #### S'il y a des écarts, décrivez-les.
-
+NA
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
-
+NA
 
 ### Défis pour la prochaine semaine
+Bien faire ma présentation

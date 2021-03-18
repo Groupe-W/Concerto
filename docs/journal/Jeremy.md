@@ -140,7 +140,7 @@ J'ai participé aux réunions, autant d'équipe que de commité, et j'ai aidé �
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
-J'ai aucunement touché a l'interface web, mais j'ai réfléchi un peu a un concept
+J'ai aucunement touché a l'interface web, mais j'ai réfléchi un peu à un concept
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 Réessayer, j'imagine.
@@ -240,7 +240,7 @@ Effectuer avec l'équipe les testes de fumées.
 ---
 ## Semaine 5 (6 au 12 mars)
 ### Résumé des réalisations effectuées
-J'ai aidé à tester la machine a fumée, a finaliser l'installation physique du projet et assister au deux réunions hebdomadaires.
+J'ai aidé à tester la machine à fumée, à finaliser l'installation physique du projet et assisté au deux réunions hebdomadaires.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
@@ -277,28 +277,28 @@ Finir le projet et être prêt à présenter
 ---
 ## Semaine 6 (13 au 19 mars)
 ### Résumé des réalisations effectuées
-
+J'ai aidé a la finalisation de l'installation physique du projet 
 
 ### Image d'une réalisation dont tu es la ou le plus fier
 
-
+![scenefinale.jpg](medias/scenefinale.jpg)
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ Le projet a avancé comme prévue et j'ai aidé au maximum de mes capacités
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
@@ -310,3 +310,4 @@ Finir le projet et être prêt à présenter
 
 
 ### Défis pour la prochaine semaine
+Mener a bien la présentation de la générale de diffusion.

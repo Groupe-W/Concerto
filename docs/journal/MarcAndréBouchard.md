@@ -270,28 +270,28 @@ faire de petites amélioration à la scénographie si nésésaire
 ---
 ## Semaine 6 (13 au 19 mars)
 ### Résumé des réalisations effectuées
-
+Nous avons fini notre projet
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-
+![Scénographie](medias/LaScénographie.jpg)
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
 
-- [ ] Complètement
+- [x] Complètement
 - [ ] Assez
 - [ ] Peu
 - [ ] Pas du tout
 
 #### Décrivez pourquoi.
- 
+ La scénographie est bien faite et terminé.
 
 #### S'il y a lieu, qu'allez-vous faire pour remédier à la situation?
 
 
 ### Mon projet s'est-il réalisé selon l’échéancier prévu?
 
-- [ ] Complètement
+- [X] Complètement
 - [ ] Assez
 - [ ] Un peu
 - [ ] Pas tout à fait
@@ -303,3 +303,4 @@ faire de petites amélioration à la scénographie si nésésaire
 
 
 ### Défis pour la prochaine semaine
+Présentation final.

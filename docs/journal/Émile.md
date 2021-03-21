@@ -244,7 +244,7 @@ Finir la scéno (Si on reçoit le matériel) et tester tout nos éléments «cli
 Installation dans le grand studio (ajout des caméras manquantes, gestion du cablâge, setup du stream...), correction de bogues divers et écriture du journal d'équipe.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-<img src="docs/web/photo/9C5FE2C0-02E5-46F4-A6B9-F984A87EB73D.jpeg" width="80%">
+<img src="https://github.com/Groupe-W/Concerto/blob/main/docs/web/photo/9C5FE2C0-02E5-46F4-A6B9-F984A87EB73D.jpeg" width="80%">
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?
@@ -281,7 +281,7 @@ Peaufiner les derniers détails
 Installation dans le grand studio (Setting caméras, gestion cablâge...), correction de bogues divers et écriture du journal d'équipe.
 
 ### Image d'une réalisation dont tu es la ou le plus fier
-<img src="web/photo/685B69D8-0739-45AE-B2CD-1FB712791ED2.jpeg" width="80%">
+<img src="https://github.com/Groupe-W/Concerto/blob/main/docs/web/photo/685B69D8-0739-45AE-B2CD-1FB712791ED2.jpeg" width="80%">
 
 
 ### Est-ce que j'ai accompli l'ensemble des tâches et objectifs que je m'étais fixés pour cette semaine?

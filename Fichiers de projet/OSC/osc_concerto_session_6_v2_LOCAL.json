@@ -8816,8 +8816,7 @@
             "script": "",
             "address": "auto",
             "preArgs": "",
-            "target": "",
-            "filters": ""
+            "target": ""
           },
           {
             "type": "plot",
@@ -8986,8 +8985,7 @@
             "target": "",
             "dots": false,
             "bars": true,
-            "origin": false,
-            "filters": ""
+            "origin": false
           },
           {
             "type": "range",
@@ -9023,8 +9021,14 @@
             "logScale": false,
             "sensitivity": 1,
             "steps": "",
-            "value": "",
-            "default": "",
+            "value": [
+              0,
+              64
+            ],
+            "default": [
+              0,
+              64
+            ],
             "linkId": "",
             "script": "",
             "address": "auto",
@@ -9069,8 +9073,8 @@
             "logScale": false,
             "sensitivity": 1,
             "steps": "",
-            "value": "",
-            "default": "",
+            "value": 12,
+            "default": 0,
             "linkId": "",
             "script": "",
             "address": "auto",
@@ -9108,8 +9112,8 @@
             "keys": 36,
             "start": 48,
             "traversing": true,
-            "on": 0,
-            "off": 1,
+            "on": 127,
+            "off": 0,
             "mode": "push",
             "value": "",
             "default": "",
@@ -16294,6 +16298,6 @@
     ],
     "tabs": []
   },
-  "version": "1.8.11",
+  "version": "1.8.13",
   "type": "Open Stage Control session"
 }

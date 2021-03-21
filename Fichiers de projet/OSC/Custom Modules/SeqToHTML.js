@@ -3,6 +3,8 @@
 // declare functions
 // load modules
 // etc
+let pos, size;
+let range = [0,32];
 
 module.exports = {
 

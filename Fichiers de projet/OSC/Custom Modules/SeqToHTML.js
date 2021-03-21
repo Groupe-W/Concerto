@@ -33,12 +33,18 @@ module.exports = {
 			var {address, args, host, port, clientId} = data
 
 			// same as oscInFilter
+			if (address === '/seq_file_open') {
+
+				console.log("yo");
+	
+			}
 
 			// return data if you want the message to be and sent
 			return {address, args, host, port}
 	},
 
 	unload: function(){
+		console.log("reloading!");
 			// this will be executed when the custom module is reloaded
 	},
 

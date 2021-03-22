@@ -7098,7 +7098,7 @@
             "value": "",
             "default": "",
             "linkId": "",
-            "script": "openUrl(\"/Interface/info.html\")",
+            "script": "openUrl(\"/Interface/tutoriel/tutoriel.html\")",
             "address": "auto",
             "preArgs": "",
             "typeTags": "i",

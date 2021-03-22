@@ -129,7 +129,7 @@
 		}
 		#interface {
 			position: relative;
-			width: 100%;
+			width: 100em;
 			top: 50%;
 			transform: translate(0,-50%);
 		}
@@ -138,9 +138,9 @@
 			--box-l: ;
 			--box-b: ;
 			--box-r: ;
+			--arw-t: 100%;
 			--arw-t-lgth: 0;
 			--arw-b-lgth: 0;
-			--arw-t: 100%;
 			position: absolute;
 			top: calc(var(--box-t) - var(--arw-t-lgth));
 			left: var(--box-l);
@@ -152,6 +152,7 @@
 			content: '';
 			position: absolute;
 			left: calc(50% - 2px);
+			top: var(--arw-t);
 			width: 0;
 			height: 0;
 			border-width: var(--arw-t-lgth) 2px var(--arw-b-lgth);
@@ -164,7 +165,7 @@
 		.ind_range {--box-t: 0%;--box-l: 34%;--arw-t-lgth: 2em}
 		.cmd_save {--box-t: 1%;--box-l: 3%;--arw-t-lgth: 2em}
 
-		.cmd_keyboard {--box-b: 20%;--box-l: 3%;--arw-b-lgth: 2em}
+		.cmd_keyboard {--box-b: 20%;--box-l: 3%;--arw-b-lgth: 2em;--arw-t:calc(-2 * (var(--arw-b-lgth)))}
 		</style>
 </head>
 <body>

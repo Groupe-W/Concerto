@@ -6169,12 +6169,12 @@
         "alphaFillOn": "auto",
         "lineWidth": "auto",
         "padding": "auto",
-        "html": "<a href=\"https://obs.ninja/?view=kqiGqMg&bitrate=20000&codec=vp9&stereo&label=Concerto\"></a>",
+        "html": "",
         "css": "",
         "value": "",
         "default": "",
         "linkId": "",
-        "script": "",
+        "script": "openUrl(\"https://obs.ninja/?view=kqiGqMg&stereo&maxviewers=15&label=Concerto\")",
         "address": "auto",
         "preArgs": "",
         "target": "",
@@ -6187,7 +6187,7 @@
         "on": 1,
         "off": 0,
         "mode": "tap",
-        "doubleTap": true,
+        "doubleTap": false,
         "typeTags": "",
         "ignoreDefaults": false,
         "bypass": false
@@ -8834,6 +8834,6 @@
     ],
     "tabs": []
   },
-  "version": "1.8.14",
+  "version": "1.8.12",
   "type": "Open Stage Control session"
 }

@@ -6362,7 +6362,7 @@
         "alphaFillOn": "auto",
         "lineWidth": "auto",
         "padding": 0,
-        "html": "<h3>SÉquenceur</h3>",
+        "html": "<h3>Séquenceur</h3>",
         "css": "h3 {\npadding: 10px 0;\nbackground-color: #53d58d24\n}",
         "colorBg": "auto",
         "layout": "default",

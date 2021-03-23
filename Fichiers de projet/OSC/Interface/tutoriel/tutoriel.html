@@ -134,24 +134,25 @@
 			transform: translate(0,-50%);
 		}
 		[class^="cmd_"], [class^="ind_"] {
-			--box-t: ;
-			--box-l: ;
-			--box-b: ;
-			--box-r: ;
+			--box-t: 0%;
+			--box-l: 0%;
+			--box-b: 0%;
+			--box-r: 0%;
 			--arw-t: 100%;
 			--arw-t-lgth: 0;
 			--arw-b-lgth: 0;
+			--arw-pos: 0%;
 			position: absolute;
 			top: calc(var(--box-t) - var(--arw-t-lgth));
 			left: var(--box-l);
-			bottom: calc(var(--box-b) - var(--arw-b-lgth));
-			right: var(--box-r);
-			transform: translate(-50%,-50%);
+			/* bottom: calc(var(--box-b) - var(--arw-b-lgth)); */
+			/* right: var(--box-r); */
+			transform: translate(-50%,-50%) translateY(var(--arw-b-lgth));
 		}
 		[class^="cmd_"]::before, [class^="ind_"]::before {
 			content: '';
 			position: absolute;
-			left: calc(50% - 2px);
+			left: calc(50% + var(--arw-pos) - 2px);
 			top: var(--arw-t);
 			width: 0;
 			height: 0;
@@ -163,9 +164,10 @@
 		.cmd_vol {--box-t: 1%;--box-l: 3%;--arw-t-lgth: 2em}
 		.ind_pos {--box-t: 0%;--box-l: 13%;--arw-t-lgth: 9em}
 		.ind_range {--box-t: 0%;--box-l: 34%;--arw-t-lgth: 2em}
-		.cmd_save {--box-t: 1%;--box-l: 3%;--arw-t-lgth: 2em}
-
-		.cmd_keyboard {--box-b: 20%;--box-l: 3%;--arw-b-lgth: 2em;--arw-t:calc(-2 * (var(--arw-b-lgth)))}
+		.cmd_save {--box-t: 0%;--box-l: 60%;--arw-t-lgth: 2em;--arw-pos:2em}
+		
+		.cmd_keyboard {--box-t: 75%;--box-l: 34%;--arw-b-lgth: 9em;/*--arw-t:calc(-1 * (var(--arw-b-lgth)))*/}
+		/* .cmd_keyboard {--box-t: 1%;--box-l: 34%;--arw-b-lgth: 9em;--arw-t:calc(-1 * (var(--arw-b-lgth)))} */
 		</style>
 </head>
 <body>
@@ -272,7 +274,7 @@
 					<p>La valeur va de <strong>1</strong> à <strong>480</strong></p>
 				</li>
 				<li><h3 id="cmd_ts">Signature temporelle</h3>
-					<p>Vous permet de modifier la signature temporelle de la <a href="#unit_sequence">séquence</a></p>
+					<p>Vous permet de modifier la signature temporelle de la <a href="#unit_sequence">séquence</a>.</p>
 					<ul class="sub_cmd">
 						<li><h3 id="cmd_ts_n">Numérateur</h3>
 							<p>Détermine le nombre de <a href="#unit_beat">battements</a> dans une <a href="#unit_measure">mesure</a>.</p>
@@ -291,14 +293,55 @@
 									<li>1</li>
 								</ul>
 							</p>
+							<p>La valeur par défaut est <strong>4</strong></p>
 						</li>
 					</ul>
 				</li>
 				<li><h3 id="cmd_loop_length">Longueur de boucle <img src="../icones/loop.svg" alt="tempo"></h3>
-					<p>Vous permet de déterminer le nombre de <a href="unit_measure">mesures</a> par <a href="unit_page">page</a>.</p>
+					<p>Vous permet de déterminer le nombre de <a href="#unit_measure">mesures</a> par <a href="#unit_page">page</a>.</p>
 					<p>Glissez de haut en bas pour ajuster la valeur</p>
 					<p>Double-cliquez pour remettre la valeur par défaut (<strong>4</strong>)</p>
 					<p>La valeur va de <strong>1</strong> à <strong>32</strong></p>
+				</li>
+				<li><h3 id="cmd_key">Clé <img src="../icones/clef.svg" alt="Clé de sol"></h3>
+					<p>Vous permet de modifier la clé de votre <a href="#unit_sequence">séquence</a>.</p>
+					<ul class="sub_cmd">
+						<li><h3 id="cmd_key_note">Note</h3>
+							<p>Détermine la <a href="#unit_pit">hauteur</a> de la note Do.</p>
+							<p>Les choix sont:
+								<ul>
+									<li>C&emsp;	(Do)</li>
+									<li>C#&nbsp;	(Do#)</li>
+									<li>D&emsp;	(Ré)</li>
+									<li>D#&nbsp;	(Ré#)</li>
+									<li>E&emsp;	(Mi)</li>
+									<li>F&emsp;	(Fa)</li>
+									<li>F#&nbsp; 	(Fa#)</li>
+									<li>G&emsp;	(Sol)</li>
+									<li>G#&nbsp;	(Sol#)</li>
+									<li>A&emsp;	(La)</li>
+									<li>A#&nbsp;	(La#)</li>
+									<li>B&emsp;	(Si)</li>
+								</ul>
+							</p>
+							<p>La valeur par défaut est <strong>C</strong></p>
+						</li>
+						<li><h3 id="cmd_key_oct">Octave</h3>
+							<p>Détermine l'octave (la hauteur × 12) de la clé.</p>
+							<p>Les choix sont:
+								<ul>
+									<li>-2</li>
+									<li>-1</li>
+									<li>0</li>
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+								</ul>
+							</p>
+							<p>La valeur par défaut est <strong>1</strong></p>
+						</li>
+					</ul>
 				</li>
 			</ul>
 		</div>

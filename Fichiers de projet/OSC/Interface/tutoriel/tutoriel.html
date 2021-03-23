@@ -79,11 +79,11 @@
 			--alpha-stroke: 1
 		}
 		h3:active::before {opacity: .75}
-		h3>img, p>img {
-			margin-left: .2em;
+		li img {
 			height: 1.2em;
 			vertical-align:text-bottom
 		}
+		h3>img {margin-left: .2em}
 		a {color: var(--color-widget)}
 		hr {margin: 40px 0}
 
@@ -99,20 +99,29 @@
 			height: 100%;
 			overflow-y: scroll;
 		}
-		#intro_scroll>ul, .sub_cmd {list-style-type: none}
+		#intro_scroll>ul>li, .sub_cmd {list-style-type: none}
+		.sub_cmd {border-left: var(--line-width) solid var(--color-stroke)}
 		li>h3 {margin-left: -20px}
 		#intro_scroll p {margin: 10px 0}
 		.detail_cont {
-			margin: -10px 0 15px;
+			margin: 5px 0 15px;
 			position: relative;
 		}
+		h3+.detail_cont {margin: -10px 0 15px}
 		.detail_cont label {
 			display: block;
-			width: 100%
+			width: 100%;
+			color: var(--color-widget);
+			cursor: pointer
 		}
 		.detail_cont input {
 			position: absolute;
 			top: 0; right: 20px;
+		}
+		.details>ul strong {
+			margin-right: 20px;
+			width: 100px;
+			float: right
 		}
 		div.details {
 			height: 0px;
@@ -156,41 +165,29 @@
 			top: 50%;
 			transform: translate(0,-50%);
 		}
-		[class^="cmd_"], [class^="ind_"] {
-			--box-t: 0%;
-			--box-l: 0%;
-			--box-b: 0%;
-			--box-r: 0%;
-			--arw-t: 100%;
-			--arw-t-lgth: 0;
-			--arw-b-lgth: 0;
-			--arw-pos: 0%;
+		[class^="cmd_"] {
 			position: absolute;
-			top: calc(var(--box-t) - var(--arw-t-lgth));
-			left: var(--box-l);
-			/* bottom: calc(var(--box-b) - var(--arw-b-lgth)); */
-			/* right: var(--box-r); */
-			transform: translate(-50%,-50%) translateY(var(--arw-b-lgth));
+			background-color: #8f81
 		}
-		[class^="cmd_"]::before, [class^="ind_"]::before {
-			content: '';
-			position: absolute;
-			left: calc(50% + var(--arw-pos) - 2px);
-			top: var(--arw-t);
-			width: 0;
-			height: 0;
-			border-width: var(--arw-t-lgth) 2px var(--arw-b-lgth);
-			border-style: solid;
-			border-color: var(--color-stroke) transparent;
-		}
+		[class^="cmd_"]:hover {background-color: #8f82}
+		[class^="cmd_"]:active {background-color: #8f83}
 		
-		.cmd_vol {--box-t: 1%;--box-l: 3%;--arw-t-lgth: 2em}
-		.ind_pos {--box-t: 0%;--box-l: 13%;--arw-t-lgth: 9em}
-		.ind_range {--box-t: 0%;--box-l: 34%;--arw-t-lgth: 2em}
-		.cmd_save {--box-t: 0%;--box-l: 60%;--arw-t-lgth: 2em;--arw-pos:2em}
-		
-		.cmd_keyboard {--box-t: 75%;--box-l: 34%;--arw-b-lgth: 9em;/*--arw-t:calc(-1 * (var(--arw-b-lgth)))*/}
-		/* .cmd_keyboard {--box-t: 1%;--box-l: 34%;--arw-b-lgth: 9em;--arw-t:calc(-1 * (var(--arw-b-lgth)))} */
+		.cmd_vol {top: 13%; left: 2%; bottom: 8%; right: 91%}
+		.cmd_keyb {top: 41%; left: 12%; bottom: 8%; right: 12%}
+		.cmd_open {top: 13%; left: 12%; bottom: 66%; right: 81%}
+		.cmd_revert {top: 13%; left: 21%; bottom: 66%; right: 72%}
+		.cmd_info {top: 13%; left: 30%; bottom: 66%; right: 63%}
+		.cmd_on {top: 13%; left: 39%; bottom: 66%; right: 53%}
+		.cmd_tempo {top: 13%; left: 49%; bottom: 66%; right: 40%}
+		.cmd_ts {top: 13%; left: 62%; bottom: 66%; right: 26%}
+		.cmd_ts_n {top: 16%; left: 63%; bottom: 69%; right: 33%}
+		.cmd_ts_d {top: 16%; left: 69%; bottom: 69%; right: 27%}
+		.cmd_key {top: 13%; left: 76%; bottom: 66%; right: 12%}
+		.cmd_key_note {top: 16%; left: 81%; bottom: 69%; right: 16%}
+		.cmd_key_oct {top: 16%; left: 84%; bottom: 69%; right: 13%}
+		.cmd_wav {top: 13%; left: 90%; bottom: 66%; right: 3%}
+		.cmd_erase1 {top: 40%; left: 90%; bottom: 38%; right: 3%}
+		.cmd_erase3 {top: 67%; left: 90%; bottom: 11%; right: 3%}
 		</style>
 </head>
 <body>
@@ -266,7 +263,7 @@
 						</div>
 					</div>
 				</li>
-				<li><h3 id="cmd_keyboard">Clavier</h3>
+				<li><h3 id="cmd_keyb">Clavier</h3>
 					<h4>Vous permet d'enregister une mélodie personnalisée.</h4>
 					<div class="detail_cont">
 						<label for="cmd_keyb_dtl">Détails</label>
@@ -286,18 +283,50 @@
 						<div class="details">
 							<p>Maintenez pour ouvrir le menu et relâchez pour choisir</p>
 							<p>Les choix sont:
-								<ul>
-									<li>Mountain King</li>
-									<li>La Chevauchée des Walkyries</li>
-									<li>Séequence Vide</li>
-								</ul>
+								<p><strong>Mountain King</strong> contient les mesures 1-4 et 9-12 de <em>In the Hall of the Mountain King</em> par <em>Edvard Grieg</em>.</p>
+								<div class="detail_cont">
+									<label for="seq_MK_param">Paramètres par défaut</label>
+									<input type="checkbox" id="seq_MK_param"></input>
+									<div class="details">
+										<ul>
+											<li>tempo : <strong>100 bpm</strong></li>
+											<li>signature temporelle : <strong>4 / 4</strong></li>
+											<li>clé : <strong>A#0</strong></li>
+											<li>onde (instrument) : <strong><img src="../icones/wav_02.svg" alt="onde triangulaire" style="font-size: 200%;"></strong></li>
+										</ul>
+									</div>
+								</div>
+								<p><strong>Chevauchée des Walkyries</strong> contient les mesures 9-19 de <em>Der Walkürenritt</em> par <em>Richard Wagner</em>.</p>
+								<div class="detail_cont">
+									<label for="seq_RW_param">Paramètres par défaut</label>
+									<input type="checkbox" id="seq_RW_param"></input>
+									<div class="details">
+										<ul>
+											<li>tempo : <strong>132 bpm</strong></li>
+											<li>signature temporelle : <strong>9 / 8</strong></li>
+											<li>clé : <strong>A#1</strong></li>
+											<li>onde (instrument) : <strong><img src="../icones/wav_05.svg" alt="onde trompette" style="font-size: 200%;"></strong></li>
+										</ul>
+									</div>
+								</div>
+								<p><strong>Séquence vide</strong> est une séquence vierge. La musique vous appartient!</p>
+								<div class="detail_cont">
+									<label for="seq_UE_param">Paramètres par défaut</label>
+									<input type="checkbox" id="seq_UE_param"></input>
+									<div class="details">
+										<ul>
+											<li>tempo : <strong>120 bpm</strong></li>
+											<li>signature temporelle : <strong>4 / 4</strong></li>
+											<li>clé : <strong>C1</strong></li>
+											<li>onde (instrument) : <strong><img src="../icones/wav_02.svg" alt="onde triangulaire" style="font-size: 200%;"></strong></li>
+										</ul>
+									</div>
+								</div>
 							</p>
-							<p><strong>Mountain King</strong> se base sur la </p>
-							<p>Choisissez "Séquence vide" pour composer votre propre mélodie</p>
 						</div>
 					</div>
 				</li>
-				<li><h3 id="cmd_revert">Recharger <img src="../icones/revert.svg" alt="revert"></h3>
+				<li><h3 id="cmd_revert">Recharger <img src="../icones/revert.svg" alt="icone recharger"></h3>
 					<h4>Vous permet de remettre par défaut les paramètres de la séquence sélectionnée.</h4>
 				</li>
 				<li><h3 id="cmd_info">Info <img src="../icones/info.svg" alt="arrêt"></h3>
@@ -311,7 +340,7 @@
 						<div class="details">
 							<p>Cliquez sur <img src="../icones/play.svg" alt="jouer"> pour démarrer la séquence.</p>
 							<p>Cliquez sur <img src="../icones/stop.svg" alt="jouer"> pour arrêter la séquence.</p>
-							<p>La séquence joue pendant <strong>2 mesures</strong></p>
+							<p>La séquence joue pendant <strong>4 mesures</strong></p>
 						</div>
 					</div>
 				</li>
@@ -336,7 +365,6 @@
 								<label for="cmd_ts_n_dtl">Détails</label>
 								<input type="checkbox" id="cmd_ts_n_dtl"></input>
 								<div class="details">
-									<p>Plus la valeur </p>
 									<p>Glissez de haut en bas pour ajuster la valeur</p>
 									<p>La valeur va de <strong>1</strong> à <strong>32</strong></p>
 									<p>Double-cliquez pour remettre la valeur par défaut (<strong>4</strong>)</p>
@@ -344,65 +372,119 @@
 							</div>
 						</li>
 						<li><h3 id="cmd_ts_d">Dénominateur</h3>
-							<p>Détermine la durée d'un <a href="#unit_beat">battement</a> selon une fraction de longueur (voir <a href="#unit_beat">battement</a>).</p>
-							<p>Les choix sont:
-								<ul>
-									<li>16</li>
-									<li>8</li>
-									<li>4</li>
-									<li>2</li>
-									<li>1</li>
-								</ul>
-							</p>
-							<p>La valeur par défaut est <strong>4</strong></p>
+							<h4>Détermine la durée d'un battement</h4>
+							<div class="detail_cont">
+								<label for="cmd_ts_d_dtl">Détails</label>
+								<input type="checkbox" id="cmd_ts_d_dtl"></input>
+								<div class="details">
+									<p>1/16 : court</p>
+									<p>1/1 : long).</p>
+									<p>Maintenez pour ouvrir le menu et relâchez pour choisir</p>
+									<p>Les choix sont:
+										<ul>
+											<li>16</li>
+											<li>8</li>
+											<li>4</li>
+											<li>2</li>
+											<li>1</li>
+										</ul>
+									</p>
+									<p>La valeur par défaut est <strong>4</strong></p>
+								</div>
+							</div>
 						</li>
 					</ul>
-				</li>
-				<li><h3 id="cmd_loop_length">Longueur de boucle <img src="../icones/loop.svg" alt="tempo"></h3>
-					<p>Vous permet de déterminer le nombre de <a href="#unit_measure">mesures</a> par <a href="#unit_page">page</a>.</p>
-					<p>Glissez de haut en bas pour ajuster la valeur</p>
-					<p>Double-cliquez pour remettre la valeur par défaut (<strong>4</strong>)</p>
-					<p>La valeur va de <strong>1</strong> à <strong>32</strong></p>
 				</li>
 				<li><h3 id="cmd_key">Clé <img src="../icones/clef.svg" alt="Clé de sol"></h3>
-					<p>Vous permet de modifier la clé de votre <a href="#unit_sequence">séquence</a>.</p>
+					<h4>Vous permet de modifier la clé de votre séquence.</h4>
 					<ul class="sub_cmd">
 						<li><h3 id="cmd_key_note">Note</h3>
-							<p>Détermine la <a href="#unit_pit">hauteur</a> de la note Do.</p>
-							<p>Les choix sont:
-								<ul>
-									<li>C&emsp;	(Do)</li>
-									<li>C#&nbsp;	(Do#)</li>
-									<li>D&emsp;	(Ré)</li>
-									<li>D#&nbsp;	(Ré#)</li>
-									<li>E&emsp;	(Mi)</li>
-									<li>F&emsp;	(Fa)</li>
-									<li>F#&nbsp; 	(Fa#)</li>
-									<li>G&emsp;	(Sol)</li>
-									<li>G#&nbsp;	(Sol#)</li>
-									<li>A&emsp;	(La)</li>
-									<li>A#&nbsp;	(La#)</li>
-									<li>B&emsp;	(Si)</li>
-								</ul>
-							</p>
-							<p>La valeur par défaut est <strong>C</strong></p>
+							<h4>Détermine la hauteur de la note de départ.</h4>
+							<div class="detail_cont">
+								<label for="cmd_key_note_dtl">Détails</label>
+								<input type="checkbox" id="cmd_key_note_dtl"></input>
+								<div class="details">
+									<p>Maintenez pour ouvrir le menu et relâchez pour choisir</p>
+									<p>Les choix sont:
+										<ul>
+											<li>C&emsp;	(Do)</li>
+											<li>C#&nbsp;	(Do#)</li>
+											<li>D&emsp;	(Ré)</li>
+											<li>D#&nbsp;	(Ré#)</li>
+											<li>E&emsp;	(Mi)</li>
+											<li>F&emsp;	(Fa)</li>
+											<li>F#&nbsp; 	(Fa#)</li>
+											<li>G&emsp;	(Sol)</li>
+											<li>G#&nbsp;	(Sol#)</li>
+											<li>A&emsp;	(La)</li>
+											<li>A#&nbsp;	(La#)</li>
+											<li>B&emsp;	(Si)</li>
+										</ul>
+									</p>
+									<p>La valeur par défaut est <strong>C</strong></p>
+								</div>
+							</div>
 						</li>
 						<li><h3 id="cmd_key_oct">Octave</h3>
-							<p>Détermine l'octave (la hauteur × 12) de la clé.</p>
-							<p>Les choix sont:
-								<ul>
-									<li>-2</li>
-									<li>-1</li>
-									<li>0</li>
-									<li>1</li>
-									<li>2</li>
-									<li>3</li>
-									<li>4</li>
-								</ul>
-							</p>
-							<p>La valeur par défaut est <strong>1</strong></p>
+							<h4>Détermine l'octave de la clé.</h4>
+							<div class="detail_cont">
+								<label for="cmd_key_oct_dtl">Détails</label>
+								<input type="checkbox" id="cmd_key_oct_dtl"></input>
+								<div class="details">
+									<p>Un octave vaut 7 notes (en hauteur)</p>
+									<p>Maintenez pour ouvrir le menu et relâchez pour choisir</p>
+									<p>Les choix sont:
+										<ul>
+											<li>-2</li>
+											<li>-1</li>
+											<li>0</li>
+											<li>1</li>
+											<li>2</li>
+											<li>3</li>
+											<li>4</li>
+										</ul>
+									</p>
+									<p>La valeur par défaut est <strong>1</strong></p>
+								</div>
+							</div>
 						</li>
 					</ul>
+				</li>
+				<li><h3 id="cmd_wav">Onde (instrument) <img src="../icones/wav_01.svg" alt="icone d'onde sinusoidale"></h3>
+					<h4>Vous permet de choisir l'onde (ou l'instrument) que la séquence produira.</h4>
+					<div class="detail_cont">
+						<label for="cmd_wav_dtl">Détails</label>
+						<input type="checkbox" id="cmd_wav_dtl"></input>
+						<div class="details">
+							<p>Maintenez pour ouvrir le menu et relâchez pour choisir</p>
+							<p>Les choix sont:
+								<ul>
+									<li><img src="../icones/wav_01.svg" alt="icone d'onde sinusoidale" style="font-size: 200%;"></li>
+									<li><img src="../icones/wav_02.svg" alt="icone d'onde triangulaire" style="font-size: 200%;"></li>
+									<li><img src="../icones/wav_03.svg" alt="icone d'onde en scie" style="font-size: 200%;"></li>
+									<li><img src="../icones/wav_04.svg" alt="icone d'onde rectangulaire" style="font-size: 200%;"></li>
+									<li><img src="../icones/wav_05.svg" alt="icone d'onde trompette" style="font-size: 200%;"></li>
+									<li><img src="../icones/wav_06.svg" alt="icone d'onde en M" style="font-size: 200%;"></li>
+									<li><img src="../icones/wav_07.svg" alt="icone d'onde triangulaire bruitée" style="font-size: 200%;"></li>
+									<li><img src="../icones/wav_08.svg" alt="icone d'onde synthétique" style="font-size: 200%;"></li>
+								</ul>
+							</p>
+							<p>La valeur par défaut est <strong><img src="../icones/wav_01.svg" alt="icone d'onde sinusoidale" style="font-size: 200%;"></strong></p>
+						</div>
+					</div>
+				</li>
+				<li><h3 id="cmd_erase1">Effacer 1<img src="../icones/erase_1.svg" alt="icone d'efface jaune"></h3>
+					<h4>Vous permet d'effacer une note lorsqu'elle joue.</h4>
+				</li>
+				<li><h3 id="cmd_erase3">Effacer tout<img src="../icones/erase_3.svg" alt="icone d'efface rouge"></h3>
+					<h4>Vous permet d'effacer toutes les notes de la mélodie.</h4>
+					<div class="detail_cont">
+						<label for="cmd_erase3_dtl">Détails</label>
+						<input type="checkbox" id="cmd_erase3_dtl"></input>
+						<div class="details">
+							<p>Les paramètres établis ne changeront pas</p>
+						</div>
+					</div>
 				</li>
 			</ul>
 		</div>
@@ -410,8 +492,24 @@
 	<section id="tuto_interface">
 		<div id="interface_cont">
 			<img id="interface" src="interface.png" alt="disposition de l'interface">
+			<a href="#cmd_vol" class="cmd_vol"></a>
+			<a href="#cmd_keyb" class="cmd_keyb"></a>
+			<a href="#cmd_open" class="cmd_open"></a>
+			<a href="#cmd_revert" class="cmd_revert"></a>
+			<a href="#cmd_info" class="cmd_info"></a>
+			<a href="#cmd_on" class="cmd_on"></a>
+			<a href="#cmd_tempo" class="cmd_tempo"></a>
+			<a href="#cmd_ts" class="cmd_ts"></a>
+			<a href="#cmd_ts_n" class="cmd_ts_n"></a>
+			<a href="#cmd_ts_d" class="cmd_ts_d"></a>
+			<a href="#cmd_key" class="cmd_key"></a>
+			<a href="#cmd_key_note" class="cmd_key_note"></a>
+			<a href="#cmd_key_oct" class="cmd_key_oct"></a>
+			<a href="#cmd_wav" class="cmd_wav"></a>
+			<a href="#cmd_erase1" class="cmd_erase1"></a>
+			<a href="#cmd_erase3" class="cmd_erase3"></a>
 			<!-- <a href="#cmd_vol" class="cmd_vol"><h3>Volume</h3></a>
-			<a href="#ind_pos" class="ind_pos"><h3>Curseur</h3></a>
+				<a href="#ind_pos" class="ind_pos"><h3>Curseur</h3></a>
 			<a href="#ind_range" class="ind_range"><h3>Boucle</h3></a>
 			<a href="#cmd_save" class="cmd_save"><h3>Sauvegarder</h3></a>
 

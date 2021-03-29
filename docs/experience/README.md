@@ -1,2 +1,2 @@
 # Expérience / Interface de diffusion
-Vous créez ici votre page Web où est vécue l'expérience de votre projet. Elle correspond à l'interface avec laquelle l'utilisateur-trice interagit.
+Dans ce dossier, on retrouve l'interface web contenant le stream youtube ainsi qu'un lien menant à l'interface OpenStage Control.
